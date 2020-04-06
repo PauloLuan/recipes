@@ -4,6 +4,8 @@
   height: 120px;
   color: #ffffff;
   margin-bottom: 15px;
+  z-index: 3;
+  position: relative;
 }
 
 .red {
@@ -14,4 +16,5 @@
   position: relative;
   margin-top: -50px;
   margin-left: 50px;
+  z-index: 2;
 }
