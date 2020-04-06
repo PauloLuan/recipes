@@ -180,3 +180,4 @@ typings/
 # Parcel related files
 dist/
 .cache/
+ tmp/
