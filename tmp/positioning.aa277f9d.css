@@ -1,0 +1,22 @@
+.blue {
+  background-color: blue;
+  width: 120px;
+  height: 120px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  z-index: 3;
+  position: relative;
+}
+
+.red {
+  background-color: red;
+  color: #ffffff;
+  width: 120px;
+  height: 120px;
+  position: relative;
+  margin-top: -50px;
+  margin-left: 50px;
+  z-index: 2;
+}
+
+/*# sourceMappingURL=/positioning.aa277f9d.css.map */
