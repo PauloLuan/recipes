@@ -1,0 +1,11 @@
+.container {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.item {
+  background-color: tomato;
+}
