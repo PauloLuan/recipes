@@ -25,31 +25,26 @@
             display: flex;
         }
 
-        .row {
-            flex-direction: row;
+        .row-nowrap {
+            flex-flow: row nowrap;
         }
 
-        .nowrap {
-            flex-wrap: nowrap;
-        }
-
-        .wrap {
-            flex-wrap: wrap;
-        }
-
-        .column {
-            flex-direction: column;
+        .row-wrap {
+            flex-flow: row wrap;
         }
 
         .column-nowrap {
-            flex-direction: column;
-            flex-wrap: nowrap;
+            flex-flow: column nowrap;
+        }
+
+        .column-wrap {
+            flex-flow: column wrap;
         }
     </style>
 
 
     <h1>flex-flow: row no-wrap</h1>
-    <section class="container flex row nowrap">
+    <section class="container flex row-nowrap">
         <div class="item">item 1</div>
         <div class="item">item 2</div>
         <div class="item">item 3</div>
@@ -62,6 +57,48 @@
         <div class="item">item 10</div>
     </section>
 
+    <h1>Flex-flow: row-wrap</h1>
+    <section class="container flex row-wrap">
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+        <div class="item">item 5</div>
+        <div class="item">item 6</div>
+        <div class="item">item 7</div>
+        <div class="item">item 8</div>
+        <div class="item">item 9</div>
+        <div class="item">item 10</div>
+    </section>
+
+    <h1>Flex-flow: column-no-wrap</h1>
+    <section class="container flex column-nowrap">
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+        <div class="item">item 5</div>
+        <div class="item">item 6</div>
+        <div class="item">item 7</div>
+        <div class="item">item 8</div>
+        <div class="item">item 9</div>
+        <div class="item">item 10</div>
+    </section>
+
+    <h1>Flex-flow: column-wrap</h1>
+    <p>(same thing, this is the default and only possible behaviour)</p>
+    <section class="container flex column-wrap">
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+        <div class="item">item 5</div>
+        <div class="item">item 6</div>
+        <div class="item">item 7</div>
+        <div class="item">item 8</div>
+        <div class="item">item 9</div>
+        <div class="item">item 10</div>
+    </section>
 </body>
 
 </html>
