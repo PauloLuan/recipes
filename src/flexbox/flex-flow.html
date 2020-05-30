@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox: wrap</title>
+</head>
+
+<body>
+    <style>
+        .container {
+            width: 200px;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        .item {
+            background-color: cyan;
+            margin: 5px;
+            flex: 1;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .row {
+            flex-direction: row;
+        }
+
+        .nowrap {
+            flex-wrap: nowrap;
+        }
+
+        .wrap {
+            flex-wrap: wrap;
+        }
+
+        .column {
+            flex-direction: column;
+        }
+
+        .column-nowrap {
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+    </style>
+
+
+    <h1>flex-flow: row no-wrap</h1>
+    <section class="container flex row nowrap">
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+        <div class="item">item 5</div>
+        <div class="item">item 6</div>
+        <div class="item">item 7</div>
+        <div class="item">item 8</div>
+        <div class="item">item 9</div>
+        <div class="item">item 10</div>
+    </section>
+
+</body>
+
+</html>
