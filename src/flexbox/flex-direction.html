@@ -19,6 +19,14 @@
             display: flex;
         }
 
+        .row {
+            flex-direction: row;
+        }
+
+        .row-reverse {
+            flex-direction: row-reverse;
+        }
+
         .column {
             flex-direction: column;
         }
@@ -45,6 +53,35 @@
             flex: 1;
         }
     </style>
+
+
+    <h1>display: row</h1>
+    <section class="container flex row wrap">
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+        <div class="item">item 5</div>
+        <div class="item">item 6</div>
+        <div class="item">item 7</div>
+        <div class="item">item 8</div>
+        <div class="item">item 9</div>
+        <div class="item">item 10</div>
+    </section>
+
+    <h1>display: row (reverse)</h1>
+    <section class="container flex row-reverse wrap">
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+        <div class="item">item 5</div>
+        <div class="item">item 6</div>
+        <div class="item">item 7</div>
+        <div class="item">item 8</div>
+        <div class="item">item 9</div>
+        <div class="item">item 10</div>
+    </section>
 
     <h1>display: column</h1>
     <section class="container flex column">
