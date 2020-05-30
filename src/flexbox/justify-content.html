@@ -25,25 +25,40 @@
             max-width: 400px;
             margin: 0 auto;
             border: 1px solid #ccc;
+            display: flex;
+        }
+
+        .item {
+            background-color: cyan;
+            margin: 5px;
+            padding: 0 10px;
+        }
+
+        .flex {
+            flex: 1;
+        }
+
+        .flex-start {
+            justify-content: flex-start;
+        }
+
+        .flex-end {
+            justify-content: flex-end;
         }
     </style>
 
     <h1>justify-content: flex-start; </h1>
-    <section class="container">
+    <section class="container flex-start">
         <div class="item">Item 1</div>
         <div class="item">Item 2</div>
         <div class="item">Item 3</div>
-        <div class="item">Item 4</div>
-        <div class="item">Item 5</div>
     </section>
 
     <h1>justify-content: flex-end; </h1>
-    <section class="container">
+    <section class="container flex-end">
         <div class="item">Item 1</div>
         <div class="item">Item 2</div>
         <div class="item">Item 3</div>
-        <div class="item">Item 4</div>
-        <div class="item">Item 5</div>
     </section>
 
     <h1>justify-content: center; </h1>
@@ -51,8 +66,6 @@
         <div class="item">Item 1</div>
         <div class="item">Item 2</div>
         <div class="item">Item 3</div>
-        <div class="item">Item 4</div>
-        <div class="item">Item 5</div>
     </section>
 
     <h1>justify-content: space-between; </h1>
@@ -60,8 +73,6 @@
         <div class="item">Item 1</div>
         <div class="item">Item 2</div>
         <div class="item">Item 3</div>
-        <div class="item">Item 4</div>
-        <div class="item">Item 5</div>
     </section>
 
     <h1>justify-content: space-around; </h1>
@@ -69,8 +80,6 @@
         <div class="item">Item 1</div>
         <div class="item">Item 2</div>
         <div class="item">Item 3</div>
-        <div class="item">Item 4</div>
-        <div class="item">Item 5</div>
     </section>
 
     <h1>justify-content: space-around; // itens com flex: 1; </h1>
@@ -78,8 +87,6 @@
         <div class="item">Item 1</div>
         <div class="item">Item 2</div>
         <div class="item">Item 3</div>
-        <div class="item">Item 4</div>
-        <div class="item">Item 5</div>
     </section>
 
     <h1>justify-content: flex-start; // column </h1>
@@ -87,8 +94,6 @@
         <div class="item">Item 1</div>
         <div class="item">Item 2</div>
         <div class="item">Item 3</div>
-        <div class="item">Item 4</div>
-        <div class="item">Item 5</div>
     </section>
 
     <h1>justify-content: flex-end; // column </h1>
@@ -96,8 +101,6 @@
         <div class="item">Item 1</div>
         <div class="item">Item 2</div>
         <div class="item">Item 3</div>
-        <div class="item">Item 4</div>
-        <div class="item">Item 5</div>
     </section>
 
     <h1>justify-content: center; // column </h1>
@@ -105,8 +108,6 @@
         <div class="item">Item 1</div>
         <div class="item">Item 2</div>
         <div class="item">Item 3</div>
-        <div class="item">Item 4</div>
-        <div class="item">Item 5</div>
     </section>
 
     <h1>justify-content: space-between; // column </h1>
@@ -114,8 +115,6 @@
         <div class="item">Item 1</div>
         <div class="item">Item 2</div>
         <div class="item">Item 3</div>
-        <div class="item">Item 4</div>
-        <div class="item">Item 5</div>
     </section>
 
     <h1>justify-content: space-around; // column </h1>
@@ -123,8 +122,6 @@
         <div class="item">Item 1</div>
         <div class="item">Item 2</div>
         <div class="item">Item 3</div>
-        <div class="item">Item 4</div>
-        <div class="item">Item 5</div>
     </section>
 
     <h1>justify-content: space-around; // column // itens com flex: 1; </h1>
@@ -132,8 +129,6 @@
         <div class="item">Item 1</div>
         <div class="item">Item 2</div>
         <div class="item">Item 3</div>
-        <div class="item">Item 4</div>
-        <div class="item">Item 5</div>
     </section>
 
 </body>
