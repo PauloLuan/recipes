@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlexBox: flex-basis</title>
+  </head>
+
+  <body>
+    <style>
+      h1 {
+        text-align: center;
+        margin: 20px 0 0 0;
+        font-size: 1.25em;
+        font-weight: normal;
+      }
+
+      body {
+        font-family: monospace;
+        color: #333;
+      }
+
+      .container {
+        max-width: 400px;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        display: flex;
+      }
+
+      .item {
+        background-color: cyan;
+        margin: 5px;
+        padding: 0 10px;
+      }
+    </style>
+
+    <h1>flex-basis: auto;</h1>
+    <section class="container">
+      <div class="item">item1</div>
+    </section>
+
+    <h1>flex-basis: 0;</h1>
+    <section class="container">
+      <div class="item">item1</div>
+    </section>
+
+    <h1>flex-basis: número;</h1>
+    <section class="container">
+      <div class="item">item1</div>
+    </section>
+
+    <h1>flex-basis: número; // Diferente Conteúdo</h1>
+    <section class="container">
+      <div class="item">item1</div>
+    </section>
+
+    <h1>flex-basis: número; // grow 1</h1>
+    <section class="container">
+      <div class="item">item1</div>
+    </section>
+  </body>
+</html>
