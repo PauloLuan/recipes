@@ -34,12 +34,16 @@
             padding: 0 10px;
         }
 
-        .flex0 {
+        .grow0 {
             flex-grow: 0;
         }
 
-        .flex1 {
+        .grow1 {
             flex-grow: 1;
+        }
+
+        .grow2 {
+            flex-grow: 2;
         }
     </style>
 
@@ -52,30 +56,45 @@
 
     <h1>flex-grow: 1;</h1>
     <section class="container">
-        <div class="item flex1">1</div>
-        <div class="item flex1">2</div>
-        <div class="item flex1">3</div>
+        <div class="item grow1">1</div>
+        <div class="item grow1">2</div>
+        <div class="item grow1">3</div>
     </section>
 
     <h1>flex-grow: 2;</h1>
     <section class="container">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
+        <div class="item grow2">1</div>
+        <div class="item grow2">2</div>
+        <div class="item grow2">3</div>
+    </section>
+
+
+    <h1>flex-grow: 0; // conteúdo largo</h1>
+    <section class="container">
+        <div class="item grow0">1</div>
+        <div class="item grow0">uowwwwtheseconditemishuuuuge</div>
+        <div class="item grow0">3</div>
     </section>
 
     <h1>flex-grow: 1; // conteúdo largo</h1>
     <section class="container">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
+        <div class="item grow1">1</div>
+        <div class="item grow1">uowwwwtheseconditemishuuuuge</div>
+        <div class="item grow1">3</div>
     </section>
 
     <h1>flex-grow: (misturado);</h1>
     <section class="container">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
+        <div class="item grow0">1</div>
+        <div class="item grow1">2</div>
+        <div class="item grow2">3</div>
+    </section>
+
+    <h1>flex-grow: (misturado 2);</h1>
+    <section class="container">
+        <div class="item grow0">1</div>
+        <div class="item grow2">2</div>
+        <div class="item grow1">3</div>
     </section>
 
 </body>
