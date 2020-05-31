@@ -22,7 +22,7 @@
         }
 
         .container {
-            width: 400px;
+            max-width: 300px;
             height: 300px;
             border: 1px solid black;
             margin: 0 auto;
@@ -35,17 +35,18 @@
             margin: 5px;
             padding: 0 10px;
             font-size: 1.5em;
+            flex: 1;
         }
 
-        .flex {
-            flex: 1;
+        .stretch {
+            align-content: stretch;
         }
     </style>
 
     <h1>FlexBox: align-content</h1>
 
     <h1>align-content: stretch;</h1>
-    <section class="container">
+    <section class="container stretch">
         <div class="item">item1IsAVeryLargeWord</div>
         <div class="item">item 2 is large</div>
         <div class="item">item 3 Is larger than the previous item </div>
