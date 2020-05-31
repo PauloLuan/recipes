@@ -37,6 +37,14 @@
             font-size: 1em;
         }
 
+        .column {
+            flex-direction: column;
+        }
+
+        .item:first-child {
+            padding-top: 25px;
+        }
+
         .stretch {
             align-items: stretch;
         }
@@ -51,6 +59,14 @@
 
         .center {
             align-items: center;
+        }
+
+        .baseline {
+            align-items: baseline;
+        }
+
+        .flex-strech {
+            align-items: stretch;
         }
     </style>
 
@@ -91,7 +107,7 @@
     </section>
 
     <h1>align-items: baseline;</h1>
-    <section class="container">
+    <section class="container baseline">
         <div class="item">1</div>
         <div class="item">item 2 is bigger than item 1</div>
         <div class="item">item 3 uoww this item it really huge but instead of a lorem ipsum I'm gonna puta some random
@@ -100,7 +116,7 @@
     </section>
 
     <h1>align-items: flex-stretch; // column</h1>
-    <section class="container">
+    <section class="container column stretch">
         <div class="item">1</div>
         <div class="item">item 2 is bigger than item 1</div>
         <div class="item">item 3 uoww this item it really huge but instead of a lorem ipsum I'm gonna puta some random
