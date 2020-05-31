@@ -1,105 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FlexBox: Display</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <style>
-        .container {
-            width: 200px;
-            border: 1px solid black;
-            text-align: center;
-        }
+      .container {
+        width: 200px;
+        border: 1px solid black;
+        text-align: center;
+      }
 
-        .flex {
-            display: flex;
-        }
+      .flex {
+        display: flex;
+      }
 
-        .wrap {
-            flex-wrap: wrap;
-        }
+      .wrap {
+        flex-wrap: wrap;
+      }
 
-        .no-wrap {
-            flex-wrap: nowrap;
-        }
+      .no-wrap {
+        flex-wrap: nowrap;
+      }
 
-        .item {
-            background-color: cyan;
-            margin: 5px;
-        }
+      .item {
+        background-color: cyan;
+        margin: 5px;
+      }
 
-        .item-flex-1 {
-            flex: 1;
-        }
+      .item-flex-1 {
+        flex: 1;
+      }
     </style>
 
     <h1>display: block</h1>
     <section class="container">
-        <div class="item">item 1</div>
-        <div class="item">item 2</div>
-        <div class="item">item 3</div>
-        <div class="item">item 4</div>
-        <div class="item">item 5</div>
+      <div class="item">item 1</div>
+      <div class="item">item 2</div>
+      <div class="item">item 3</div>
+      <div class="item">item 4</div>
+      <div class="item">item 5</div>
     </section>
 
     <h1>display: flex</h1>
     <section class="container flex">
-        <div class="item">item 1</div>
-        <div class="item">item 2</div>
-        <div class="item">item 3</div>
-        <div class="item">item 4</div>
-        <div class="item">item 5</div>
+      <div class="item">item 1</div>
+      <div class="item">item 2</div>
+      <div class="item">item 3</div>
+      <div class="item">item 4</div>
+      <div class="item">item 5</div>
     </section>
 
     <h1>display: flex with more items</h1>
     <section class="container flex">
-        <div class="item">item 1</div>
-        <div class="item">item 2</div>
-        <div class="item">item 3</div>
-        <div class="item">item 4</div>
-        <div class="item">item 5</div>
-        <div class="item">item 6</div>
-        <div class="item">item 7</div>
-        <div class="item">item 8</div>
-        <div class="item">item 9</div>
-        <div class="item">item 10</div>
+      <div class="item">item 1</div>
+      <div class="item">item 2</div>
+      <div class="item">item 3</div>
+      <div class="item">item 4</div>
+      <div class="item">item 5</div>
+      <div class="item">item 6</div>
+      <div class="item">item 7</div>
+      <div class="item">item 8</div>
+      <div class="item">item 9</div>
+      <div class="item">item 10</div>
     </section>
 
     <h1>display: flex with wrap</h1>
     <section class="container flex wrap">
-        <div class="item">item 1</div>
-        <div class="item">item 2</div>
-        <div class="item">item 3</div>
-        <div class="item">item 4</div>
-        <div class="item">item 5</div>
-        <div class="item">item 6</div>
-        <div class="item">item 7</div>
-        <div class="item">item 8</div>
-        <div class="item">item 9</div>
-        <div class="item">item 10</div>
+      <div class="item">item 1</div>
+      <div class="item">item 2</div>
+      <div class="item">item 3</div>
+      <div class="item">item 4</div>
+      <div class="item">item 5</div>
+      <div class="item">item 6</div>
+      <div class="item">item 7</div>
+      <div class="item">item 8</div>
+      <div class="item">item 9</div>
+      <div class="item">item 10</div>
     </section>
-
 
     <h1>display: flex with wrap and 1</h1>
     <section class="container flex wrap">
-        <div class="item item-flex-1">item 1</div>
-        <div class="item item-flex-1">item 2</div>
-        <div class="item item-flex-1">item 3</div>
-        <div class="item item-flex-1">item 4</div>
-        <div class="item item-flex-1">item 5</div>
-        <div class="item item-flex-1">item 6</div>
-        <div class="item item-flex-1">item 7</div>
-        <div class="item item-flex-1">item 8</div>
-        <div class="item item-flex-1">item 9</div>
-        <div class="item item-flex-1">item 10</div>
+      <div class="item item-flex-1">item 1</div>
+      <div class="item item-flex-1">item 2</div>
+      <div class="item item-flex-1">item 3</div>
+      <div class="item item-flex-1">item 4</div>
+      <div class="item item-flex-1">item 5</div>
+      <div class="item item-flex-1">item 6</div>
+      <div class="item item-flex-1">item 7</div>
+      <div class="item item-flex-1">item 8</div>
+      <div class="item item-flex-1">item 9</div>
+      <div class="item item-flex-1">item 10</div>
     </section>
-
-
-</body>
-
-
+  </body>
 </html>

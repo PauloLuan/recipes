@@ -1,102 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FlexBox: flex-grow</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <style>
-        h1 {
-            text-align: center;
-            margin: 20px 0 0 0;
-            font-size: 1.25em;
-            font-weight: normal;
-        }
+      h1 {
+        text-align: center;
+        margin: 20px 0 0 0;
+        font-size: 1.25em;
+        font-weight: normal;
+      }
 
-        body {
-            font-family: monospace;
-            color: #333;
-        }
+      body {
+        font-family: monospace;
+        color: #333;
+      }
 
-        .container {
-            max-width: 400px;
-            margin: 0 auto;
-            border: 1px solid #ccc;
-            display: flex;
-        }
+      .container {
+        max-width: 400px;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        display: flex;
+      }
 
-        .item {
-            background-color: cyan;
-            margin: 5px;
-            padding: 0 10px;
-        }
+      .item {
+        background-color: cyan;
+        margin: 5px;
+        padding: 0 10px;
+      }
 
-        .grow0 {
-            flex-grow: 0;
-        }
+      .grow0 {
+        flex-grow: 0;
+      }
 
-        .grow1 {
-            flex-grow: 1;
-        }
+      .grow1 {
+        flex-grow: 1;
+      }
 
-        .grow2 {
-            flex-grow: 2;
-        }
+      .grow2 {
+        flex-grow: 2;
+      }
     </style>
 
     <h1>flex-grow: 0;</h1>
     <section class="container">
-        <div class="item flex0">1</div>
-        <div class="item flex0">2</div>
-        <div class="item flex0">3</div>
+      <div class="item flex0">1</div>
+      <div class="item flex0">2</div>
+      <div class="item flex0">3</div>
     </section>
 
     <h1>flex-grow: 1;</h1>
     <section class="container">
-        <div class="item grow1">1</div>
-        <div class="item grow1">2</div>
-        <div class="item grow1">3</div>
+      <div class="item grow1">1</div>
+      <div class="item grow1">2</div>
+      <div class="item grow1">3</div>
     </section>
 
     <h1>flex-grow: 2;</h1>
     <section class="container">
-        <div class="item grow2">1</div>
-        <div class="item grow2">2</div>
-        <div class="item grow2">3</div>
+      <div class="item grow2">1</div>
+      <div class="item grow2">2</div>
+      <div class="item grow2">3</div>
     </section>
 
-
-    <h1>flex-grow: 0; // large content </h1>
+    <h1>flex-grow: 0; // large content</h1>
     <section class="container">
-        <div class="item grow0">1</div>
-        <div class="item grow0">uowwwwtheseconditemishuuuuge</div>
-        <div class="item grow0">3</div>
+      <div class="item grow0">1</div>
+      <div class="item grow0">uowwwwtheseconditemishuuuuge</div>
+      <div class="item grow0">3</div>
     </section>
 
-    <h1>flex-grow: 1; // large content </h1>
+    <h1>flex-grow: 1; // large content</h1>
     <section class="container">
-        <div class="item grow1">1</div>
-        <div class="item grow1">uowwwwtheseconditemishuuuuge</div>
-        <div class="item grow1">3</div>
+      <div class="item grow1">1</div>
+      <div class="item grow1">uowwwwtheseconditemishuuuuge</div>
+      <div class="item grow1">3</div>
     </section>
 
     <h1>flex-grow: (mixed);</h1>
     <section class="container">
-        <div class="item grow0">1</div>
-        <div class="item grow1">2</div>
-        <div class="item grow2">3</div>
+      <div class="item grow0">1</div>
+      <div class="item grow1">2</div>
+      <div class="item grow2">3</div>
     </section>
 
     <h1>flex-grow: (mixed version 2);</h1>
     <section class="container">
-        <div class="item grow0">1</div>
-        <div class="item grow2">2</div>
-        <div class="item grow1">3</div>
+      <div class="item grow0">1</div>
+      <div class="item grow2">2</div>
+      <div class="item grow1">3</div>
     </section>
-
-</body>
-
+  </body>
 </html>

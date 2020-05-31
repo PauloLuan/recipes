@@ -1,147 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FlexBox: align-content</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <style>
-        h1 {
-            text-align: center;
-            margin: 20px 0 0 0;
-            font-size: 1.25em;
-            font-weight: normal;
-        }
+      h1 {
+        text-align: center;
+        margin: 20px 0 0 0;
+        font-size: 1.25em;
+        font-weight: normal;
+      }
 
-        body {
-            font-family: monospace;
-            color: #333;
-        }
+      body {
+        font-family: monospace;
+        color: #333;
+      }
 
-        .container {
-            max-width: 300px;
-            height: 400px;
-            border: 1px solid black;
-            margin: 0 auto;
-            display: flex;
-            flex-wrap: wrap;
-        }
+      .container {
+        max-width: 300px;
+        height: 400px;
+        border: 1px solid black;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+      }
 
-        .item {
-            background-color: cyan;
-            margin: 5px;
-            padding: 0 10px;
-            font-size: 1.5em;
-            flex: 1;
-        }
+      .item {
+        background-color: cyan;
+        margin: 5px;
+        padding: 0 10px;
+        font-size: 1.5em;
+        flex: 1;
+      }
 
-        .stretch {
-            align-content: stretch;
-        }
+      .stretch {
+        align-content: stretch;
+      }
 
-        .flex-start {
-            align-content: flex-start;
-        }
+      .flex-start {
+        align-content: flex-start;
+      }
 
-        .flex-end {
-            align-content: flex-end;
-        }
+      .flex-end {
+        align-content: flex-end;
+      }
 
-        .center {
-            align-content: center;
-        }
+      .center {
+        align-content: center;
+      }
 
-        .space-between {
-            align-content: space-between;
-        }
+      .space-between {
+        align-content: space-between;
+      }
 
-        .space-around {
-            align-content: space-around;
-        }
+      .space-around {
+        align-content: space-around;
+      }
     </style>
 
     <h1>FlexBox: align-content</h1>
 
     <h1>align-content: stretch;</h1>
     <section class="container stretch">
-        <div class="item">item1IsAVeryLargeWord</div>
-        <div class="item">item 2 is large</div>
-        <div class="item">item 3 Is larger than the previous item </div>
-        <div class="item">item 4</div>
-        <div class="item">item 5</div>
-        <div class="item">item 6</div>
-        <div class="item">item 7</div>
-        <div class="item">item 8</div>
+      <div class="item">item1IsAVeryLargeWord</div>
+      <div class="item">item 2 is large</div>
+      <div class="item">item 3 Is larger than the previous item</div>
+      <div class="item">item 4</div>
+      <div class="item">item 5</div>
+      <div class="item">item 6</div>
+      <div class="item">item 7</div>
+      <div class="item">item 8</div>
     </section>
-
 
     <h1>align-content: flex-start;</h1>
     <section class="container flex-start">
-        <div class="item">item1IsAVeryLargeWord</div>
-        <div class="item">item 2 is large</div>
-        <div class="item">item 3 Is larger than the previous item </div>
-        <div class="item">item 4</div>
-        <div class="item">item 5</div>
-        <div class="item">item 6</div>
-        <div class="item">item 7</div>
-        <div class="item">item 8</div>
+      <div class="item">item1IsAVeryLargeWord</div>
+      <div class="item">item 2 is large</div>
+      <div class="item">item 3 Is larger than the previous item</div>
+      <div class="item">item 4</div>
+      <div class="item">item 5</div>
+      <div class="item">item 6</div>
+      <div class="item">item 7</div>
+      <div class="item">item 8</div>
     </section>
-
 
     <h1>align-content: flex-end;</h1>
     <section class="container flex-end">
-        <div class="item">item1IsAVeryLargeWord</div>
-        <div class="item">item 2 is large</div>
-        <div class="item">item 3 Is larger than the previous item </div>
-        <div class="item">item 4</div>
-        <div class="item">item 5</div>
-        <div class="item">item 6</div>
-        <div class="item">item 7</div>
-        <div class="item">item 8</div>
+      <div class="item">item1IsAVeryLargeWord</div>
+      <div class="item">item 2 is large</div>
+      <div class="item">item 3 Is larger than the previous item</div>
+      <div class="item">item 4</div>
+      <div class="item">item 5</div>
+      <div class="item">item 6</div>
+      <div class="item">item 7</div>
+      <div class="item">item 8</div>
     </section>
-
 
     <h1>align-content: center;</h1>
     <section class="container center">
-        <div class="item">item1IsAVeryLargeWord</div>
-        <div class="item">item 2 is large</div>
-        <div class="item">item 3 Is larger than the previous item </div>
-        <div class="item">item 4</div>
-        <div class="item">item 5</div>
-        <div class="item">item 6</div>
-        <div class="item">item 7</div>
-        <div class="item">item 8</div>
+      <div class="item">item1IsAVeryLargeWord</div>
+      <div class="item">item 2 is large</div>
+      <div class="item">item 3 Is larger than the previous item</div>
+      <div class="item">item 4</div>
+      <div class="item">item 5</div>
+      <div class="item">item 6</div>
+      <div class="item">item 7</div>
+      <div class="item">item 8</div>
     </section>
-
 
     <h1>align-content: space-between;</h1>
     <section class="container space-between">
-        <div class="item">item1IsAVeryLargeWord</div>
-        <div class="item">item 2 is large</div>
-        <div class="item">item 3 Is larger than the previous item </div>
-        <div class="item">item 4</div>
-        <div class="item">item 5</div>
-        <div class="item">item 6</div>
-        <div class="item">item 7</div>
-        <div class="item">item 8</div>
+      <div class="item">item1IsAVeryLargeWord</div>
+      <div class="item">item 2 is large</div>
+      <div class="item">item 3 Is larger than the previous item</div>
+      <div class="item">item 4</div>
+      <div class="item">item 5</div>
+      <div class="item">item 6</div>
+      <div class="item">item 7</div>
+      <div class="item">item 8</div>
     </section>
-
 
     <h1>align-content: space-around;</h1>
     <section class="container space-around">
-        <div class="item">item1IsAVeryLargeWord</div>
-        <div class="item">item 2 is large</div>
-        <div class="item">item 3 Is larger than the previous item </div>
-        <div class="item">item 4</div>
-        <div class="item">item 5</div>
-        <div class="item">item 6</div>
-        <div class="item">item 7</div>
-        <div class="item">item 8</div>
+      <div class="item">item1IsAVeryLargeWord</div>
+      <div class="item">item 2 is large</div>
+      <div class="item">item 3 Is larger than the previous item</div>
+      <div class="item">item 4</div>
+      <div class="item">item 5</div>
+      <div class="item">item 6</div>
+      <div class="item">item 7</div>
+      <div class="item">item 8</div>
     </section>
-
-</body>
-
+  </body>
 </html>
