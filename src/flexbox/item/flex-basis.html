@@ -59,11 +59,25 @@
         flex-basis: auto;
         width: 60px;
       }
+
+      .half-size {
+        flex-grow: 1;
+        flex-basis: 50%;
+      }
     </style>
 
     <h1>flex-basis: auto;</h1>
     <section class="container">
       <div class="item basis-auto">1</div>
+      <div class="item basis-auto">2</div>
+      <div class="item basis-auto-grow-2">3</div>
+      <div class="item basis-auto-width">4</div>
+      <div class="item basis-auto-grow-0">5</div>
+    </section>
+
+    <h1>flex-basis: 50% example;</h1>
+    <section class="container">
+      <div class="item half-size">1</div>
       <div class="item basis-auto">2</div>
       <div class="item basis-auto-grow-2">3</div>
       <div class="item basis-auto-width">4</div>
