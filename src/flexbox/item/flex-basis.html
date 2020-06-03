@@ -30,8 +30,9 @@
       .item {
         background-color: cyan;
         margin: 5px;
-        padding: 0 10px;
         font-size: 1.5em;
+        text-align: center;
+        position: relative;
       }
 
       .basis-auto {
@@ -64,10 +65,39 @@
         flex-grow: 1;
         flex-basis: 50%;
       }
+
+      .container.overlay {
+        margin-top: 10px;
+      }
+
+      .overlay .basis-auto-grow-2::before {
+        border-right: 16px solid blueviolet;
+      }
+
+      .overlay .basis-auto::before,
+      .overlay .basis-auto-grow-2::before,
+      .overlay .basis-auto-width::before {
+        content: '';
+        display: block;
+        width: 16px;
+        height: 36px;
+        background: blue;
+        position: absolute;
+        opacity: 0.5;
+      }
     </style>
 
     <h1>flex-basis: auto;</h1>
     <section class="container">
+      <div class="item basis-auto">1</div>
+      <div class="item basis-auto">2</div>
+      <div class="item basis-auto-grow-2">3</div>
+      <div class="item basis-auto-width">4</div>
+      <div class="item basis-auto-grow-0">5</div>
+    </section>
+
+    <h1>flex-basis: auto (with shadow);</h1>
+    <section class="container overlay">
       <div class="item basis-auto">1</div>
       <div class="item basis-auto">2</div>
       <div class="item basis-auto-grow-2">3</div>
