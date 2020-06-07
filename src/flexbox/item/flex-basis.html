@@ -107,6 +107,22 @@
         flex-grow: 0;
         flex-basis: 0;
       }
+
+      .basis-110 {
+        flex-basis: 110px;
+      }
+
+      .basis-300 {
+        flex-basis: 300px;
+      }
+
+      .basis-110-porcento {
+        flex-basis: calc(25% - 10px);
+      }
+
+      .basis-numero-container {
+        flex-wrap: wrap;
+      }
     </style>
 
     <h1>flex-basis: auto;</h1>
@@ -146,8 +162,15 @@
     </section>
 
     <h1>flex-basis: número;</h1>
-    <section class="container">
-      <div class="item">item1</div>
+    <section class="container basis-numero-container">
+      <div class="item basis-110">1</div>
+      <div class="item basis-110">12</div>
+      <div class="item basis-110">12345678910</div>
+      <div class="item basis-300">1234</div>
+      <div class="item basis-110-porcento">1</div>
+      <div class="item basis-110-porcento">12</div>
+      <div class="item basis-110-porcento">123</div>
+      <div class="item basis-110-porcento">1234</div>
     </section>
 
     <h1>flex-basis: número; // Diferente Conteúdo</h1>
