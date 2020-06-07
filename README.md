@@ -23,7 +23,7 @@ https://origamid.com/projetos/flexbox-guia-completo/
 
 
 <p align="center">
-  <a href="http://npm.im/standard"><img src="https://forthebadge.com/images/badges/code%20style-standard.svg?style=for-the-badge"></a>
+  <a href="http://npm.im/standard"><img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=for-the-badge"></a>
 </p>
 
 ## 👤 Author
