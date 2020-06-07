@@ -19,8 +19,9 @@ In the last 11 years I put all my knowledge-coins into the backend, now it's tim
 
 ## 📝 Useful resources
 
-https://origamid.com/projetos/flexbox-guia-completo/
-
+| Course   	|                                                                    Description 	|
+|----------	|-------------------------------------------------------------------------------:	|
+| Origamid 	| [Flexbox complete guide](https://origamid.com/projetos/flexbox-guia-completo/) 	|
 
 
 [![standard][standard-image]][standard-url]
