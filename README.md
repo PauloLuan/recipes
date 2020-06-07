@@ -28,7 +28,16 @@ https://origamid.com/projetos/flexbox-guia-completo/
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=for-the-badge
 [standard-url]: http://npm.im/standard
 
-## 👤 Author
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/pauloluan/css-learning/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 👤 Follow me
 
 <p align="center">
   <a href="http://bit.ly/reativa-insta">
@@ -41,13 +50,5 @@ https://origamid.com/projetos/flexbox-guia-completo/
     <img src="https://github.com/pauloluan/assets/blob/master/github.png?raw=true" width="50"  alt="Follow me on Github" />
   </a>
 </p>
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/pauloluan/css-learning/issues).
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
 
 [🔝 back to top](#top)
