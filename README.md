@@ -6,9 +6,11 @@
    <a href="#"><img src="https://github.com/pauloluan/assets/blob/master/front.png?raw=true" width="100"></a>
 </p>
 
-<p align="center">
-  <a href="http://npm.im/standard"><img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=for-the-badge"></a>
-  <a href="https://forthebadge.com"><img src="https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg?style=for-the-badge"></a>
+<p align="center">  
+  <a href="https://forthebadge.com"><img src="https://forthebadge.com/images/badges/fuck-it-ship-it.svg"></a>
+  <a href="https://forthebadge.com"><img src="https://forthebadge.com/images/badges/designed-in-ms-paint.svg"></a>
+  <a href="https://forthebadge.com"><img src="https://forthebadge.com/images/badges/contains-technical-debt.svg"></a>
+  <a href="https://forthebadge.com"><img src="https://forthebadge.com/images/badges/no-ragrets.svg"></a>
 </p>
 
 ## 💡 Introduction
@@ -19,6 +21,10 @@ In the last 11 years I put all my knowledge-coins into the backend, now it's tim
 
 https://origamid.com/projetos/flexbox-guia-completo/
 
+
+<p align="center">
+  <a href="http://npm.im/standard"><img src="https://forthebadge.com/images/badges/code%20style-standard.svg?style=for-the-badge"></a>
+</p>
 
 ## 👤 Author
 
