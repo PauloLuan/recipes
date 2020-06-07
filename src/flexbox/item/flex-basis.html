@@ -112,8 +112,18 @@
         flex-basis: 110px;
       }
 
+      .basis-110-grow-1 {
+        flex-basis: 110px;
+        flex-grow: 1;
+      }
+
       .basis-300 {
         flex-basis: 300px;
+      }
+
+      .basis-600-grow-1 {
+        flex-basis: 600px;
+        flex-grow: 1;
       }
 
       .basis-110-porcento {
@@ -174,13 +184,19 @@
     </section>
 
     <h1>flex-basis: número; // Diferente Conteúdo</h1>
-    <section class="container">
-      <div class="item">item1</div>
+    <section class="container basis-numero-container">
+      <div class="item basis-110">Conteúdo Grande</div>
+      <div class="item basis-110">PalavraMaior</div>
+      <div class="item basis-110">Oi</div>
     </section>
 
     <h1>flex-basis: número; // grow 1</h1>
-    <section class="container">
-      <div class="item">item1</div>
+    <section class="container basis-numero-container">
+      <div class="item basis-110-grow-1">1</div>
+      <div class="item basis-110-grow-1">12</div>
+      <div class="item basis-110-grow-1">1234</div>
+      <div class="item basis-110-grow-1">12345</div>
+      <div class="item basis-600-grow-1">5</div>
     </section>
   </body>
 </html>
