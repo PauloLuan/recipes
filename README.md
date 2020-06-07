@@ -24,6 +24,7 @@ https://origamid.com/projetos/flexbox-guia-completo/
 
 
 [![standard][standard-image]][standard-url]
+
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=for-the-badge
 [standard-url]: http://npm.im/standard
 
