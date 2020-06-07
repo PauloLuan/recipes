@@ -85,6 +85,28 @@
         position: absolute;
         opacity: 0.5;
       }
+
+      .basis-0 {
+        flex-grow: 1;
+        flex-basis: 0;
+      }
+
+      .basis-0-grow-2 {
+        flex-grow: 2;
+        flex-basis: 0;
+      }
+
+      .basis-0-width {
+        flex-grow: 1;
+        flex-basis: 0;
+        width: 120px;
+        min-width: 80px;
+      }
+
+      .basis-0-grow-0 {
+        flex-grow: 0;
+        flex-basis: 0;
+      }
     </style>
 
     <h1>flex-basis: auto;</h1>
@@ -116,7 +138,11 @@
 
     <h1>flex-basis: 0;</h1>
     <section class="container">
-      <div class="item">item1</div>
+      <div class="item basis-0">Test de Cont</div>
+      <div class="item basis-0">2</div>
+      <div class="item basis-0-grow-2">Palavra</div>
+      <div class="item basis-0-width">4</div>
+      <div class="item basis-0-grow-0">5</div>
     </section>
 
     <h1>flex-basis: número;</h1>
