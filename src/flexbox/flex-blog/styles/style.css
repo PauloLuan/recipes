@@ -30,3 +30,14 @@ img {
 * {
   box-sizing: border-box;
 }
+
+/* Superinfo BG */
+
+.superinfo-bg {
+  background: #122ab2;
+  color: white;
+}
+
+.superinfo a {
+  color: white;
+}
