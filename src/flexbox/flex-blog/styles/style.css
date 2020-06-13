@@ -38,6 +38,11 @@ img {
   color: white;
 }
 
+.superinfo {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .superinfo a {
   color: white;
 }
