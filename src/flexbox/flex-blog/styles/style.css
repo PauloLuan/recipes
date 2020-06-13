@@ -47,6 +47,10 @@ img {
   padding-top: 10px;
 }
 
+.superinfo p, .superinfo a {
+  margin: 0 10px 10px 10px 
+}
+
 .superinfo a {
   color: white;
 }
