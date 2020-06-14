@@ -133,6 +133,6 @@ img {
 }
 
 .about-img {
-  flex: 1 0 160px;
+  flex: 1 1 160px;
   margin: 0 10px;
 }
