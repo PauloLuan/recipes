@@ -218,3 +218,12 @@ img {
 .price-item sup {
   font-size: 1.5rem;
 }
+
+.price-item ul {
+  max-width: 300px;
+  color: #7c7c7c;
+  font-size: 1.25em;
+  line-height: 2;
+  font-style: italic;
+  margin: 20px auto;
+}
