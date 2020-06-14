@@ -184,11 +184,21 @@ img {
 .price {
   display: flex;
   align-items: flex-end;
-  max-width: 960px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 60px;
+  background: #f7f7f7;
 }
 
 .price-item {
   flex: 1;
+  border: 5px solid white;
+  margin: 0 10px;
+  padding: 20px;
+}
+
+.price-item h2 {
+  font-size: 3em;
+  color: #7c7c7c;
+  border-bottom: 5px solid white;
+  text-align: center;
 }
