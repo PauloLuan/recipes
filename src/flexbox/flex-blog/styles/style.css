@@ -97,10 +97,10 @@ img {
 }
 
 /* INTRODUCTION */
-
 .introduction {
   font-size: 3em;
   line-height: 1;
   max-width: 960px;
-  margin: 60px 10px;
+  padding: 60px 10px;
+  margin: 0 auto;
 }
