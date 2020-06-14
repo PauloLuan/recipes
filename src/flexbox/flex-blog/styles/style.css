@@ -206,6 +206,7 @@ img {
 .price-item span {
   max-width: 300px;
   border-top: 5px solid white;
+  border-bottom: 5px solid white;
   display: block;
   font-size: 3em;
   font-weight: bold;
