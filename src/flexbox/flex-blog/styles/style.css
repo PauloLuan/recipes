@@ -47,14 +47,14 @@ img {
   padding-top: 10px;
 }
 
-.superinfo p, .superinfo a {
-  margin: 0 10px 10px 10px 
+.superinfo p,
+.superinfo a {
+  margin: 0 10px 10px 10px;
 }
 
 .superinfo a {
   color: white;
 }
-
 
 /* MENU */
 .menu-bg {
@@ -66,17 +66,19 @@ img {
   display: flex;
   flex-wrap: wrap;
   max-width: 960px;
+  margin: 0 auto;
   justify-content: space-between;
   align-items: center;
 }
 
 .menu a {
-  color: white
+  color: white;
 }
 
 .menu-logo a {
   font-size: 2.25em;
   font-weight: bold;
+  margin: 0 10px;
 }
 
 .menu-nav ul {
