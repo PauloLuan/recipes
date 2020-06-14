@@ -73,3 +73,8 @@ img {
 .menu a {
   color: white
 }
+
+.menu-logo a {
+  font-size: 2.25em;
+  font-weight: bold;
+}
