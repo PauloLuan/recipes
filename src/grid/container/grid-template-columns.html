@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid - Grid Template Columns</title>
+    <style>
+      h1 {
+        text-align: center;
+        margin: 20px 0 0 0;
+        font-size: 1.25em;
+        font-weight: normal;
+      }
+
+      body {
+        font-family: monospace;
+        color: #333;
+      }
+
+      .grid {
+        display: grid;
+        max-width: 400px;
+        margin: 15px auto;
+        border: 1px solid #ccc;
+      }
+
+      .item {
+        text-align: center;
+        background-color: cyan;
+        font-size: 1.5em;
+        margin: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <h1>grid-template-columns: 100px 100px 100px 100px;</h1>
+      <section class="grid">1 2 3 4</section>
+    </div>
+
+    <div>
+      <h1>grid-template-columns: 100px 100px 100px 100px;</h1>
+      <section class="grid">PalavraTeste 2 3 PalavraTeste</section>
+    </div>
+
+    <div>
+      <h1>grid-template-columns: 1fr 2fr;</h1>
+      <section class="grid">1 2 3 4</section>
+    </div>
+
+    <div>
+      <h1>grid-template-columns: 1fr 2fr;</h1>
+      <section class="grid">PalavraTesteGrandeRespeita 2 3 4</section>
+    </div>
+
+    <div>
+      <h1>grid-template-columns: minmax(200px, 1fr) 1fr 1fr;</h1>
+      <section class="grid">1 2 3 4 5 6</section>
+    </div>
+
+    <div>
+      <h1>grid-template-columns: minmax(200px, 1fr) 1fr 1fr;</h1>
+      <section class="grid">TestePalavraTeste 2 3 4 5 6</section>
+    </div>
+
+    <div>
+      <h1>grid-template-columns: minmax(200px, 1fr) 1fr 1fr;</h1>
+      <section class="grid">1 TestePalavraTeste 3 4 5 6</section>
+    </div>
+
+    <div>
+      <h1>grid-template-columns: repeat(3, 1fr);</h1>
+      <section class="grid">1 2 3 4 5 6</section>
+    </div>
+
+    <div>
+      <h1>grid-template-columns: repeat(auto-fit, 100px);</h1>
+      <section class="grid">1 2 3 4 5 6</section>
+    </div>
+
+    <div>
+      <h1>grid-template-columns: repeat(auto-fit, minmax(100px, auto));</h1>
+      <section class="grid">PalavraTesteMesmo1 2 3 4 5 6</section>
+    </div>
+
+    <div>
+      <h1>grid-template-columns: repeat(auto-fill, minmax(100px, auto));</h1>
+      <section class="grid">PalavraTesteMesmo1 2 3 4 5 6</section>
+    </div>
+  </body>
+</html>
