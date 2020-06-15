@@ -328,6 +328,10 @@ img {
   padding: 60px calc((100% - 960px) / 2);
 }
 
+.newsletter-info {
+  flex: 1;
+}
+
 .newsletter-info h1 {
   font-size: 3em;
   color: #a4a4a4;
@@ -336,4 +340,17 @@ img {
 .newsletter-info p {
   font-size: 1.25em;
   color: #7c7c7c;
+}
+
+.newsletter-form {
+  flex: 2 1 260px;
+  display: flex;
+}
+
+.newsletter-form input {
+  flex: 3;
+}
+
+.newsletter-form button {
+  flex: 1;
 }
