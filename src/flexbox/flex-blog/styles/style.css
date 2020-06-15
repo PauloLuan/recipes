@@ -183,6 +183,7 @@ img {
 /* PRICE */
 .price {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-end;
   margin: 0 auto;
   padding: 60px;
@@ -194,6 +195,7 @@ img {
   border: 5px solid white;
   margin: 10px;
   padding: 20px;
+  min-width: 260px;
 }
 
 .price-item h2 {
@@ -253,4 +255,11 @@ img {
   display: block;
   text-transform: uppercase;
   max-width: 300px;
+}
+
+@media (max-width: 800px) {
+  .price {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
