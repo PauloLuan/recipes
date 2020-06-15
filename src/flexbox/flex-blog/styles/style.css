@@ -329,7 +329,8 @@ img {
 }
 
 .newsletter-info {
-  flex: 1;
+  flex: 1 1 240px;
+  margin: 0 10px;
 }
 
 .newsletter-info h1 {
@@ -339,18 +340,48 @@ img {
 
 .newsletter-info p {
   font-size: 1.25em;
+  font-style: italic;
   color: #7c7c7c;
+  max-width: 230px;
+  margin-bottom: 10px;
 }
 
 .newsletter-form {
   flex: 2 1 260px;
+  margin: 0 10px;
   display: flex;
+  align-self: center;
+  flex-wrap: wrap;
 }
 
 .newsletter-form input {
-  flex: 3;
+  flex: 3 1 260px;
+  margin: 0px;
+  padding: 15px 10px;
+  border: 4px solid #2c70ff;
+  border-radius: 0px;
+  font-size: 1.25em;
+  color: #7c7c7c;
+  font-family: 'Nunito', Helvetica, Arial, sans-serif;
+  font-style: italic;
 }
 
 .newsletter-form button {
-  flex: 1;
+  flex: 1 1 260px;
+  margin: 0px;
+  padding: 15px 10px;
+  border: 4px solid #2c70ff;
+  background: #2c70ff;
+  color: white;
+  font-size: 2.25em;
+  font-weight: bold;
+  font-family: 'Nunito', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .newsletter-form button {
+    font-size: 1.5em;
+  }
 }
