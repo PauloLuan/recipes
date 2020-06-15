@@ -246,6 +246,7 @@ img {
 }
 
 .price-item a {
+  margin: 20px auto;
   text-align: center;
   border: 4px solid;
   color: #222222;
