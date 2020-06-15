@@ -293,6 +293,26 @@ img {
   color: #a4a4a4;
 }
 
+.quality-item h2::before {
+  content: '';
+  width: 8px;
+  height: 30px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.quality-item:nth-of-type(3n + 1) h2::before {
+  background: #ae81ff;
+}
+
+.quality-item:nth-of-type(3n + 2) h2::before {
+  background: #f9265e;
+}
+
+.quality-item:nth-of-type(3n + 3) h2::before {
+  background: #66d9eb;
+}
+
 .quality-item p {
   font-size: 1.25em;
   line-height: 1.4;
