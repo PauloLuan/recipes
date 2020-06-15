@@ -272,3 +272,17 @@ img {
     order: -1;
   }
 }
+
+/* quality */
+
+.quality {
+  max-width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 60px auto;
+}
+
+.quality-item {
+  flex: 1 1 300px;
+  margin: 10px;
+}
