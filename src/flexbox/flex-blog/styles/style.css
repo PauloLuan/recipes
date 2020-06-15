@@ -227,3 +227,18 @@ img {
   font-style: italic;
   margin: 20px auto;
 }
+
+.price-item li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price-item li::after {
+  content: '';
+  height: 6px;
+  width: 6px;
+  display: block;
+  background: blue;
+  border-radius: 50%;
+}
