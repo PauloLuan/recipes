@@ -318,3 +318,20 @@ img {
   line-height: 1.4;
   color: #7c7c7c;
 }
+
+/* Newsletter */
+
+.newsletter {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsletter-info h1 {
+  font-size: 3em;
+  color: #a4a4a4;
+}
+
+.newsletter-info p {
+  font-size: 1.25em;
+  color: #7c7c7c;
+}
