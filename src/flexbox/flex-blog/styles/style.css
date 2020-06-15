@@ -284,5 +284,17 @@ img {
 
 .quality-item {
   flex: 1 1 300px;
-  margin: 10px;
+  margin: 20px 10px;
+}
+
+.quality-item h2 {
+  font-size: 2.25em;
+  margin-bottom: 20px;
+  color: #a4a4a4;
+}
+
+.quality-item p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  color: #7c7c7c;
 }
