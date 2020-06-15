@@ -263,4 +263,12 @@ img {
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .price .price-item:nth-child(3) {
+    order: -2;
+  }
+
+  .price .price-item:nth-child(2) {
+    order: -1;
+  }
 }
