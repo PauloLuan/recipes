@@ -252,4 +252,5 @@ img {
   font-weight: bold;
   display: block;
   text-transform: uppercase;
+  max-width: 300px;
 }
