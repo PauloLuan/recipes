@@ -19,6 +19,7 @@
 
       .grid {
         display: grid;
+        grid-template-columns: 1fr 1fr;
         max-width: 400px;
         margin: 15px auto;
         border: 1px solid #ccc;
@@ -30,12 +31,16 @@
         font-size: 1.5em;
         margin: 5px;
       }
+
+      .exemplo1 {
+        grid-template-rows: 50px 100px 50px 150px;
+      }
     </style>
   </head>
 
   <body>
     <h1>grid-template-rows: 50px 100px 50px 150px;</h1>
-    <section class="grid">
+    <section class="grid exemplo1">
       <div class="item">1</div>
       <div class="item">2</div>
       <div class="item">3</div>
