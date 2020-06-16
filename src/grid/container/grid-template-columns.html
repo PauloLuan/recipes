@@ -42,6 +42,10 @@
       .minmax-with-fr {
         grid-template-columns: minmax(200px, 1fr) 1fr 1fr;
       }
+
+      .repeat-3-1fr {
+        grid-template-columns: repeat(3, 1fr);
+      }
     </style>
   </head>
 
@@ -124,7 +128,14 @@
 
     <div>
       <h1>grid-template-columns: repeat(3, 1fr);</h1>
-      <section class="grid">1 2 3 4 5 6</section>
+      <section class="grid repeat-3-1fr">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+      </section>
     </div>
 
     <div>
