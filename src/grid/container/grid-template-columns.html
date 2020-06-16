@@ -34,6 +34,10 @@
       .grid-100 {
         grid-template-columns: 100px 100px 100px 100px;
       }
+
+      .grid-1f-2f {
+        grid-template-columns: 1fr 2fr;
+      }
     </style>
   </head>
 
@@ -60,7 +64,12 @@
 
     <div>
       <h1>grid-template-columns: 1fr 2fr;</h1>
-      <section class="grid">1 2 3 4</section>
+      <section class="grid grid-1f-2f">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+      </section>
     </div>
 
     <div>
