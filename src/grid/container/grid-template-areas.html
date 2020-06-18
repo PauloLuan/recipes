@@ -86,6 +86,13 @@
           'sidenav content advert'
           'sidenav footer footer';
       }
+
+      .empty-areas-example {
+        grid-template-areas:
+          'logo content nav'
+          '. content advert'
+          'sidenav footer .';
+      }
     </style>
   </head>
 
@@ -131,7 +138,7 @@
     </section>
 
     <h1>grid-template-areas (. para área vazia)</h1>
-    <section class="grid">
+    <section class="grid empty-areas-example">
       <div class="item logo">logo</div>
       <div class="item nav">nav</div>
       <div class="item content">content</div>
