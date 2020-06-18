@@ -19,7 +19,6 @@
 
       .grid {
         display: grid;
-        grid-template-columns: 1fr 1fr;
         max-width: 400px;
         margin: 15px auto;
         border: 1px solid #ccc;
@@ -30,6 +29,30 @@
         background-color: cyan;
         font-size: 1.5em;
         margin: 5px;
+      }
+
+      .logo {
+        grid-area: logo;
+      }
+
+      .nav {
+        grid-area: nav;
+      }
+
+      .content {
+        grid-area: content;
+      }
+
+      .sidenav {
+        grid-area: sidenav;
+      }
+
+      .advert {
+        grid-area: advert;
+      }
+
+      .footer {
+        grid-area: footer;
       }
     </style>
   </head>
