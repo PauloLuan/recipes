@@ -68,6 +68,15 @@
           'sidenav content advert'
           'sidenav content footer';
       }
+
+      .mobile-example {
+        grid-template-areas:
+          'logo logo'
+          'nav nav'
+          'content content'
+          'sidenav advert'
+          'footer footer';
+      }
     </style>
   </head>
 
@@ -93,7 +102,7 @@
     </section>
 
     <h1>grid-template-areas (mobile)</h1>
-    <section class="grid">
+    <section class="grid mobile-example">
       <div class="item logo">logo</div>
       <div class="item nav">nav</div>
       <div class="item content">content</div>
