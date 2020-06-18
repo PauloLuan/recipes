@@ -55,10 +55,11 @@
       }
 
       .base-area {
-        grid-template-areas:
-          'logo nav nav'
-          'sidenav content advert'
-          'sidenav footer footer';
+        grid-template:
+          'logo nav nav' 50px
+          'sidenav content advert' 150px
+          'sidenav footer footer' 100px
+          / 100px 1fr 50px;
       }
 
       .gap20 {
