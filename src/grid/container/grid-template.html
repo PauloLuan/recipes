@@ -54,18 +54,22 @@
       .footer {
         grid-area: footer;
       }
+
+      .example1 {
+        grid-template: 50px 1fr / 100px 1fr 100px;
+      }
     </style>
   </head>
 
   <body>
     <h1>grid-template: 50px 1fr / 100px 1fr 100px</h1>
-    <section class="grid">
-      <div class="item logo">logo</div>
-      <div class="item nav">nav</div>
-      <div class="item content">content</div>
-      <div class="item sidenav">sidenav</div>
-      <div class="item advert">advert</div>
-      <div class="item footer">footer</div>
+    <section class="grid example1">
+      <div class="item">logo</div>
+      <div class="item">nav</div>
+      <div class="item">content</div>
+      <div class="item">sidenav</div>
+      <div class="item">advert</div>
+      <div class="item">footer</div>
     </section>
 
     <h1>grid-template (areas, columns e rows)</h1>
