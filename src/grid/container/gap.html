@@ -53,12 +53,23 @@
       .footer {
         grid-area: footer;
       }
+
+      .base-area {
+        grid-template-areas:
+          'logo nav nav'
+          'sidenav content advert'
+          'sidenav footer footer';
+      }
+
+      .gap20 {
+        gap: 20px;
+      }
     </style>
   </head>
 
   <body>
     <h1>gap: 20px;</h1>
-    <section class="grid">
+    <section class="grid base-area gap20">
       <div class="item logo">logo</div>
       <div class="item nav">nav</div>
       <div class="item content">content</div>
@@ -68,7 +79,7 @@
     </section>
 
     <h1>column-gap: 20px;</h1>
-    <section class="grid">
+    <section class="grid base-area">
       <div class="item logo">logo</div>
       <div class="item nav">nav</div>
       <div class="item content">content</div>
@@ -78,7 +89,7 @@
     </section>
 
     <h1>row-gap: 20px;</h1>
-    <section class="grid">
+    <section class="grid base-area">
       <div class="item logo">logo</div>
       <div class="item nav">nav</div>
       <div class="item content">content</div>
@@ -88,7 +99,7 @@
     </section>
 
     <h1>margem nos itens</h1>
-    <section class="grid">
+    <section class="grid base-area">
       <div class="item logo">logo</div>
       <div class="item nav">nav</div>
       <div class="item content">content</div>
