@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid - Grid GAP</title>
+    <style>
+      body {
+        font-family: monospace;
+        color: #333;
+      }
+
+      h1 {
+        text-align: center;
+        margin: 20px 0 0 0;
+        font-size: 1.25em;
+        font-weight: normal;
+      }
+
+      .grid {
+        display: grid;
+        max-width: 400px;
+        margin: 15px auto;
+        border: 1px solid #ccc;
+      }
+
+      .item {
+        text-align: center;
+        background-color: cyan;
+        font-size: 1.5em;
+        margin: 5px;
+      }
+
+      .logo {
+        grid-area: logo;
+      }
+
+      .nav {
+        grid-area: nav;
+      }
+
+      .content {
+        grid-area: content;
+      }
+
+      .sidenav {
+        grid-area: sidenav;
+      }
+
+      .advert {
+        grid-area: advert;
+      }
+
+      .footer {
+        grid-area: footer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>gap: 20px;</h1>
+    <section class="grid">
+      <div class="item logo">logo</div>
+      <div class="item nav">nav</div>
+      <div class="item content">content</div>
+      <div class="item sidenav">sidenav</div>
+      <div class="item advert">advert</div>
+      <div class="item footer">footer</div>
+    </section>
+
+    <h1>column-gap: 20px;</h1>
+    <section class="grid">
+      <div class="item logo">logo</div>
+      <div class="item nav">nav</div>
+      <div class="item content">content</div>
+      <div class="item sidenav">sidenav</div>
+      <div class="item advert">advert</div>
+      <div class="item footer">footer</div>
+    </section>
+
+    <h1>row-gap: 20px;</h1>
+    <section class="grid">
+      <div class="item logo">logo</div>
+      <div class="item nav">nav</div>
+      <div class="item content">content</div>
+      <div class="item sidenav">sidenav</div>
+      <div class="item advert">advert</div>
+      <div class="item footer">footer</div>
+    </section>
+
+    <h1>margem nos itens</h1>
+    <section class="grid">
+      <div class="item logo">logo</div>
+      <div class="item nav">nav</div>
+      <div class="item content">content</div>
+      <div class="item sidenav">sidenav</div>
+      <div class="item advert">advert</div>
+      <div class="item footer">footer</div>
+    </section>
+  </body>
+</html>
