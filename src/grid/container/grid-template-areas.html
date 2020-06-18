@@ -54,12 +54,19 @@
       .footer {
         grid-area: footer;
       }
+
+      .example1 {
+        grid-template-areas:
+          'logo nav nav'
+          'sidenav content advert'
+          'sidenav footer footer';
+      }
     </style>
   </head>
 
   <body>
     <h1>grid-template-areas</h1>
-    <section class="grid">
+    <section class="grid example1">
       <div class="item logo">logo</div>
       <div class="item nav">nav</div>
       <div class="item content">content</div>
