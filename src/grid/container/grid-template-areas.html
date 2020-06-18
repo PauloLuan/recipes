@@ -77,6 +77,13 @@
           'sidenav advert'
           'footer footer';
       }
+
+      .line-column-example {
+        grid-template-areas:
+          'logo nav nav'
+          'sidenav content advert'
+          'footer footer footer';
+      }
     </style>
   </head>
 
@@ -112,7 +119,7 @@
     </section>
 
     <h1>grid-template-areas (coluna e linha)</h1>
-    <section class="grid">
+    <section class="grid line-column-example">
       <div class="item logo">logo</div>
       <div class="item nav">nav</div>
       <div class="item content">content</div>
