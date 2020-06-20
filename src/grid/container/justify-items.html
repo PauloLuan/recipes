@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid - Justify-items</title>
+    <style>
+      body {
+        font-family: monospace;
+        color: #333;
+      }
+
+      h1 {
+        text-align: center;
+        margin: 20px 0 0 0;
+        font-size: 1.25em;
+        font-weight: normal;
+      }
+
+      .grid {
+        display: grid;
+        max-width: 400px;
+        margin: 15px auto;
+        border: 1px solid #ccc;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 50px);
+        height: 300px;
+      }
+
+      .item {
+        text-align: center;
+        background-color: cyan;
+        font-size: 1.5em;
+        margin: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>justify-items: start;</h1>
+    <section class="grid">
+      <div class="item">Teste 1</div>
+      <div class="item">Ae 2</div>
+      <div class="item">Isso 3</div>
+      <div class="item">Ab 4</div>
+      <div class="item">Aqui 5</div>
+      <div class="item">Ela 6</div>
+    </section>
+
+    <h1>justify-items: end;</h1>
+    <section class="grid">
+      <div class="item">Teste 1</div>
+      <div class="item">Ae 2</div>
+      <div class="item">Isso 3</div>
+      <div class="item">Ab 4</div>
+      <div class="item">Aqui 5</div>
+      <div class="item">Ela 6</div>
+    </section>
+
+    <h1>justify-items: center;</h1>
+    <section class="grid">
+      <div class="item">Teste 1</div>
+      <div class="item">Ae 2</div>
+      <div class="item">Isso 3</div>
+      <div class="item">Ab 4</div>
+      <div class="item">Aqui 5</div>
+      <div class="item">Ela 6</div>
+    </section>
+
+    <h1>justify-items: stretch;</h1>
+    <section class="grid">
+      <div class="item">Teste 1</div>
+      <div class="item">Ae 2</div>
+      <div class="item">Isso 3</div>
+      <div class="item">Ab 4</div>
+      <div class="item">Aqui 5</div>
+      <div class="item">Ela 6</div>
+    </section>
+  </body>
+</html>
