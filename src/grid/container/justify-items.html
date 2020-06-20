@@ -33,6 +33,15 @@
         margin: 5px;
       }
 
+      .item-2,
+      .item-3 {
+        grid-row: span 2;
+      }
+
+      .item-5 {
+        grid-column: span 2;
+      }
+
       .start {
         justify-items: start;
       }
@@ -44,6 +53,10 @@
       .center {
         justify-items: center;
       }
+
+      .stretch {
+        justify-items: stretch;
+      }
     </style>
   </head>
 
@@ -51,40 +64,40 @@
     <h1>justify-items: start;</h1>
     <section class="grid start">
       <div class="item">Teste 1</div>
-      <div class="item">Ae 2</div>
-      <div class="item">Isso 3</div>
+      <div class="item item-2">Ae 2</div>
+      <div class="item item-3">Isso 3</div>
       <div class="item">Ab 4</div>
-      <div class="item">Aqui 5</div>
+      <div class="item item-5">Aqui 5</div>
       <div class="item">Ela 6</div>
     </section>
 
     <h1>justify-items: end;</h1>
     <section class="grid end">
       <div class="item">Teste 1</div>
-      <div class="item">Ae 2</div>
-      <div class="item">Isso 3</div>
+      <div class="item item-2">Ae 2</div>
+      <div class="item item-3">Isso 3</div>
       <div class="item">Ab 4</div>
-      <div class="item">Aqui 5</div>
+      <div class="item item-5">Aqui 5</div>
       <div class="item">Ela 6</div>
     </section>
 
     <h1>justify-items: center;</h1>
     <section class="grid center">
       <div class="item">Teste 1</div>
-      <div class="item">Ae 2</div>
-      <div class="item">Isso 3</div>
+      <div class="item item-2">Ae 2</div>
+      <div class="item item-3">Isso 3</div>
       <div class="item">Ab 4</div>
-      <div class="item">Aqui 5</div>
+      <div class="item item-5">Aqui 5</div>
       <div class="item">Ela 6</div>
     </section>
 
     <h1>justify-items: stretch;</h1>
-    <section class="grid">
+    <section class="grid stretch">
       <div class="item">Teste 1</div>
-      <div class="item">Ae 2</div>
-      <div class="item">Isso 3</div>
+      <div class="item item-2">Ae 2</div>
+      <div class="item item-3">Isso 3</div>
       <div class="item">Ab 4</div>
-      <div class="item">Aqui 5</div>
+      <div class="item item-5">Aqui 5</div>
       <div class="item">Ela 6</div>
     </section>
   </body>
