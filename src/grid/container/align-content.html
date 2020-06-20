@@ -22,8 +22,9 @@
         max-width: 400px;
         margin: 15px auto;
         border: 1px solid #ccc;
-        grid-template-columns: repeat(3, 100px);
-        grid-template-rows: 100px 100px 100px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 50px);
+        height: 300px;
       }
 
       .item {
@@ -35,5 +36,69 @@
     </style>
   </head>
 
-  <body></body>
+  <body>
+    <h1>align-content: start;</h1>
+    <section class="grid">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+    </section>
+    <h1>align-content: end;</h1>
+    <section class="grid">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+    </section>
+    <h1>align-content: center;</h1>
+    <section class="grid">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+    </section>
+    <h1>align-content: stretch;</h1>
+    <section class="grid">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+    </section>
+    <h1>align-content: space-around;</h1>
+    <section class="grid">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+    </section>
+    <h1>align-content: space-between;</h1>
+    <section class="grid">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+    </section>
+    <h1>align-content: space-evenly;</h1>
+    <section class="grid">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+    </section>
+  </body>
 </html>
