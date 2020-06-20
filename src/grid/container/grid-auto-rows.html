@@ -35,6 +35,41 @@
         grid-template-rows: 1fr 1fr;
         grid-auto-rows: 100px;
       }
+
+      .example-2 {
+        grid-template:
+          'logo nav nav'
+          'sidenav content advert'
+          'sidenav footer footer';
+      }
+
+      .logo {
+        grid-area: logo;
+      }
+
+      .nav {
+        grid-area: nav;
+      }
+
+      .content {
+        grid-area: content;
+      }
+
+      .sidenav {
+        grid-area: sidenav;
+      }
+
+      .advert {
+        grid-area: advert;
+      }
+
+      .footer {
+        grid-area: footer;
+      }
+
+      .p {
+        grid-area: p;
+      }
     </style>
   </head>
 
@@ -49,13 +84,13 @@
     </section>
 
     <h1>grid-auto-rows: 50px 100px;</h1>
-    <section class="grid">
-      <div class="item">logo</div>
-      <div class="item">nav</div>
-      <div class="item">content</div>
-      <div class="item">sidenav</div>
-      <div class="item">advert</div>
-      <div class="item">footer</div>
+    <section class="grid example-2">
+      <div class="item logo">logo</div>
+      <div class="item nav">nav</div>
+      <div class="item content">content</div>
+      <div class="item sidenav">sidenav</div>
+      <div class="item advert">advert</div>
+      <div class="item footer">footer</div>
       <div class="item">p</div>
       <div class="item">p</div>
       <div class="item">p</div>
