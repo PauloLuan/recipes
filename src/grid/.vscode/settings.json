@@ -1,6 +1,5 @@
 {
   "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
   "[css]": {
     "editor.defaultFormatter": "numso.prettier-standard-vscode"
   },
