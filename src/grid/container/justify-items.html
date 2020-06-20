@@ -24,7 +24,6 @@
         border: 1px solid #ccc;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 50px);
-        height: 300px;
       }
 
       .item {
@@ -33,12 +32,16 @@
         font-size: 1.5em;
         margin: 5px;
       }
+
+      .start {
+        justify-items: start;
+      }
     </style>
   </head>
 
   <body>
     <h1>justify-items: start;</h1>
-    <section class="grid">
+    <section class="grid start">
       <div class="item">Teste 1</div>
       <div class="item">Ae 2</div>
       <div class="item">Isso 3</div>
