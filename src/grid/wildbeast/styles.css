@@ -51,6 +51,10 @@ a {
   background: rgba(0, 0, 0, 0.5);
 }
 
+.header li + li {
+  margin-left: 10px;
+}
+
 .sidebar {
   grid-area: sidebar;
 }
