@@ -50,6 +50,20 @@
       .example-2 .item-5 {
         justify-self: end;
       }
+
+      .example-3 .item-2,
+      .example-3 .item-5 {
+        justify-self: center;
+      }
+
+      .items-start {
+        justify-items: start;
+      }
+
+      .example-4 .item-2,
+      .example-4 .item-5 {
+        justify-self: stretch;
+      }
     </style>
   </head>
 
@@ -75,17 +89,17 @@
     </section>
 
     <h1>justify-self: center;</h1>
-    <section class="grid">
+    <section class="grid example-3">
       <div class="item item-1">1</div>
       <div class="item item-2">2</div>
       <div class="item item-3">3</div>
       <div class="item item-4">4</div>
       <div class="item item-5">Item 5</div>
       <div class="item item-6">6</div>
-      <h1>justify-self: stretch;</h1>
     </section>
 
-    <section class="grid">
+    <h1>justify-self: stretch;</h1>
+    <section class="grid example-4 items-start">
       <div class="item item-1">1</div>
       <div class="item item-2">2</div>
       <div class="item item-3">3</div>
