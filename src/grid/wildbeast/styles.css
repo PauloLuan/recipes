@@ -124,4 +124,11 @@ img {
 /* ========================= */
 .footer {
   grid-area: footer;
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+  padding: 30px;
 }
