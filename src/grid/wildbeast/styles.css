@@ -19,6 +19,9 @@ a {
     'footer footer footer';
 }
 
+/* ========================= */
+/* HEADER */
+/* ========================= */
 .header {
   grid-area: header;
   background: linear-gradient(135deg, #8844ee, #b07dfb);
@@ -55,18 +58,30 @@ a {
   margin-left: 10px;
 }
 
+/* ========================= */
+/* SIDEBAR */
+/* ========================= */
 .sidebar {
   grid-area: sidebar;
 }
 
+/* ========================= */
+/* MAIN CONTENT */
+/* ========================= */
 .content {
   grid-area: content;
 }
 
+/* ========================= */
+/* ads */
+/* ========================= */
 .ads {
   grid-area: ads;
 }
 
+/* ========================= */
+/* FOOTER */
+/* ========================= */
 .footer {
   grid-area: footer;
 }
