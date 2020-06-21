@@ -63,6 +63,17 @@
         grid-row-start: 1;
         grid-row-end: 3;
       }
+
+      /* example 4*/
+      .example-4 {
+        grid-template-rows: [row1] 1fr [row2] 1fr [row3] 1fr;
+      }
+      .example-4 .item-2 {
+        grid-row: row1 / row3;
+      }
+      .example-4 .item-4 {
+        grid-row: row1 / 4;
+      }
     </style>
   </head>
 
@@ -98,7 +109,7 @@
     </section>
 
     <h1>[row1]</h1>
-    <section class="grid">
+    <section class="grid example-4">
       <div class="item item-1">1</div>
       <div class="item item-2">2</div>
       <div class="item item-3">3</div>
