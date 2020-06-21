@@ -21,6 +21,7 @@ img {
   padding: 30px;
   display: grid;
   grid-template-columns: 1fr auto;
+  align-items: center;
 }
 
 .sidebar {
