@@ -28,7 +28,7 @@
         margin: 15px auto;
         border: 1px solid #ccc;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 50px);
+        grid-auto-rows: 50px;
       }
 
       .item {
@@ -45,6 +45,17 @@
       .example-1 .item-3 {
         grid-column: 1;
       }
+
+      /* example 2*/
+      .example-2 .item-3 {
+        grid-column: 1 / -1;
+      }
+      .example-2 .item-5 {
+        grid-column: span 2;
+      }
+      .example-2 .item-6 {
+        grid-column: 2 / span 2;
+      }
     </style>
   </head>
 
@@ -60,7 +71,7 @@
     </section>
 
     <h1>grid-column span</h1>
-    <section class="grid">
+    <section class="grid example-2">
       <div class="item item-1">1</div>
       <div class="item item-2">2</div>
       <div class="item item-3">3</div>
