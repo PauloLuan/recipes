@@ -1,13 +1,27 @@
-body {
-  font-family: 'Volkhov', Georgia, serif;
+body,
+p,
+h1,
+ul,
+li,
+blockquote {
+  padding: 0px;
+  margin: 0px;
 }
 
-img {
-  max-width: 100%;
+body {
+  font-family: 'Volkorn', Georgia, Serif;
+}
+
+li {
+  list-style: none;
 }
 
 a {
   text-decoration: none;
+}
+
+img {
+  max-width: 100%;
 }
 
 .structure {
@@ -95,6 +109,10 @@ a {
 /* ========================= */
 .ads {
   grid-area: ads;
+  background: #fafbfc;
+  display: grid;
+  grid-template-rows: 250px 250px;
+  align-content: start;
 }
 
 /* ========================= */
