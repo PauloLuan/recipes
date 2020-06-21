@@ -112,6 +112,10 @@ img {
   gap: 30px;
 }
 
+.full-row-size {
+  grid-column: 1 / -1;
+}
+
 .image-wolf-1 {
   grid-row: span 2;
 }
