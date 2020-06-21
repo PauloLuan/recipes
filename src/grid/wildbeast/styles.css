@@ -131,6 +131,11 @@ p {
   letter-spacing: -0.005em;
   color: rgba(0, 0, 0, 0.7);
 }
+
+.information p + p {
+  padding-top: 30px;
+}
+
 /* ========================= */
 /* ads */
 /* ========================= */
