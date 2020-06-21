@@ -41,6 +41,23 @@
         grid-row-end: 4;
         grid-row-end: 3; */
       }
+
+      /* EXAMPLE 2 */
+      .example-2 {
+        grid-template-areas:
+          'header header header'
+          'sidenav content ads'
+          'sidenav footer footer';
+      }
+      .example-2 .item-1 {
+        grid-area: header;
+      }
+      .example-2 .item-2 {
+        grid-area: sidenav;
+      }
+      .example-2 .item-5 {
+        grid-area: footer;
+      }
     </style>
   </head>
 
@@ -56,7 +73,7 @@
     </section>
 
     <h1>grid-area: header;</h1>
-    <section class="grid">
+    <section class="grid example-2">
       <div class="item item-1">1</div>
       <div class="item item-2">2</div>
       <div class="item item-3">3</div>
