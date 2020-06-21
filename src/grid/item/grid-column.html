@@ -99,6 +99,17 @@
         grid-column-start: footer;
         grid-column-end: footer;
       }
+
+      /* example 6 */
+      .example-6 .item-1 {
+        grid-column: 1 / -1;
+      }
+      .example-6 .item-2 {
+        grid-row: 2 / 4;
+      }
+      .example-6 .item-5 {
+        grid-column: 2 / 4;
+      }
     </style>
   </head>
 
@@ -158,7 +169,7 @@
     </section>
 
     <h1>grid-column normal</h1>
-    <section class="grid">
+    <section class="grid example-6">
       <div class="item item-1">1</div>
       <div class="item item-2">2</div>
       <div class="item item-3">3</div>
