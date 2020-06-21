@@ -28,6 +28,19 @@ img {
   max-width: 200px;
 }
 
+.header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header nav a {
+  display: block;
+  padding: 10px;
+  color: white;
+  font-size: 1.125em;
+  background: rgba(0, 0, 0, 0.1);
+}
+
 .sidebar {
   grid-area: sidebar;
 }
