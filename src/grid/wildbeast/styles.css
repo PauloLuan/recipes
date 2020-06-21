@@ -24,6 +24,10 @@ img {
   align-items: center;
 }
 
+.logo {
+  max-width: 200px;
+}
+
 .sidebar {
   grid-area: sidebar;
 }
