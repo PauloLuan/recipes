@@ -20,7 +20,7 @@ img {
 }
 
 .sidebar {
-  grid-area: header;
+  grid-area: sidebar;
 }
 
 .content {
