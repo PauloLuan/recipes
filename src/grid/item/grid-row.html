@@ -40,6 +40,17 @@
       .example-1 .item-3 {
         grid-row: 1;
       }
+
+      /* example-2 */
+      .example-2 .item-1 {
+        grid-row: 1 / 4;
+      }
+      .example-2 .item-5 {
+        grid-row: span 2;
+      }
+      .example-2 .item-6 {
+        grid-row: span 2;
+      }
     </style>
   </head>
 
@@ -55,7 +66,7 @@
     </section>
 
     <h1>grid-row span</h1>
-    <section class="grid">
+    <section class="grid example-2">
       <div class="item item-1">1</div>
       <div class="item item-2">2</div>
       <div class="item item-3">3</div>
