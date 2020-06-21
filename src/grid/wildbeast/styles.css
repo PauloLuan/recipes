@@ -44,6 +44,7 @@ a {
   font-size: 1.125em;
   background: rgba(0, 0, 0, 0.1);
   border-radius: 5px;
+  transition: 0.5s;
 }
 
 .header nav a:hover {
