@@ -74,6 +74,39 @@
       .example-4 .item-4 {
         grid-row: row1 / 4;
       }
+
+      /* example-5 */
+      .example-5 {
+        grid-template-areas:
+          'header header header'
+          'sidenav content ads'
+          'sidenav footer footer';
+      }
+
+      .example-5 .item-1 {
+        grid-column: span 3;
+        grid-row-start: header;
+        grid-row-end: header;
+      }
+
+      .example-5 .item-2 {
+        grid-column: 1;
+        grid-row-start: sidenav;
+        grid-row-end: sidenav;
+      }
+
+      .example-5 .item-3 {
+        grid-row: content / content;
+      }
+
+      .example-5 .item-4 {
+        grid-row-start: ads;
+      }
+
+      .example-5 .item-5 {
+        grid-row: footer;
+        grid-column: span 2;
+      }
     </style>
   </head>
 
@@ -119,7 +152,7 @@
     </section>
 
     <h1>grid-template-areas</h1>
-    <section class="grid">
+    <section class="grid example-5">
       <div class="item item-1">1</div>
       <div class="item item-2">2</div>
       <div class="item item-3">3</div>
