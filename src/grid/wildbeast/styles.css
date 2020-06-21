@@ -118,6 +118,11 @@ img {
 
 .image-wolf-1 {
   grid-row: span 2;
+  align-self: end;
+}
+
+.image-wolf-2 {
+  align-self: end;
 }
 
 /* ========================= */
