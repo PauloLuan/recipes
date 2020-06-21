@@ -19,6 +19,8 @@ img {
   grid-area: header;
   background: linear-gradient(135deg, #8844ee, #b07dfb);
   padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr auto;
 }
 
 .sidebar {
