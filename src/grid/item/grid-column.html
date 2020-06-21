@@ -76,9 +76,28 @@
           [col1-inicio] 1fr
           [col1-final] 1fr;
       }
-
       .example-4 .item-2 {
         grid-column: col1-inicio / col1-final;
+      }
+
+      /* example-5 */
+      .example-5 {
+        grid-template-areas:
+          'header header header'
+          'sidenav content advert'
+          'sidenav footer footer';
+      }
+      .example-5 .item-1 {
+        grid-column-start: header;
+        grid-column-end: header;
+      }
+      .example-5 .item-2 {
+        grid-row-start: sidenav;
+        grid-row-end: sidenav;
+      }
+      .example-5 .item-5 {
+        grid-column-start: footer;
+        grid-column-end: footer;
       }
     </style>
   </head>
@@ -130,7 +149,7 @@
     </section>
 
     <h1>grid-template-areas</h1>
-    <section class="grid">
+    <section class="grid example-5">
       <div class="item item-1">1</div>
       <div class="item item-2">2</div>
       <div class="item item-3">3</div>
