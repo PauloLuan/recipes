@@ -76,6 +76,11 @@ a {
   padding: 20px;
   border-radius: 5px;
   box-shadow: 5px 5px 15px 0 rgba(44, 44, 44, 0.15);
+  transition: 0.5s ease-out;
+}
+
+.sidebar li a:hover {
+  background: #b07dfb;
 }
 
 /* ========================= */
