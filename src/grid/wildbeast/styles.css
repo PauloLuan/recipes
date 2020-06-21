@@ -6,6 +6,10 @@ img {
   max-width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .structure {
   display: grid;
   grid-template-columns: minmax(160px, 1fr) 3fr 300px;
