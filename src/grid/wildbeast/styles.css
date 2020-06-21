@@ -136,6 +136,22 @@ p {
   padding-top: 30px;
 }
 
+.citation {
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0 rgba(44, 44, 44, 0.5);
+}
+
+.citation p {
+  margin: 0 auto;
+  max-width: 500px;
+  color: white;
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: center;
+}
+
 /* ========================= */
 /* ads */
 /* ========================= */
