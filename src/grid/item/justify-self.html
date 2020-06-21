@@ -33,11 +33,21 @@
         margin: 5px;
       }
 
-      .example-1 .item-2 {
+      .item-2 {
+        grid-row: span 2;
+      }
+
+      .item-5 {
+        grid-column: span 2;
+      }
+
+      .example-1 .item-2,
+      .example-1 .item-5 {
         justify-self: start;
       }
 
-      .example-2 .item-2 {
+      .example-2 .item-2,
+      .example-2 .item-5 {
         justify-self: end;
       }
     </style>
