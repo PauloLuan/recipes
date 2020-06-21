@@ -69,6 +69,17 @@
         grid-column-start: 1;
         grid-column-end: 3;
       }
+
+      /* example 4 */
+      .example-4 {
+        grid-template-columns:
+          [col1-inicio] 1fr
+          [col1-final] 1fr;
+      }
+
+      .example-4 .item-2 {
+        grid-column: col1-inicio / col1-final;
+      }
     </style>
   </head>
 
@@ -109,7 +120,7 @@
     />
 
     <h1>[col1-inicio]</h1>
-    <section class="grid">
+    <section class="grid example-4">
       <div class="item item-1">1</div>
       <div class="item item-2">2</div>
       <div class="item item-3">3</div>
