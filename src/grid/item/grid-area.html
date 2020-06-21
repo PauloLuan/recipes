@@ -58,6 +58,29 @@
       .example-2 .item-5 {
         grid-area: footer;
       }
+
+      /* EXAMPLE 3 */
+      .example-3 {
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+      }
+
+      .example-3 .item-1 {
+        grid-area: 2 / 2 / 4 / span 3;
+        background: rgb(255, 0, 0);
+        mix-blend-mode: screen;
+      }
+
+      .example-3 .item-2 {
+        grid-area: 3 / 3 / 6 / span 2;
+        background: rgb(0, 255, 0);
+        mix-blend-mode: screen;
+      }
+
+      .example-3 .item-12 {
+        grid-area: 1 / 4 / 7 / 6;
+        background: rgb(0, 0, 255);
+        mix-blend-mode: screen;
+      }
     </style>
   </head>
 
@@ -83,7 +106,7 @@
     </section>
 
     <h1>grid-area</h1>
-    <section class="grid">
+    <section class="grid example-3">
       <div class="item item-1">1</div>
       <div class="item item-2">2</div>
       <div class="item item-3">3</div>
