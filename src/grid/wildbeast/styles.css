@@ -173,7 +173,12 @@ p {
   color: #b07dfb;
 }
 
+.characteristics span {
+  display: block;
+}
+
 .characteristics > div {
+  width: 80px;
   background: linear-gradient(135deg, #8844ee, #b07dfb);
 }
 
@@ -182,12 +187,16 @@ p {
 }
 
 .number {
+  text-align: center;
   font-size: 3em;
+  line-height: 1;
+  margin: 10px auto;
 }
 
 .label {
-  display: block;
   background: white;
+  text-align: center;
+  padding: 5px 0;
 }
 
 /* ========================= */
