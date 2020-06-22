@@ -185,6 +185,12 @@ img {
   gap: 30px;
 }
 
+@media (max-width: 600px) {
+  .content {
+    grid-template-columns: auto;
+  }
+}
+
 .full-row-size {
   grid-column: 1 / -1;
 }
