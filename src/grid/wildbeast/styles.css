@@ -180,6 +180,8 @@ p {
 .characteristics > div {
   width: 80px;
   background: linear-gradient(135deg, #8844ee, #b07dfb);
+  box-shadow: 5px 5px 15px 0 rgba(44, 44, 44, 0.15);
+  border-radius: 5px;
 }
 
 .characteristics > div:first-child {
