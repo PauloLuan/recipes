@@ -167,6 +167,29 @@ p {
   font-style: italic;
 }
 
+.characteristics {
+  display: flex;
+  align-items: flex-start;
+  color: #b07dfb;
+}
+
+.characteristics > div {
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+}
+
+.characteristics > div:first-child {
+  margin-right: 30px;
+}
+
+.number {
+  font-size: 3em;
+}
+
+.label {
+  display: block;
+  background: white;
+}
+
 /* ========================= */
 /* ads */
 /* ========================= */
