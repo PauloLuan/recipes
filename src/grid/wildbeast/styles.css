@@ -134,6 +134,26 @@ img {
   background: #b07dfb;
 }
 
+@media (max-width: 760px) {
+  .sidebar {
+    position: relative;
+    padding: 0 30px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+
+  .sidebar ul {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .sidebar ul li {
+    flex: 1 0 60px;
+    padding: 30px 30px 0 0;
+  }
+}
+
 /* ========================= */
 /* MAIN CONTENT */
 /* ========================= */
