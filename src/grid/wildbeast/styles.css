@@ -304,27 +304,12 @@ p {
   grid-area: ads;
   background: #fafbfc;
   display: grid;
-  grid-template-rows: 250px 250px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   align-content: start;
   padding: 30px;
   gap: 30px;
 }
 
-@media (max-width: 1200px) {
-  .ads {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 760px) {
-  .ads {
-    grid-template-columns: auto;
-  }
-
-  .ads img {
-    display: block;
-  }
-}
 /* ========================= */
 /* FOOTER */
 /* ========================= */
