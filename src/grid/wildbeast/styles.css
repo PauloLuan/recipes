@@ -136,7 +136,9 @@ p {
   padding-top: 30px;
 }
 
-.citation {
+.citation,
+.attributes {
+  align-self: start;
   background: linear-gradient(135deg, #8844ee, #b07dfb);
   padding: 30px;
   border-radius: 5px;
@@ -144,9 +146,9 @@ p {
 }
 
 .citation p {
+  color: white;
   margin: 0 auto;
   max-width: 500px;
-  color: white;
   font-size: 1.5em;
   font-style: italic;
   text-align: center;
@@ -205,6 +207,14 @@ p {
   font-size: 0.875em;
   color: #b07dfb;
   max-width: 16em;
+}
+
+.attributes > li {
+  font-family: Courier, monospace;
+  color: white;
+  padding: 15px;
+  font-size: 1.125em;
+  border-bottom: 2px solid #b07dfb;
 }
 
 /* ========================= */
