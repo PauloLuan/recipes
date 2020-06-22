@@ -96,6 +96,19 @@ img {
   margin-left: 10px;
 }
 
+@media (max-width: 760px) {
+  .header {
+    grid-template-columns: auto;
+  }
+
+  .logo {
+    margin-bottom: 30px;
+  }
+  .header nav a {
+    font-size: 1em;
+  }
+}
+
 /* ========================= */
 /* SIDEBAR */
 /* ========================= */
@@ -260,7 +273,7 @@ p {
 
 @media (max-width: 760px) {
   .ads {
-    grid-template-columns: 2fr;
+    grid-template-columns: auto;
   }
 
   .ads img {
