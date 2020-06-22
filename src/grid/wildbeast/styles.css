@@ -252,6 +252,21 @@ p {
   gap: 30px;
 }
 
+@media (max-width: 1200px) {
+  .ads {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .ads {
+    grid-template-columns: 2fr;
+  }
+
+  .ads img {
+    display: block;
+  }
+}
 /* ========================= */
 /* FOOTER */
 /* ========================= */
