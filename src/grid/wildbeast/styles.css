@@ -35,6 +35,16 @@ img {
     'footer footer footer';
 }
 
+@media (max-width: 1200px) {
+  .structure {
+    grid-template-areas:
+      'header header header'
+      'sidebar content content'
+      'sidebar ads ads'
+      'footer footer footer';
+  }
+}
+
 /* ========================= */
 /* HEADER */
 /* ========================= */
