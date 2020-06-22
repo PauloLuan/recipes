@@ -152,6 +152,21 @@ p {
   text-align: center;
 }
 
+.title {
+  color: #b07dfb;
+}
+
+.title h1 {
+  font-size: 3.75em;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.title span {
+  font-size: 0.875em;
+  font-style: italic;
+}
+
 /* ========================= */
 /* ads */
 /* ========================= */
