@@ -22,6 +22,11 @@ In the last 11 years I put all my knowledge-coins into the backend, now it's tim
 | Course   	|                                                                    Description 	|
 |----------	|-------------------------------------------------------------------------------:	|
 | Origamid 	| [Flexbox complete guide](https://origamid.com/projetos/flexbox-guia-completo/) 	|
+| Origamid 	| [Grid Layout complete guide](https://youtu.be/hKXOVD2Yrj8) 	|
+
+| Tutorials	|                                                                    Description 	|
+|----------	|-------------------------------------------------------------------------------:	|
+| Grid By Example| [Link](https://gridbyexample.com/) 	|
 
 
 [![standard][standard-image]][standard-url]
