@@ -45,6 +45,18 @@ img {
   }
 }
 
+@media (max-width: 760px) {
+  .structure {
+    grid-template-columns: 100%;
+    grid-template-areas:
+      'header'
+      'sidebar'
+      'content'
+      'ads'
+      'footer';
+  }
+}
+
 /* ========================= */
 /* HEADER */
 /* ========================= */
