@@ -158,7 +158,7 @@ img {
     top: 5px;
     right: 30px;
     color: rgba(0, 0, 0, 0.5);
-    animation: swipee 0.5s ease-in 0s infinite;
+    animation: swipee 0.5s ease-in 0s infinite alternate;
   }
 
   .sidebar ul {
