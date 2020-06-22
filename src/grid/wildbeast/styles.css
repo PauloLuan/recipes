@@ -201,6 +201,12 @@ p {
   padding: 5px 0;
 }
 
+.featured {
+  font-size: 0.875em;
+  color: #b07dfb;
+  max-width: 16em;
+}
+
 /* ========================= */
 /* ads */
 /* ========================= */
