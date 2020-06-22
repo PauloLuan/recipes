@@ -134,6 +134,15 @@ img {
   background: #b07dfb;
 }
 
+@keyframes swipee {
+  from {
+    right: 30px;
+  }
+  to {
+    right: 20px;
+  }
+}
+
 @media (max-width: 760px) {
   .sidebar {
     position: relative;
@@ -141,6 +150,15 @@ img {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+
+  .sidebar::after {
+    content: '👉';
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    animation: swipee 0.5s ease-in 0s infinite;
   }
 
   .sidebar ul {
