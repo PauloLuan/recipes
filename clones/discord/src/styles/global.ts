@@ -7,6 +7,10 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
+  html, body, #root {
+    height: 100%;
+  }
+
   *, button, input {
     border: 0;
     outline: 0;
