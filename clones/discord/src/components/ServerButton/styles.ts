@@ -16,6 +16,8 @@ export const StyledServerButton = styled.button<Props>`
 
   position: relative;
   cursor: pointer;
+
+  border-radius: 12px;
 `
 
 export const FightIcon = styled.img`
