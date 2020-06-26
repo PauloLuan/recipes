@@ -19,6 +19,8 @@ export const StyledServerButton = styled.button<Props>`
 
   border-radius: 12px;
 
+  transition: border-radius 0.2s, background-color 0.2s;
+
   &.action,
   &:hover {
     border-radius: 50%;
