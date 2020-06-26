@@ -18,6 +18,11 @@ export const StyledServerButton = styled.button<Props>`
   cursor: pointer;
 
   border-radius: 12px;
+
+  &.action,
+  &:hover {
+    border-radius: 50%;
+  }
 `
 
 export const FightIcon = styled.img`
