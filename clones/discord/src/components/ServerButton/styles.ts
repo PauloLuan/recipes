@@ -22,6 +22,7 @@ export const StyledServerButton = styled.button<Props>`
   &.action,
   &:hover {
     border-radius: 50%;
+    background-color: var(--discord);
   }
 `
 
