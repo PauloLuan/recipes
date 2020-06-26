@@ -5,7 +5,7 @@ import ServerButton from '../ServerButton'
 const ServerList: React.FC = () => {
   return (
     <Container>
-      <ServerButton mentions={2} />
+      <ServerButton isHome mentions={2} />
 
       <Separator />
 
