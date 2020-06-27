@@ -10,7 +10,11 @@
     "test": "react-scripts test"
   },
   "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
@@ -21,6 +25,7 @@
     "extends": "react-app"
   },
   "dependencies": {
+    "@styled-icons/heroicons-outline": "^10.5.0",
     "@styled-icons/material": "^10.5.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
