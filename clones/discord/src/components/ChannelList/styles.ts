@@ -12,9 +12,13 @@ export const ListItem = styled.div`
   align-items: center;
   justify-content: space-between;
   margin: 10px 8px;
-  &:hover {
-    background: var(--quinary);
-    color: var(--white);
+  &:hover,
+  &.active {
+    background-color: var(--quinary);
+
+    > div span {
+      color: var(--white);
+    }
   }
 `
 
@@ -39,7 +43,7 @@ export const HashtagIcon = styled(Hashtag)`
   color: var(--symbol);
 `
 
-export const ChannelName = styled.div`
+export const ChannelName = styled.span`
   margin-left: 9px;
   color: var(--gray);
 `
