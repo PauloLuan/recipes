@@ -13,6 +13,7 @@ export const ChannelText = styled.div``
 export const AddIcon = styled(Add)`
   width: 24px;
   height: 24px;
+  color: var(--symbol);
 `
 
 export const Info = styled.div``
@@ -26,9 +27,11 @@ export const IconsContainer = styled.div``
 export const AddPersonIcon = styled(PersonAdd)`
   width: 24px;
   height: 24px;
+  color: var(--symbol);
 `
 
 export const SettingsIcon = styled(Settings)`
   width: 24px;
   height: 24px;
+  color: var(--symbol);
 `
