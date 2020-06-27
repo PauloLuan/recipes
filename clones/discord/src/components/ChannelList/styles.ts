@@ -6,7 +6,12 @@ export const Container = styled.div`
   background: var(--secondary);
 `
 
-export const ListItem = styled.div``
+export const ListItem = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 8px;
+`
 
 export const ChannelText = styled.div``
 
