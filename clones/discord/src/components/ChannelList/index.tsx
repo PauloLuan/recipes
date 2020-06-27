@@ -20,7 +20,7 @@ const ChannelList: React.FC = () => {
         <ChannelText>Canais de Texto</ChannelText>
         <AddIcon />
       </ListItem>
-      <ListItem>
+      <ListItem className={'active'}>
         <Info>
           <HashtagIcon />
           <ChannelName>porrada-livre</ChannelName>
