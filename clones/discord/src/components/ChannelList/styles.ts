@@ -24,6 +24,10 @@ export const ListItem = styled.div`
 
 export const ChannelText = styled.div`
   color: var(--gray);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
 `
 
 export const AddIcon = styled(Add)`
@@ -46,6 +50,8 @@ export const HashtagIcon = styled(Hashtag)`
 export const ChannelName = styled.span`
   margin-left: 9px;
   color: var(--gray);
+  font-size: 15px;
+  line-height: 18px;
 `
 
 export const IconsContainer = styled.div``
