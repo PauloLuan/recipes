@@ -42,13 +42,20 @@ export const StyledServerButton = styled.button<Props>`
   &::after {
     position: absolute;
     background-color: var(--notification);
-    width: 16px;
+    width: auto;
     height: 16px;
+    padding: 0 4px;
     border-radius: 50%;
     bottom: 2px;
     right: 2px;
     content: '${props => props.mentions}';
     display: ${props => (props.mentions ? 'inline' : 'none')};
+
+    border: 1px solid var(--quaternary);
+    color: var(--white);
+    text-align: right;
+    font-size: 13px;
+    font-weight: bold;
   }
 `
 
