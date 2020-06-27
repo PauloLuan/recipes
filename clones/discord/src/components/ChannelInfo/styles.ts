@@ -11,14 +11,20 @@ export const Container = styled.div`
 export const HashtagIcon = styled(Hashtag)`
   width: 24px;
   height: 24px;
-  color: var(--gray);
+  color: var(--symbol);
 `
 
 export const Title = styled.div`
   color: white;
 `
 
-export const PipeSeparator = styled.div``
+export const PipeSeparator = styled.div`
+  height: 24px;
+  width: 1px;
+  opacity: 0.2;
+  background-color: var(--white);
+  margin: 0px 13px;
+`
 
 export const Description = styled.div`
   color: var(--gray);
