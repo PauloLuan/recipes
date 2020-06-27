@@ -38,6 +38,18 @@ export const StyledServerButton = styled.button<Props>`
     border-radius: 50%;
     display: ${props => (props.hasNotifications ? 'inline' : 'none')};
   }
+
+  &::after {
+    position: absolute;
+    background-color: var(--notification);
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    bottom: 2px;
+    right: 2px;
+    content: '${props => props.mentions}';
+    display: ${props => (props.mentions ? 'inline' : 'none')};
+  }
 `
 
 export const FightIcon = styled.img`
