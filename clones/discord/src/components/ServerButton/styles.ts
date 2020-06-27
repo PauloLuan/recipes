@@ -21,10 +21,22 @@ export const StyledServerButton = styled.button<Props>`
 
   transition: border-radius 0.2s, background-color 0.2s;
 
-  &.action,
+  &.active,
   &:hover {
     border-radius: 50%;
     background-color: var(--discord);
+  }
+
+  &::before {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background-color: var(--white);
+    content: '';
+    left: -17px;
+    top: calc(50% - 4.5px);
+    border-radius: 50%;
+    display: ${props => (props.hasNotifications ? 'inline' : 'none')};
   }
 `
 
