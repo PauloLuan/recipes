@@ -11,7 +11,7 @@ export const ListItem = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 8px;
+  margin: 10px 8px;
   &:hover {
     background: var(--quinary);
   }
@@ -36,7 +36,9 @@ export const HashtagIcon = styled(Hashtag)`
   color: var(--symbol);
 `
 
-export const ChannelName = styled.div``
+export const ChannelName = styled.div`
+  margin-left: 9px;
+`
 
 export const IconsContainer = styled.div``
 
