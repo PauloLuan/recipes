@@ -15,6 +15,9 @@ export const HashtagIcon = styled(Hashtag)`
 `
 
 export const Title = styled.div`
+  margin-left: 9px;
+  font-weight: bold;
+  font-size: 16px;
   color: white;
 `
 
