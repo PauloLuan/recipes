@@ -46,8 +46,8 @@ export const StyledServerButton = styled.button<Props>`
     height: 16px;
     padding: 0 4px;
     border-radius: 50%;
-    bottom: 2px;
-    right: 2px;
+    bottom: -4px;
+    right: -4px;
     content: '${props => props.mentions}';
     display: ${props => (props.mentions ? 'inline' : 'none')};
 
