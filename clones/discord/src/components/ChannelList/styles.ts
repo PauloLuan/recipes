@@ -22,7 +22,10 @@ export const AddIcon = styled(Add)`
   color: var(--symbol);
 `
 
-export const Info = styled.div``
+export const Info = styled.div`
+  display: flex;
+  align-items: center;
+`
 
 export const HashtagIcon = styled(Hashtag)`
   width: 24px;
