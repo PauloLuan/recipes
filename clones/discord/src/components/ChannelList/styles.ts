@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { Add, PersonAdd, Settings } from '@styled-icons/material'
+import { Hashtag } from '@styled-icons/heroicons-outline/Hashtag'
 
 export const Container = styled.div`
   grid-area: CHANNEL_LIST;
@@ -23,7 +24,11 @@ export const AddIcon = styled(Add)`
 
 export const Info = styled.div``
 
-export const HashtagIcon = styled.div``
+export const HashtagIcon = styled(Hashtag)`
+  width: 24px;
+  height: 24px;
+  color: var(--symbol);
+`
 
 export const ChannelName = styled.div``
 
