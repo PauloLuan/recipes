@@ -12,6 +12,9 @@ export const ListItem = styled.div`
   align-items: center;
   justify-content: space-between;
   margin: 0 8px;
+  &:hover {
+    background: var(--quinary);
+  }
 `
 
 export const ChannelText = styled.div``
