@@ -27,5 +27,6 @@ export const PipeSeparator = styled.div`
 `
 
 export const Description = styled.div`
+  font-size: 15px;
   color: var(--gray);
 `
