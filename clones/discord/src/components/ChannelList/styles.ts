@@ -34,6 +34,7 @@ export const AddIcon = styled(Add)`
   width: 24px;
   height: 24px;
   color: var(--symbol);
+  cursor: pointer;
 `
 
 export const Info = styled.div`
@@ -45,6 +46,7 @@ export const HashtagIcon = styled(Hashtag)`
   width: 24px;
   height: 24px;
   color: var(--symbol);
+  cursor: pointer;
 `
 
 export const ChannelName = styled.span`
@@ -60,10 +62,12 @@ export const AddPersonIcon = styled(PersonAdd)`
   width: 24px;
   height: 24px;
   color: var(--symbol);
+  cursor: pointer;
 `
 
 export const SettingsIcon = styled(Settings)`
   width: 24px;
   height: 24px;
   color: var(--symbol);
+  cursor: pointer;
 `
