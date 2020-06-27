@@ -14,10 +14,13 @@ export const ListItem = styled.div`
   margin: 10px 8px;
   &:hover {
     background: var(--quinary);
+    color: var(--white);
   }
 `
 
-export const ChannelText = styled.div``
+export const ChannelText = styled.div`
+  color: var(--gray);
+`
 
 export const AddIcon = styled(Add)`
   width: 24px;
@@ -38,6 +41,7 @@ export const HashtagIcon = styled(Hashtag)`
 
 export const ChannelName = styled.div`
   margin-left: 9px;
+  color: var(--gray);
 `
 
 export const IconsContainer = styled.div``
