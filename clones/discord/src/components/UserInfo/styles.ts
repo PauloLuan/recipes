@@ -7,9 +7,13 @@ export const Container = styled.div`
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
 `
 
-export const Profile = styled.div``
+export const Profile = styled.div`
+  display: flex;
+  align-items: center;
+`
 
 export const Avatar = styled.div`
   width: 32px;
