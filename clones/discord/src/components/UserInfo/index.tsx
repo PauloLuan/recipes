@@ -14,13 +14,18 @@ import {
 const UserInfo: React.FC = () => {
   return (
     <Container>
-      <Profile></Profile>
-      <Avatar></Avatar>
-      <UserData></UserData>
-      <Icons></Icons>
-      <MicrophoneIcon></MicrophoneIcon>
-      <HeadphoneIcon></HeadphoneIcon>
-      <SettingsIcon></SettingsIcon>
+      <Profile>
+        <Avatar></Avatar>
+        <UserData>
+          <strong>Brabo da Leopoldo</strong>
+          <span>#12345</span>
+        </UserData>
+      </Profile>
+      <Icons>
+        <MicrophoneIcon></MicrophoneIcon>
+        <HeadphoneIcon></HeadphoneIcon>
+        <SettingsIcon></SettingsIcon>
+      </Icons>
     </Container>
   )
 }
