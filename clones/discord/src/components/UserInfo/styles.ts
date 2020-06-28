@@ -11,7 +11,12 @@ export const Container = styled.div`
 
 export const Profile = styled.div``
 
-export const Avatar = styled.div``
+export const Avatar = styled.div`
+  width: 32px;
+  height: 32px;
+  background: var(--gray);
+  border-radius: 50%;
+`
 
 export const UserData = styled.div``
 
