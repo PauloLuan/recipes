@@ -24,6 +24,8 @@ export const Avatar = styled.div`
 
 export const UserData = styled.div`
   margin-left: 8px;
+  display: flex;
+  flex-direction: column;
 `
 
 export const Icons = styled.div``
