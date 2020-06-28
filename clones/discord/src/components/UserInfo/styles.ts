@@ -26,6 +26,18 @@ export const UserData = styled.div`
   margin-left: 8px;
   display: flex;
   flex-direction: column;
+
+  > strong {
+    color: var(--white);
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  > span {
+    color: var(--gray);
+    font-size: 13px;
+    line-height: 15px;
+  }
 `
 
 export const Icons = styled.div``
