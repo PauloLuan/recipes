@@ -4,6 +4,9 @@ import { Mic, Headset, Settings } from '@styled-icons/material'
 export const Container = styled.div`
   grid-area: USER_INFO;
   background: var(--quaternary);
+
+  display: flex;
+  justify-content: space-between;
 `
 
 export const Profile = styled.div``
@@ -11,6 +14,7 @@ export const Profile = styled.div``
 export const Avatar = styled.div``
 
 export const UserData = styled.div``
+
 export const Icons = styled.div``
 
 export const MicrophoneIcon = styled(Mic)`
