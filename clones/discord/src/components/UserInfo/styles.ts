@@ -40,22 +40,47 @@ export const UserData = styled.div`
   }
 `
 
-export const Icons = styled.div``
+export const Icons = styled.div`
+  display: flex;
+  align-items: center;
+
+  svg + svg {
+    margin-left: 7px;
+  }
+`
 
 export const MicrophoneIcon = styled(Mic)`
-  color: var(--gray);
   width: 16px;
   height: 16px;
+  color: var(--white);
+  opacity: 0.7;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  &:hover {
+    opacity: 1;
+  }
 `
 
 export const HeadphoneIcon = styled(Headset)`
-  color: var(--gray);
   width: 16px;
   height: 16px;
+  color: var(--white);
+  opacity: 0.7;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  &:hover {
+    opacity: 1;
+  }
 `
 
 export const SettingsIcon = styled(Settings)`
-  color: var(--gray);
   width: 16px;
   height: 16px;
+  color: var(--white);
+  opacity: 0.7;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  &:hover {
+    opacity: 1;
+  }
 `
