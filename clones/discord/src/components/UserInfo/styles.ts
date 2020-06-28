@@ -22,7 +22,9 @@ export const Avatar = styled.div`
   border-radius: 50%;
 `
 
-export const UserData = styled.div``
+export const UserData = styled.div`
+  margin-left: 8px;
+`
 
 export const Icons = styled.div``
 
