@@ -60,4 +60,8 @@ export const Avatar = styled.div`
   height: 32px;
   border-radius: 50%;
   flex-shrink: 0;
+
+  &.bot {
+    border: 2px solid var(--mention-detail);
+  }
 `

@@ -10,7 +10,7 @@ interface UserProps {
 const UserRow: React.FC<UserProps> = ({ userName, isBot }) => {
   return (
     <UserProfile>
-      <Avatar />
+      <Avatar className={isBot ? 'bot' : ''} />
       <strong>{userName}</strong>
       {isBot ? <span>bot</span> : ''}
     </UserProfile>
