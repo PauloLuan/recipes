@@ -7,6 +7,9 @@ export const Container = styled.div`
   padding: 3px 0px 6px 16px;
 
   background: var(--secondary);
+
+  max-height: calc(100vh - 46px);
+  overflow-y: scroll;
 `
 
 export const Status = styled.div`
