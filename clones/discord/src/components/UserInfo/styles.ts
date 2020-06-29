@@ -17,6 +17,7 @@ export const Profile = styled.div`
 `
 
 export const Avatar = styled.div`
+  flex-shrink: 0;
   width: 32px;
   height: 32px;
   background: var(--gray);
