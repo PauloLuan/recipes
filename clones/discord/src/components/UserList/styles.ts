@@ -26,6 +26,7 @@ export const UserProfile = styled.div`
     font-size: 9px;
     line-height: 11px;
     text-align: center;
+    text-transform: uppercase;
     padding: 4px;
     border-radius: 4px;
   }
