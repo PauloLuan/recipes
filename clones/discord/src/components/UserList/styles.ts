@@ -10,11 +10,10 @@ export const Container = styled.div`
 `
 
 export const Status = styled.div`
-  color: var(--white);
+  margin-top: 20px;
+  color: var(--gray);
   font-weight: 500;
   font-size: 12px;
-  line-height: 14px;
-  opacity: 0.8;
 `
 
 export const UserProfile = styled.div`
@@ -28,10 +27,11 @@ export const UserProfile = styled.div`
     margin-left: 13px;
     color: var(--white);
     font-size: 16px;
-    line-height: 19px;
+    font-weight: 500;
     opacity: 0.7;
     white-space: nowrap;
     text-overflow: ellipsis;
+    overflow: hidden;
   }
 
   > span {
