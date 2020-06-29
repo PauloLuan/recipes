@@ -23,6 +23,12 @@ export const UserProfile = styled.div`
   margin-top: 5px;
   padding: 5px;
 
+  background: transparent;
+  transition: background 0.2s;
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
   > strong {
     margin-left: 13px;
     color: var(--white);
