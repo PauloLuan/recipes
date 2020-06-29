@@ -6,7 +6,7 @@ export const Container = styled.div`
   flex-direction: column;
   padding: 3px 0px 6px 16px;
 
-  background: var(--primary);
+  background: var(--secondary);
 `
 
 export const Status = styled.div`
@@ -54,4 +54,10 @@ export const UserProfile = styled.div`
   }
 `
 
-export const Avatar = styled.div``
+export const Avatar = styled.div`
+  background: var(--primary);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  flex-shrink: 0;
+`
