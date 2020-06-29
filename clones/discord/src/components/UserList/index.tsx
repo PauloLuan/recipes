@@ -12,7 +12,7 @@ const UserRow: React.FC<UserProps> = ({ userName, isBot }) => {
     <UserProfile>
       <Avatar />
       <strong>{userName}</strong>
-      <span>{isBot ? `${isBot}` : ''}</span>
+      {isBot ? <span>bot</span> : ''}
     </UserProfile>
   )
 }
