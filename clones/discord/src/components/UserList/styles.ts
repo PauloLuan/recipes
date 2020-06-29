@@ -41,6 +41,7 @@ export const UserProfile = styled.div`
   }
 
   > span {
+    margin-left: 9px;
     background: var(--discord);
     color: var(--white);
     font-weight: bold;
