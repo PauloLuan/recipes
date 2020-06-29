@@ -18,7 +18,14 @@ export const Status = styled.div`
 `
 
 export const UserProfile = styled.div`
+  display: flex;
+  align-items: center;
+
+  margin-top: 5px;
+  padding: 5px;
+
   > strong {
+    margin-left: 13px;
     color: var(--white);
     font-size: 16px;
     line-height: 19px;
