@@ -9,6 +9,14 @@ export const Container = styled.div`
   background: var(--primary);
 `
 
+export const Status = styled.div`
+  color: var(--white);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  opacity: 0.8;
+`
+
 export const UserProfile = styled.div`
   > strong {
     color: var(--white);
@@ -33,5 +41,3 @@ export const UserProfile = styled.div`
 `
 
 export const Avatar = styled.div``
-
-export const Status = styled.div``
