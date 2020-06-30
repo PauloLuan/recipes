@@ -20,8 +20,9 @@ const ChannelData: React.FC = () => {
 
         <Message
           author='H. Romeu Pinto'
-          content='Qual? Aquela que o anão cai do barranco?'
+          content='Detectei a tag ANÃO: video recomendado "não caíndo no barranco"'
           date={'01/01/2020'}
+          isBot
         ></Message>
 
         <Message

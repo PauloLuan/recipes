@@ -24,6 +24,17 @@ export const Header = styled.div`
     color: var(--gray);
     font-size: 13px;
   }
+
+  > span {
+    margin-left: 6px;
+    background-color: var(--discord);
+    color: var(--white);
+    border-radius: 4px;
+    padding: 4px 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+  }
 `
 
 export const Author = styled.strong`
@@ -39,5 +50,3 @@ export const Content = styled.div`
   color: var(--white);
   text-align: left;
 `
-
-export const CreationDate = styled.div``
