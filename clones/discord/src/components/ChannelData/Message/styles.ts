@@ -18,10 +18,26 @@ export const MessageContainer = styled.div`
   margin: 0 15px;
 `
 
-export const Header = styled.div``
+export const Header = styled.div`
+  > time {
+    margin-left: 6px;
+    color: var(--gray);
+    font-size: 13px;
+  }
+`
 
-export const Author = styled.div``
+export const Author = styled.strong`
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 6px;
+  color: var(--white);
+`
 
-export const Content = styled.div``
+export const Content = styled.div`
+  font-size: 16px;
+  margin-left: 6px;
+  color: var(--white);
+  text-align: left;
+`
 
 export const CreationDate = styled.div``

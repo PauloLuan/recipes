@@ -11,7 +11,7 @@ import {
 interface MessageProps {
   content: string
   author: string
-  date: Date
+  date: string
 }
 
 const Message: React.FC<MessageProps> = ({ author, content, date }) => {
@@ -21,7 +21,7 @@ const Message: React.FC<MessageProps> = ({ author, content, date }) => {
       <MessageContainer>
         <Header>
           <Author>{author}</Author>
-          <time>{date && date.toString()}</time>
+          <time>{date}</time>
         </Header>
         <Content>{content}</Content>
       </MessageContainer>
