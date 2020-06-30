@@ -1,6 +1,12 @@
 import React from 'react'
 import Message from './Message'
-import { Container, MessagesContainer, InputContainer, Input } from './styles'
+import {
+  Container,
+  MessagesContainer,
+  InputContainer,
+  Input,
+  InputIcon
+} from './styles'
 
 const ChannelData: React.FC = () => {
   return (
@@ -14,7 +20,8 @@ const ChannelData: React.FC = () => {
       </MessagesContainer>
 
       <InputContainer>
-        <Input type='text'></Input>
+        <Input type='text' placeholder='Chama na treta'></Input>
+        <InputIcon />
       </InputContainer>
     </Container>
   )
