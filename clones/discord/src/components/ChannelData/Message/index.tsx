@@ -8,8 +8,10 @@ import {
   MessageContainer
 } from './styles'
 
+export { Mention } from './styles'
+
 interface MessageProps {
-  content: string
+  content: string | React.ReactElement | React.ReactNode
   author: string
   date: string
   isBot?: boolean

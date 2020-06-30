@@ -1,5 +1,5 @@
 import React from 'react'
-import Message from './Message'
+import Message, { Mention } from './Message'
 import {
   Container,
   MessagesContainer,
@@ -39,7 +39,11 @@ const ChannelData: React.FC = () => {
 
         <Message
           author='Tommy Leite'
-          content='não tenho mas acho que o @Décio Pinto tem'
+          content={
+            <>
+              não tenho mas acho que o <Mention>@Décio Pinto</Mention> tem
+            </>
+          }
           date={'01/01/2020'}
         ></Message>
       </MessagesContainer>
