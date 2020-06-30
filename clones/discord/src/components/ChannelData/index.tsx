@@ -82,7 +82,7 @@ const ChannelData: React.FC = () => {
           author='Décio Pinto'
           content={
             <>
-              Alô <Mention>@Tommy Leite</Mention> bane a{' '}
+              Alô <Mention>@H. Romeu Pinto</Mention> bane a{' '}
               <Mention>@Paula Tejano</Mention> por favor, aqui é o grupo da
               DISCÓRDIA.
             </>
