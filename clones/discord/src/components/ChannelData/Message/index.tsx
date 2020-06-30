@@ -31,8 +31,8 @@ const Message: React.FC<MessageProps> = ({
       <MessageContainer>
         <Header>
           <Author>{author}</Author>
-          <time>{date}</time>
           {isBot && <span>bot</span>}
+          <time>{date}</time>
         </Header>
         <Content>{content}</Content>
       </MessageContainer>
