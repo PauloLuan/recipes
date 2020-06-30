@@ -11,7 +11,20 @@ export const Container = styled.div`
   background: var(--primary);
 `
 
-export const MessagesContainer = styled.div``
+export const MessagesContainer = styled.div`
+  max-height: calc(100vh - 46px - 68px);
+  overflow-y: scroll;
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--tertiary);
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: var(--secondary);
+  }
+`
 
 export const InputContainer = styled.div`
   width: 100%;

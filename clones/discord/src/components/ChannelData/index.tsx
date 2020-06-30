@@ -44,7 +44,7 @@ const ChannelData: React.FC = () => {
       </MessagesContainer>
 
       <InputContainer>
-        <Input type='text' placeholder='Chama na treta'></Input>
+        <Input type='text' placeholder='Chama na treta' />
         <InputIcon />
       </InputContainer>
     </Container>
