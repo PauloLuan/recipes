@@ -1,5 +1,12 @@
 import React from 'react'
-// import { Container } from './styles'
+import {
+  Container,
+  Avatar,
+  MessageContainer,
+  Author,
+  Content,
+  CreationDate
+} from './styles'
 
 interface MessageProps {
   content: string
@@ -9,11 +16,14 @@ interface MessageProps {
 
 const Message: React.FC<MessageProps> = ({ author, content, date }) => {
   return (
-    <>
-      {author}
-      {content}
-      {date && date.toString()}
-    </>
+    <Container>
+      <Avatar></Avatar>
+      <MessageContainer>
+        <Author>{author}</Author>
+        <Content>{content}</Content>
+        <CreationDate>{date && date.toString()}</CreationDate>
+      </MessageContainer>
+    </Container>
   )
 }
 
