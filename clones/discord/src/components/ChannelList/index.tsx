@@ -51,7 +51,7 @@ const ChannelList: React.FC = () => {
       <ListItem>
         <Info>
           <HashtagIcon />
-          <ChannelName>mindingo saindo no pau</ChannelName>
+          <ChannelName>mindingo saindo no soco</ChannelName>
         </Info>
       </ListItem>
     </Container>
