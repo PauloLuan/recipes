@@ -45,6 +45,7 @@ const ChannelData: React.FC = () => {
             </>
           }
           date={'01/01/2020'}
+          hasMention
         ></Message>
       </MessagesContainer>
 

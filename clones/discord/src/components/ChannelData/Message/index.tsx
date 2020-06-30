@@ -15,11 +15,18 @@ interface MessageProps {
   author: string
   date: string
   isBot?: boolean
+  hasMention?: boolean
 }
 
-const Message: React.FC<MessageProps> = ({ author, content, date, isBot }) => {
+const Message: React.FC<MessageProps> = ({
+  author,
+  content,
+  date,
+  isBot,
+  hasMention
+}) => {
   return (
-    <Container>
+    <Container className={hasMention ? 'mention' : ''}>
       <Avatar className={isBot ? 'bot' : ''}></Avatar>
       <MessageContainer>
         <Header>
