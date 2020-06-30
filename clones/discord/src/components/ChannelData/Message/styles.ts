@@ -18,6 +18,8 @@ export const MessageContainer = styled.div`
   margin: 0 15px;
 `
 
+export const Header = styled.div``
+
 export const Author = styled.div``
 
 export const Content = styled.div``
