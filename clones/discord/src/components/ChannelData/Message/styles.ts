@@ -12,6 +12,10 @@ export const Avatar = styled.div`
   height: 30px;
   border-radius: 50%;
   flex-shrink: 0;
+
+  &.bot {
+    border: 2px solid var(--mention-detail);
+  }
 `
 
 export const MessageContainer = styled.div`

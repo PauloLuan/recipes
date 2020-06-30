@@ -18,7 +18,7 @@ interface MessageProps {
 const Message: React.FC<MessageProps> = ({ author, content, date, isBot }) => {
   return (
     <Container>
-      <Avatar></Avatar>
+      <Avatar className={isBot ? 'bot' : ''}></Avatar>
       <MessageContainer>
         <Header>
           <Author>{author}</Author>
