@@ -19,4 +19,6 @@ export const InputContainer = styled.div`
 export const Input = styled.input`
   width: 100%;
   height: 44px;
+
+  border-radius: 8px;
 `
