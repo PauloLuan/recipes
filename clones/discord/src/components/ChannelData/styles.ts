@@ -12,10 +12,11 @@ export const MessagesContainer = styled.div``
 
 export const InputContainer = styled.div`
   width: 100%;
-  height: 86px;
+  padding: 16px;
   background: blue;
 `
 
 export const Input = styled.input`
-  padding: 10px;
+  width: 100%;
+  height: 44px;
 `
