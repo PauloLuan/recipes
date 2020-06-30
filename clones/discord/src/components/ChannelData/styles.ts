@@ -6,6 +6,8 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  background: var(--primary);
 `
 
 export const MessagesContainer = styled.div``
@@ -13,7 +15,7 @@ export const MessagesContainer = styled.div``
 export const InputContainer = styled.div`
   width: 100%;
   padding: 16px;
-  background: blue;
+  background: var(--primary);
 `
 
 export const Input = styled.input`
@@ -21,4 +23,5 @@ export const Input = styled.input`
   height: 44px;
 
   border-radius: 8px;
+  background: var(--chat-input);
 `
