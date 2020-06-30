@@ -18,7 +18,7 @@ export const Container = styled.div`
   }
 `
 
-export const Mention = styled.span`
+export const Mention = styled.a`
   color: var(--link);
   cursor: pointer;
   &:hover {
