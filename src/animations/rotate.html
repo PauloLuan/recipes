@@ -34,6 +34,20 @@
         width: 200px;
         height: 200px;
         background: url(https://css-animations.io/assets/courses/260-animations/barrow-wheel.svg);
+
+        /* animation: */
+        animation-name: rotate;
+        animation-duration: 2s;
+      }
+
+      @keyframes rotate {
+        50% {
+          transform: rotate(90deg);
+        }
+
+        100% {
+          transform: rotate(360deg);
+        }
       }
     </style>
   </head>
