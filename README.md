@@ -19,21 +19,20 @@ In the last 11 years I put all my knowledge-coins into the backend, now it's tim
 
 ## 📝 Useful resources
 
-| Course   	|                                                                    Description 	|
-|----------	|-------------------------------------------------------------------------------:	|
-| Origamid 	| [Flexbox complete guide](https://origamid.com/projetos/flexbox-guia-completo/) 	|
-| Origamid 	| [Grid Layout complete guide](https://youtu.be/hKXOVD2Yrj8) 	|
+| Course         |                                                                    Description |
+| -------------- | -----------------------------------------------------------------------------: |
+| Origamid       | [Flexbox complete guide](https://origamid.com/projetos/flexbox-guia-completo/) |
+| Origamid       |                     [Grid Layout complete guide](https://youtu.be/hKXOVD2Yrj8) |
+| CSS Animations |                                   [CSS Animations](https://css-animations.io/) |
 
-| Tutorials	|                                                                    Description 	|
-|----------	|-------------------------------------------------------------------------------:	|
-| Grid By Example| [Link](https://gridbyexample.com/) 	|
-
+| Tutorials       |                        Description |
+| --------------- | ---------------------------------: |
+| Grid By Example | [Link](https://gridbyexample.com/) |
 
 [![standard][standard-image]][standard-url]
 
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=for-the-badge
 [standard-url]: http://npm.im/standard
-
 
 ## 🤝 Contributing
 
