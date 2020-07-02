@@ -133,5 +133,42 @@
         </div>
       </div>
     </div>
+
+    <style>
+      .lift-top-2 {
+        position: relative;
+        height: 250px;
+        width: 95px;
+      }
+
+      .lift-top-2::before {
+        position: absolute;
+        left: 50%;
+        width: 20px;
+        height: 100%;
+        background: url(https://css-animations.io/assets/courses/260-animations/rope-bottom.svg)
+          0 0 no-repeat;
+        content: '';
+      }
+
+      .stone-wheel-2 {
+        position: absolute;
+        background: black;
+        bottom: 0px;
+        left: 20px;
+        width: 75px;
+        height: 75px;
+        background: url(https://css-animations.io/assets/courses/260-animations/stone-wheel.svg)
+          0 0 no-repeat;
+      }
+    </style>
+    <div class="container">
+      <h1>Rotate example</h1>
+      <div class="ancient">
+        <div class="lift-top-2">
+          <span class="stone-wheel-2"></span>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
