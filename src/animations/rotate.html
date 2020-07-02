@@ -7,13 +7,12 @@
     <style>
       .container {
         max-width: 600px;
-        margin: 0 auto;
+        margin: 50px auto;
         border: 2px solid black;
       }
 
       .ancient {
         display: flex;
-        align-items: center;
         justify-content: center;
         background-image: url(https://css-animations.io/assets/courses/260-animations/back-1.svg);
         background-size: 500px;
@@ -58,6 +57,37 @@
       <div class="ancient">
         <div class="stone">
           <div class="barrow-wheel"></div>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      .lift-top {
+        position: relative;
+        height: 400px;
+        width: 95px;
+        background-color: blue;
+      }
+
+      .lift-top::after {
+        right: 0px;
+      }
+
+      .lift-top::after,
+      .lift-top::before {
+        height: 100%;
+        position: absolute;
+        content: '';
+        border: 4px solid black;
+      }
+    </style>
+    <div class="container">
+      <h1>Lift Up example</h1>
+      <div class="ancient">
+        <div class="lift-top">
+          <div class="platform">
+            <span class="stone-wheel"></span>
+          </div>
         </div>
       </div>
     </div>
