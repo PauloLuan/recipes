@@ -66,6 +66,7 @@
         position: relative;
         height: 400px;
         width: 95px;
+        overflow: hidden;
       }
 
       .lift-top::after {
@@ -103,6 +104,23 @@
         height: 75px;
         background: url(https://css-animations.io/assets/courses/260-animations/stone-wheel.svg)
           0 0 no-repeat;
+      }
+
+      .platform {
+        animation-name: lift-up;
+        animation-duration: 2s;
+      }
+
+      @keyframes lift-up {
+        from {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-200px);
+        }
+        100% {
+          transform: translateY(-500px);
+        }
       }
     </style>
     <div class="container">
