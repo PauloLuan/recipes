@@ -66,7 +66,6 @@
         position: relative;
         height: 400px;
         width: 95px;
-        background-color: blue;
       }
 
       .lift-top::after {
@@ -75,10 +74,12 @@
 
       .lift-top::after,
       .lift-top::before {
+        width: 10px;
         height: 100%;
         position: absolute;
+        background: url(https://css-animations.io/assets/courses/260-animations/rope-top.svg)
+          0 0 no-repeat;
         content: '';
-        border: 4px solid black;
       }
     </style>
     <div class="container">
