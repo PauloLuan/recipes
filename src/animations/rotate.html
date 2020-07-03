@@ -162,15 +162,24 @@
           0 0 no-repeat;
       }
 
-      .stone-wheel-2 {
-        animation-name: rotate-2;
-        animation-duration: 2s;
-      }
-
       @keyframes rotate-2 {
         50% {
           transform: rotate(360deg);
         }
+      }
+
+      @keyframes lift {
+        50% {
+          bottom: 0px;
+        }
+        100% {
+          bottom: -50px;
+        }
+      }
+
+      .stone-wheel-2 {
+        animation-name: rotate-2, lift;
+        animation-duration: 2s, 1s;
       }
     </style>
     <div class="container">
