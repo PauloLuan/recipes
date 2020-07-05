@@ -57,12 +57,25 @@
           bottom: 185px;
           left: 100px;
         }
+
+        .inner-ear-left {
+          position: relative;
+          right: 15px;
+          width: 0;
+          height: 0;
+          border-bottom: 40px solid tomato;
+          border-left: 15px solid transparent;
+        }
       </style>
 
       <div class="cat">
         <div class="face"></div>
-        <div class="ear-left"></div>
-        <div class="ear-right"></div>
+        <div class="ear-left">
+          <div class="inner-ear-left"></div>
+        </div>
+        <div class="ear-right">
+          <div class="inner-ear-right"></div>
+        </div>
       </div>
     </div>
   </body>
