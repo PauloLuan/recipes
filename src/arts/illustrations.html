@@ -8,12 +8,13 @@
       html,
       body {
         height: 100%;
+        display: grid;
+        place-items: center;
       }
 
       .container {
         height: 600px;
         width: 500px;
-        margin: 50px auto;
         border: 2px solid black;
         background: #a2d594;
       }
@@ -35,10 +36,29 @@
           width: 150px;
           border-radius: 30px;
         }
+        .ear-left,
+        .ear-right {
+          width: 0px;
+          height: 0px;
+          border-bottom: 50px solid #33292b;
+          border-left: 20px solid transparent;
+          border-right: 20px solid transparent;
+          position: relative;
+        }
+
+        .ear-left {
+          transform: rotate(-30deg);
+        }
+
+        .ear-right {
+          transform: rotate(30deg);
+        }
       </style>
 
       <div class="cat">
         <div class="face"></div>
+        <div class="ear-left"></div>
+        <div class="ear-right"></div>
       </div>
     </div>
   </body>
