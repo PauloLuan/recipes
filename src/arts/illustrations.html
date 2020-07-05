@@ -81,10 +81,33 @@
           border-right: 25px solid transparent;
           transform: rotate(10deg);
         }
+
+        .eye {
+          position: relative;
+          background: tomato;
+          border-radius: 50%;
+          width: 40px;
+          height: 40px;
+        }
+
+        .eye-left {
+          position: absolute;
+          top: 20px;
+          left: 20px;
+        }
+
+        .eye-right {
+          position: absolute;
+          top: 20px;
+          right: 20px;
+        }
       </style>
 
       <div class="cat">
-        <div class="face"></div>
+        <div class="face">
+          <div class="eye eye-left"></div>
+          <div class="eye eye-right"></div>
+        </div>
         <div class="ear ear-left">
           <div class="inner-ear-left"></div>
         </div>
