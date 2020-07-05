@@ -101,12 +101,26 @@
           top: 20px;
           right: 20px;
         }
+
+        .eye-pupil {
+          position: absolute;
+          top: 5px;
+          right: 5px;
+          background: black;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+        }
       </style>
 
       <div class="cat">
         <div class="face">
-          <div class="eye eye-left"></div>
-          <div class="eye eye-right"></div>
+          <div class="eye eye-left">
+            <div class="eye-pupil"></div>
+          </div>
+          <div class="eye eye-right">
+            <div class="eye-pupil"></div>
+          </div>
         </div>
         <div class="ear ear-left">
           <div class="inner-ear-left"></div>
