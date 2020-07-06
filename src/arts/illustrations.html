@@ -285,11 +285,44 @@
         right: 20px;
         z-index: 0;
       }
+
+      .round-button {
+        position: absolute;
+        background: #737373;
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+      }
+
+      .button1 {
+        top: 15px;
+        left: 25px;
+      }
+
+      .button2 {
+        top: 30px;
+        left: 25px;
+      }
+
+      .button3 {
+        position: absolute;
+        height: 16px;
+        width: 16px;
+        background: #5abff2;
+        border-radius: 50%;
+        border: 2px solid white;
+        top: 45px;
+        left: 20px;
+      }
     </style>
 
     <div class="toaster-container">
       <div class="toaster">
-        <div class="cover"></div>
+        <div class="cover">
+          <div class="round-button button1"></div>
+          <div class="round-button button2"></div>
+          <div class="button3"></div>
+        </div>
       </div>
     </div>
   </body>
