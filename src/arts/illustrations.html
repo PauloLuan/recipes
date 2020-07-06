@@ -344,6 +344,34 @@
         bottom: 225px;
         left: 205px;
       }
+
+      .handle1 {
+        position: relative;
+        background: white;
+        width: 40px;
+        height: 10px;
+        top: 5px;
+      }
+
+      .handle2 {
+        position: relative;
+        background: #666666;
+        width: 30px;
+        height: 20px;
+        border-radius: 15px;
+        left: 20px;
+        top: -5px;
+      }
+
+      .handle3 {
+        position: relative;
+        background: #333333;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        left: 35px;
+        top: -23px;
+      }
     </style>
 
     <div class="toaster-container">
@@ -356,7 +384,12 @@
         </div>
 
         <div class="slot"></div>
-        <div class="slot-shadow"></div>
+        <div class="slot-shadow">
+          <div class="handle1">
+            <div class="handle2"></div>
+            <div class="handle3"></div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
