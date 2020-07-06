@@ -218,23 +218,36 @@
       }
       .pure-mustache {
         position: absolute;
-        width: 120px;
-        height: 120px;
+        width: 180px;
+        height: 180px;
         border-radius: 50%;
         color: black;
-        box-shadow: 120px 240px 0 0 currentColor, 210px 240px 0 0 currentColor;
+        box-shadow: 150px 240px 0 0 currentColor, 300px 240px 0 0 currentColor;
       }
 
       .pure-mustache::before {
         content: '';
         position: absolute;
+        left: 30px;
+        top: 120px;
+        width: 210px;
+        height: 120px;
+        border-bottom: solid 180px currentColor;
+        border-radius: 0 0 0 100%;
+        transform: rotate(-10deg);
+        transform-origin: right 210px;
+      }
+
+      /* .pure-mustache::after {
+        content: '';
+        position: absolute;
         width: 120px;
         height: 50px;
         top: 200px;
-        left: 50px;
+        left: 300px;
         border-bottom: currentColor solid 100px;
-        border-radius: 0 0 0 100%;
-      }
+        border-radius: 0 0 100% 0;
+      } */
     </style>
     <div class="mustache-container">
       <div class="pure-mustache"></div>
