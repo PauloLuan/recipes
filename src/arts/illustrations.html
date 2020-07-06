@@ -122,6 +122,25 @@
           border-left: 10px solid transparent;
           border-right: 10px solid transparent;
         }
+
+        .mustache {
+          background: tomato;
+          height: 16px;
+          width: 1px;
+          position: relative;
+        }
+
+        .mustache-left {
+          transform: rotate(45deg);
+          right: 4px;
+          bottom: 1.5px;
+        }
+
+        .mustache-right {
+          transform: rotate(-45deg);
+          left: 6px;
+          bottom: 17px;
+        }
       </style>
 
       <div class="cat">
@@ -133,7 +152,10 @@
             <div class="eye-pupil"></div>
           </div>
 
-          <div class="nose"></div>
+          <div class="nose">
+            <div class="mustache mustache-left"></div>
+            <div class="mustache mustache-right"></div>
+          </div>
         </div>
         <div class="ear ear-left">
           <div class="inner-ear-left"></div>
