@@ -211,20 +211,27 @@
 
     <style>
       .mustache-container {
-        display: grid;
-        place-items: center;
         height: 600px;
         width: 500px;
         border: 2px solid black;
         background: lightblue;
       }
       .pure-mustache {
-        position: relative;
-        color: black;
-        background: currentColor;
-        width: 200px;
-        height: 200px;
+        position: absolute;
+        width: 180px;
+        height: 180px;
         border-radius: 50%;
+        color: black;
+        box-shadow: 80px 240px 0 0 currentColor, 210px 240px 0 0 currentColor;
+      }
+
+      .pure-mustache::before {
+        content: '';
+        position: absolute;
+        width: 210px;
+        height: 120px;
+        border-bottom: currentColor solid 180px;
+        background-color: red;
       }
     </style>
     <div class="mustache-container">
