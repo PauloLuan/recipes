@@ -25,9 +25,13 @@ In the last 11 years I put all my knowledge-coins into the backend, now it's tim
 | Origamid       |                     [Grid Layout complete guide](https://youtu.be/hKXOVD2Yrj8) |
 | CSS Animations |                                   [CSS Animations](https://css-animations.io/) |
 
-| Tutorials                                 |                              Description |
+| Tutorials       |                        Description |
+| --------------- | ---------------------------------: |
+| Grid By Example | [Link](https://gridbyexample.com/) |
+
+| Miscellaneous                             |                              Description |
 | ----------------------------------------- | ---------------------------------------: |
-| Grid By Example                           |       [Link](https://gridbyexample.com/) |
+| CSS Pure Icons                            |           [Link](https://cssicon.space/) |
 | Animista: lots of css animations examples |            [Link](https://animista.net/) |
 | Clip path maker for CSS shapes            | [Link](https://bennettfeely.com/clippy/) |
 | CSS effects generator and preview         |        [Link](https://cssgenerator.org/) |
