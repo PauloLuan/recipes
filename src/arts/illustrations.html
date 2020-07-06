@@ -268,15 +268,29 @@
       }
 
       .toaster {
+        position: relative;
         height: 90px;
         width: 120px;
         background-color: #5abff2;
         border-radius: 20px 20px 0 0;
+        z-index: 1;
+      }
+
+      .cover {
+        position: relative;
+        background: #99ddff;
+        height: 90px;
+        width: 120px;
+        border-radius: 20px 20px 0 0;
+        right: 20px;
+        z-index: 0;
       }
     </style>
 
     <div class="toaster-container">
-      <div class="toaster"></div>
+      <div class="toaster">
+        <div class="cover"></div>
+      </div>
     </div>
   </body>
 </html>
