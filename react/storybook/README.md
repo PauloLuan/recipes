@@ -1,44 +1,77 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<span id="top"></span>
 
-## Available Scripts
+<p align="center">
+  <img src="#"/>
+</p>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="#"><img src="https://github.com/pauloluan/assets/blob/master/back.png?raw=true" width="100"></a>
+</p>
 
-### `yarn start`
+<p align="center">
+  <a href="https://pt-br.reactjs.org/"><img src="https://img.shields.io/badge/ReactJS-16.x-blueviolet?style=for-the-badge"></a>
+  <a href="https://storybook.js.org/docs/guides/guide-react/"><img src="https://img.shields.io/badge/Storybook-5.x-blueviolet?style=for-the-badge"></a>
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[![standard][standard-image]][standard-url] [![forthebadge][60time-image]][60time-url]
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## 💡 Introduction
 
-### `yarn test`
+### React + Storybook + TypeScript
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is a starter boilerplate to create a React UI library using Storybook and TypeScript
 
-### `yarn build`
+## 📝 Minimal Requirements
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- NodeJS 14.x
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 🚀 Install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+$ git clone https://github.com/PauloLuan/recipes.git
+```
 
-### `yarn eject`
+## 📝 Run it
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```sh
+yarn install
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Storybook example
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```sh
+yarn storybook
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+> Check your **storybook** at [http://localhost:9009/](http://localhost:9009/)
+
+## 👤 Author
+
+<p align="center">
+  <a href="http://bit.ly/reativa-insta">
+    <img src="https://github.com/pauloluan/assets/blob/master/insta.png" width="50"  alt="Follow me on Instagram" />
+  </a>
+  <a href="https://bit.ly/pauloluan/">
+    <img src="https://github.com/pauloluan/assets/blob/master/linkedin.png?raw=true" width="50" alt="Follow me on Linkedin" />
+  </a>
+  <a href="https://github.com/pauloluan">
+    <img src="https://github.com/pauloluan/assets/blob/master/github.png?raw=true" width="50"  alt="Follow me on Github" />
+  </a>
+</p>
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more in the [Storybook documentation](https://storybook.js.org/docs/guides/guide-react/).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+[standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=for-the-badge
+[standard-url]: http://npm.im/standard
+[60time-image]: https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg
+[60time-url]: https://forthebadge.com
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+[🔝 back to top](#top)
