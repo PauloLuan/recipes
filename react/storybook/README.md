@@ -13,8 +13,6 @@
   <a href="https://storybook.js.org/docs/guides/guide-react/"><img src="https://img.shields.io/badge/Storybook-5.x-blueviolet?style=for-the-badge"></a>
 </p>
 
-[![standard][standard-image]][standard-url] [![forthebadge][60time-image]][60time-url]
-
 ## 💡 Introduction
 
 ### React + Storybook + TypeScript
@@ -64,6 +62,8 @@ yarn storybook
 You can learn more in the [Storybook documentation](https://storybook.js.org/docs/guides/guide-react/).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+[![standard][standard-image]][standard-url] [![forthebadge][60time-image]][60time-url]
 
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=for-the-badge
 [standard-url]: http://npm.im/standard
