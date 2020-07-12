@@ -1,8 +1,8 @@
 import React from 'react'
-import './App.css'
+import { Example } from './Example'
 
 function App () {
-  return <div>Storybook example</div>
+  return <Example customText='Storybook example'></Example>
 }
 
 export default App
