@@ -4,13 +4,13 @@
   "private": true,
   "scripts": {
     "build": "react-scripts build",
+    "build-storybook": "build-storybook -s public",
     "eject": "react-scripts eject",
     "format": "prettier-standard --format",
     "precommit": "lint-staged",
     "start": "react-scripts start",
-    "test": "react-scripts test",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "test": "react-scripts test"
   },
   "lint-staged": {
     "*": [
@@ -33,6 +33,11 @@
     "extends": "react-app"
   },
   "dependencies": {
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/preset-create-react-app": "^3.1.4",
+    "@storybook/react": "^5.3.19",
     "@testing-library/jest-dom": "^5.11.0",
     "@testing-library/react": "^10.4.5",
     "@testing-library/user-event": "^12.0.11",
@@ -40,19 +45,12 @@
     "@types/node": "^14.0.22",
     "@types/react": "^16.9.43",
     "@types/react-dom": "^16.9.8",
+    "@types/styled-components": "^5.1.1",
+    "prettier-standard": "^16.4.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "styled-components": "^5.1.1",
     "typescript": "~3.9.6"
-  },
-  "devDependencies": {
-    "@storybook/addon-actions": "^5.3.19",
-    "@storybook/addon-links": "^5.3.19",
-    "@storybook/addons": "^5.3.19",
-    "@storybook/preset-create-react-app": "^3.1.4",
-    "@storybook/react": "^5.3.19",
-    "@types/styled-components": "^5.1.1",
-    "prettier-standard": "^16.4.1"
   }
 }
