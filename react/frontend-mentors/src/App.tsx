@@ -1,8 +1,8 @@
 import React from 'react'
-import { Example } from './Example'
+import { SimpleDogWalk } from './Challenges/1'
 
 function App () {
-  return <Example customText='Storybook example'></Example>
+  return <SimpleDogWalk />
 }
 
 export default App
