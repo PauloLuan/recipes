@@ -1,9 +1,22 @@
 import React from 'react'
+import {
+  Global,
+  Container,
+  NavBar,
+  NavItem,
+  DropdownMenu,
+  DropdownItem
+} from './styles'
 
-interface Props {
-  customText: string
-}
-
-export const FaceNav: React.FC<Props> = ({ customText }) => {
-  return <div>{customText}</div>
+export const FaceNav: React.FC = () => {
+  return (
+    <Container>
+      <NavBar>
+        <NavItem></NavItem>
+        <NavItem></NavItem>
+        <NavItem></NavItem>
+      </NavBar>
+      <Global />
+    </Container>
+  )
 }
