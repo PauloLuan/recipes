@@ -3,6 +3,7 @@ import {
   Global,
   Container,
   NavBar,
+  NavContainer,
   NavItem,
   DropdownMenu,
   DropdownItem
@@ -12,9 +13,13 @@ export const FaceNav: React.FC = () => {
   return (
     <Container>
       <NavBar>
-        <NavItem></NavItem>
-        <NavItem></NavItem>
-        <NavItem></NavItem>
+        <NavContainer />
+
+        <NavContainer>
+          <NavItem></NavItem>
+          <NavItem></NavItem>
+          <NavItem></NavItem>
+        </NavContainer>
       </NavBar>
       <Global />
     </Container>

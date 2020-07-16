@@ -25,13 +25,26 @@ export const Container = styled.div`
 `
 
 export const NavBar = styled.div`
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background: var(--bg);
   height: 60px;
   width: 100%;
   top: 0;
 `
 
-export const NavItem = styled.div``
+export const NavContainer = styled.div`
+  display: flex;
+`
+
+export const NavItem = styled.div`
+  position: relative;
+  background: white;
+  width: 24px;
+  height: 24px;
+  margin: 10px;
+`
+
 export const DropdownMenu = styled.div``
 export const DropdownItem = styled.div``
