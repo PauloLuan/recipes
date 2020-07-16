@@ -18,11 +18,22 @@ export default createGlobalStyle`
   }
 
   :root {
+    /* text */
+    --pale-violet : hsl(276, 100%, 81%); /* (sub-heading at the top of the app UI) */
+    --moderate-violet : hsl(276, 55%, 52%); /* (chat on the left) */
+    --desaturated-dark-violet : hsl(271, 15%, 43%); /* (chat on the right) */
+    --grayish-blue : hsl(206, 6%, 79%); /* (placeholder text) */
+    --very-dark-desaturated-violet : hsl(271, 36%, 24%); /* (main heading) */
+    --dark-grayish-violet : hsl(270, 7%, 64%); /* (paragraph) */
+
+    /* Gradients */
     --light-magenta: hsl(293, 100%, 63%);
     --light-violet: hsl(264, 100%, 61%);
+    
+    /* Secondary */
     --white: hsl(0, 0%, 100%);
-    --app-background: hsl(270, 20%, 96%);
-    --submit-button-background: hsl(271, 36%, 24%);
-    --radio-button-outline: hsl(289, 100%, 72%);
+    --light-grayish-violet: hsl(270, 20%, 96%); /* (app background) */
+    --very-dark-desaturated-violet: hsl(271, 36%, 24%); /* (submit button background) */
+    --very-light-magenta: hsl(289, 100%, 72%); /* (radio button outline) */
   }
 `
