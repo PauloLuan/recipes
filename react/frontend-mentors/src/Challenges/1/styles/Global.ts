@@ -5,6 +5,7 @@ export default createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
   }
 
   html, body, #root {
@@ -14,9 +15,5 @@ export default createGlobalStyle`
   *, button, input {
     border: 0;
     outline: 0;
-  }
-
-  h1 {
-    background:red;
   }
 `
