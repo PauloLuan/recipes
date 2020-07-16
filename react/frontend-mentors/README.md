@@ -15,9 +15,11 @@
 
 ## 💡 Introduction
 
-### React + Storybook + TypeScript
+### FrontEndMentors
 
-This is a starter boilerplate to create a React UI library using Storybook and TypeScript
+[About the project](https://www.frontendmentor.io/): Improve your front-end coding skills by building real projects; Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs. Join 42,323 developers building projects, reviewing code, and helping each other get better.
+
+Let's conquer that!
 
 ## 📝 Minimal Requirements
 
@@ -35,7 +37,7 @@ $ git clone https://github.com/PauloLuan/recipes.git
 yarn install
 ```
 
-## Storybook example
+## Running Storybook
 
 ```sh
 yarn storybook
