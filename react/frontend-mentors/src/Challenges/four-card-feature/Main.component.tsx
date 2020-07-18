@@ -15,7 +15,7 @@ export const FourCard: React.FC = () => {
         Our Artificial Intelligence powered tools use millions of project data
         points to ensure that your project is successful
       </p>
-      <Card icon={SupervisorIcon} borderColor='blue'>
+      <Card icon={SupervisorIcon} borderColor='red'>
         <h2>Supervisor</h2>
         <p>Monitors activity to identify project roadblocks</p>
       </Card>
@@ -25,11 +25,11 @@ export const FourCard: React.FC = () => {
           Scans our talent network to create the optimal team for your project
         </p>
       </Card>
-      <Card icon={KarmaIcon} borderColor='blue'>
+      <Card icon={KarmaIcon} borderColor='green'>
         <h2>Karma</h2>
         <p>Regularly evaluates our talent to ensure quality</p>
       </Card>
-      <Card icon={CalculatorIcon} borderColor='blue'>
+      <Card icon={CalculatorIcon} borderColor='black'>
         <h2>Calculator</h2>
         <p>Uses data from past projects to provide better delivery estimates</p>
       </Card>
