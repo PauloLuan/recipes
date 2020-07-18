@@ -1,14 +1,21 @@
 import React from 'react'
+import SupervisorIcon from './__resources__/images/icon-supervisor.svg'
+import TeamBuilderIcon from './__resources__/images/icon-team-builder.svg'
+import KarmaIcon from './__resources__/images/icon-karma.svg'
+import CalculatorIcon from './__resources__/images/icon-calculator.svg'
 
 interface CardProps {
-  headerText: string
-  bodyText: string
-  iconPath: string
+  icon: string
   borderColor: string
 }
 
-const Card: React.FC<CardProps> = ({ children, iconPath, borderColor }) => {
-  return <>{children}</>
+const Card: React.FC<CardProps> = ({ children, icon, borderColor }) => {
+  return (
+    <>
+      {children}
+      <img src={icon} alt='' />
+    </>
+  )
 }
 
 export const FourCard: React.FC = () => {
@@ -20,21 +27,21 @@ export const FourCard: React.FC = () => {
         Our Artificial Intelligence powered tools use millions of project data
         points to ensure that your project is successful
       </p>
-      <Card>
+      <Card icon={SupervisorIcon} borderColor='blue'>
         <h2>Supervisor</h2>
         <p>Monitors activity to identify project roadblocks</p>
       </Card>
-      <Card>
+      <Card icon={TeamBuilderIcon} borderColor='blue'>
         <h2>Team Builder</h2>
         <p>
           Scans our talent network to create the optimal team for your project
         </p>
       </Card>
-      <Card>
+      <Card icon={KarmaIcon} borderColor='blue'>
         <h2>Karma</h2>
         <p>Regularly evaluates our talent to ensure quality</p>
       </Card>
-      <Card>
+      <Card icon={CalculatorIcon} borderColor='blue'>
         <h2>Calculator</h2>
         <p>Uses data from past projects to provide better delivery estimates</p>
       </Card>
