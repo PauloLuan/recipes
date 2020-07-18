@@ -29,7 +29,7 @@ export const NavBar = styled.div`
   align-items: center;
   justify-content: space-between;
   background: var(--bg);
-  height: 60px;
+  height: var(--nav-size);
   width: 100%;
   top: 0;
 `
@@ -40,11 +40,17 @@ export const NavContainer = styled.div`
 
 export const NavItem = styled.div`
   position: relative;
-  background: white;
+  background: var(--bg-accent);
   width: 24px;
   height: 24px;
-  margin: 10px;
+  margin: 12px;
+  cursor: pointer;
+
+  &:hover {
+    background: yellow;
+  }
 `
 
 export const DropdownMenu = styled.div``
+
 export const DropdownItem = styled.div``
