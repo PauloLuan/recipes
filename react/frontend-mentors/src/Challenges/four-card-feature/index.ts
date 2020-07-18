@@ -1,2 +1,2 @@
-export { FourCard } from './fourcard.component'
+export { FourCard } from './Main.component'
 export { Card } from './Card.component'
