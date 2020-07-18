@@ -1,22 +1,10 @@
 import React from 'react'
+import { Card } from '.'
+
 import SupervisorIcon from './__resources__/images/icon-supervisor.svg'
 import TeamBuilderIcon from './__resources__/images/icon-team-builder.svg'
 import KarmaIcon from './__resources__/images/icon-karma.svg'
 import CalculatorIcon from './__resources__/images/icon-calculator.svg'
-
-interface CardProps {
-  icon: string
-  borderColor: string
-}
-
-const Card: React.FC<CardProps> = ({ children, icon, borderColor }) => {
-  return (
-    <>
-      {children}
-      <img src={icon} alt='' />
-    </>
-  )
-}
 
 export const FourCard: React.FC = () => {
   return (
