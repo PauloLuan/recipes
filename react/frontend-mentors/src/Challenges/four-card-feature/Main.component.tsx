@@ -6,9 +6,20 @@ import TeamBuilderIcon from './__resources__/images/icon-team-builder.svg'
 import KarmaIcon from './__resources__/images/icon-karma.svg'
 import CalculatorIcon from './__resources__/images/icon-calculator.svg'
 
+import { createGlobalStyle } from 'styled-components'
+const GlobalStyles = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+  }
+`
+
 export const FourCard: React.FC = () => {
   return (
     <>
+      <GlobalStyles />
       <h1>Reliable, efficient delivery</h1>
       <h1>Powered by Technology</h1>
       <p>
