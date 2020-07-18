@@ -29,12 +29,13 @@ In the last 11 years I put all my knowledge-coins into the backend, now it's tim
 | --------------- | ---------------------------------: |
 | Grid By Example | [Link](https://gridbyexample.com/) |
 
-| Miscellaneous                             |                              Description |
-| ----------------------------------------- | ---------------------------------------: |
-| CSS Pure Icons                            |           [Link](https://cssicon.space/) |
-| Animista: lots of css animations examples |            [Link](https://animista.net/) |
-| Clip path maker for CSS shapes            | [Link](https://bennettfeely.com/clippy/) |
-| CSS effects generator and preview         |        [Link](https://cssgenerator.org/) |
+| Miscellaneous                             |                                                                                     Description |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------: |
+| CSS Pure Icons                            |                                                                  [Link](https://cssicon.space/) |
+| Animista: lots of css animations examples |                                                                   [Link](https://animista.net/) |
+| Clip path maker for CSS shapes            |                                                        [Link](https://bennettfeely.com/clippy/) |
+| CSS effects generator and preview         |                                                               [Link](https://cssgenerator.org/) |
+| Pixelzoomer                               | [Link](https://chrome.google.com/webstore/detail/pixelzoomer/fogkjckfkdcnmnnfmbieljpkmmihhpao/) |
 
 [![standard][standard-image]][standard-url]
 
