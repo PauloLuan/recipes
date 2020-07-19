@@ -8,10 +8,8 @@ import CalculatorIcon from './__resources__/images/icon-calculator.svg'
 
 import { createGlobalStyle } from 'styled-components'
 const GlobalStyles = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
-
   body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     font-size: 15px;
   }
 `

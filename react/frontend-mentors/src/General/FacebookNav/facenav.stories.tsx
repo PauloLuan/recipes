@@ -6,6 +6,4 @@ export default {
   component: FaceNav
 }
 
-export const Facenav1 = () => (
-  <FaceNav customText='Hello Storybook'></FaceNav>
-)
+export const Facenav1 = () => <FaceNav></FaceNav>
