@@ -1,3 +1,8 @@
 h1 {
+  font-family: 'Anton';
+  color: white;
   background: red;
+}
+
+.section-title {
 }
