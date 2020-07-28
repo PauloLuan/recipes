@@ -8,7 +8,7 @@
   "scripts": {
     "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files --no-copy-ignored",
     "format": "prettier-standard",
-    "start": "ts-node-dev -r tsconfig-paths/register --respawn --transpileOnly --ignore-watch node_modules --no-notify src/server.ts",
+    "start": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify",
     "prestart:prod": "npm run build",
     "start:prod": "node dist/server.js",
     "test": "jest"
