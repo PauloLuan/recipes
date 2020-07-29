@@ -1,8 +1,8 @@
 import dotenv from 'dotenv-safe'
-dotenv.load({
+dotenv.config({
   path: `${__dirname}/config/.env`,
-  sample: `${__dirname}/.env.example`,
-  allowEmptyValues: false
+  sample: `${__dirname}/config/.env.example`,
+  allowEmptyValues: true
 })
 
 import Koa from 'koa'

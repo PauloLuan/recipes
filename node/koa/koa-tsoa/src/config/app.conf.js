@@ -1,6 +1,6 @@
-import helmet from 'helmet'
-import { kcors } from 'kcors'
+import kcors from 'kcors'
 import bodyParser from 'koa-bodyparser'
+import helmet from 'koa-helmet'
 
 export default class ApplicationConfig {
   static init (app) {
