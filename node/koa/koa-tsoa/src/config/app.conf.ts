@@ -1,4 +1,4 @@
-import kcors from 'kcors'
+import kcors from '@koa/cors'
 import bodyParser from 'koa-bodyparser'
 import helmet from 'koa-helmet'
 

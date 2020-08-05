@@ -5,7 +5,7 @@ let app = require('../../src/server')
 let newUser
 
 describe('User API:', () => {
-  before(async () => {
+  beforeAll(async () => {
     await User.remove({})
   })
 
@@ -24,7 +24,7 @@ describe('User API:', () => {
       console.log('==============')
       console.log('users :>> ', JSON.stringify(users))
       console.log('==============')
-      expect(users).to.be.instanceOf(Array)
+      expect(users).toBeInstanceOf(Array)
     })
   })
 

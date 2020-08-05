@@ -7,7 +7,7 @@ const router = new Router({
 const startTime = new Date()
 
 router.get('/', async ctx => {
-  const uptime = `${new Date() - startTime}ms`
+  const uptime = `${((new Date() as any) - <any>startTime)}ms`
   ctx.status = 200
   ctx.body = { startTime, uptime }
 })

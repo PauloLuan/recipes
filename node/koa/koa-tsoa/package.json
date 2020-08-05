@@ -16,8 +16,8 @@
     "test:watch": "jest --runInBand --watch"
   },
   "dependencies": {
+    "@koa/cors": "^3.1.0",
     "dotenv-safe": "^8.2.0",
-    "kcors": "^2.2.2",
     "koa": "^2.13.0",
     "koa-bodyparser": "^4.3.0",
     "koa-helmet": "^5.2.0",
