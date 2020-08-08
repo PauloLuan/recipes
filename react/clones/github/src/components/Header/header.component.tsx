@@ -1,7 +1,11 @@
 import React from 'react'
+import { Container, SearchBar, GithubIcon } from './header.styles'
 
-interface Props {}
-
-export const Header: React.FC<Props> = ({}) => {
-  return <div>Header</div>
+export const Header: React.FC = () => {
+  return (
+    <Container>
+      <GithubIcon />
+      <SearchBar />
+    </Container>
+  )
 }
