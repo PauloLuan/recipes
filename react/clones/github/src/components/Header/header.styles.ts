@@ -8,7 +8,23 @@ export const Container = styled.div`
   padding: 11px 16px;
 `
 
-export const SearchBar = styled.div``
+export const SearchBar = styled.div`
+  padding-left: 16px;
+  width: 100%;
+
+  input {
+    background: var(--search);
+    width: 100%;
+    padding: 7px 12px;
+    outline: 0;
+
+    &:focus {
+      width: 318px;
+    }
+
+    transition: width 0.2s ease-out, color 0.2s ease-out;
+  }
+`
 
 export const GithubIcon = styled(FaGithub)`
   fill: var(--logo);

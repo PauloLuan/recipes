@@ -5,7 +5,9 @@ export const Header: React.FC = () => {
   return (
     <Container>
       <GithubIcon />
-      <SearchBar />
+      <SearchBar>
+        <input type='text' placeholder='Search for Github users' />
+      </SearchBar>
     </Container>
   )
 }
