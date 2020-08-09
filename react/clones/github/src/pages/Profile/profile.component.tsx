@@ -14,6 +14,8 @@ export const Profile: React.FC = ({}) => {
             following={5}
             company={'Reativa'}
             location={'São José dos Campos'}
+            email={'pauloluan.inova@gmail.com'}
+            blog={'http://bit.ly/pauloluan'}
           />
         </LeftSide>
         <RightSide></RightSide>

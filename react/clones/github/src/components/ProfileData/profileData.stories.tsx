@@ -14,5 +14,7 @@ export const ProfileDataStory = () => (
     following={5}
     company={'Reativa'}
     location={'São José dos Campos'}
+    email={'teste@teste.com'}
+    blog={'http://blog.reativa.dev'}
   ></ProfileData>
 )
