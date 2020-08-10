@@ -18,8 +18,10 @@ export const Row = styled.div``
 export const Column = styled.div``
 
 const baseIconCSS = css`
-  width: 32px;
-  height: 32px;
+  fill: var(--icon);
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
 `
 
 export const PeopleIcon = styled(RiGroupLine)`
