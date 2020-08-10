@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import {
   RiGroupLine,
   RiBuilding4Line,
@@ -17,12 +17,27 @@ export const Row = styled.div``
 
 export const Column = styled.div``
 
-export const PeopleIcon = styled(RiGroupLine)``
+const baseIconCSS = css`
+  width: 32px;
+  height: 32px;
+`
 
-export const CompanyIcon = styled(RiBuilding4Line)``
+export const PeopleIcon = styled(RiGroupLine)`
+  ${baseIconCSS}
+`
 
-export const LocationIcon = styled(RiMapPin2Line)``
+export const CompanyIcon = styled(RiBuilding4Line)`
+  ${baseIconCSS}
+`
 
-export const EmailIcon = styled(RiMailLine)``
+export const LocationIcon = styled(RiMapPin2Line)`
+  ${baseIconCSS}
+`
 
-export const BlogIcon = styled(RiLinksLine)``
+export const EmailIcon = styled(RiMailLine)`
+  ${baseIconCSS}
+`
+
+export const BlogIcon = styled(RiLinksLine)`
+  ${baseIconCSS}
+`
