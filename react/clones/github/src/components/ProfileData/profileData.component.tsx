@@ -23,7 +23,10 @@ interface Props {
   blog?: string
 }
 
-const buildAvatarBlock = (displayName: string, userName: string) => (
+const buildAvatarBlock = ({
+  displayName,
+  userName
+}: Pick<Props, 'displayName' | 'userName'>) => (
   <Flex>
     <Avatar>
       <div>
@@ -34,7 +37,10 @@ const buildAvatarBlock = (displayName: string, userName: string) => (
   </Flex>
 )
 
-const buildFollowersBlock = (followers: number, following: number) => (
+const buildFollowersBlock = ({
+  followers,
+  following
+}: Pick<Props, 'followers' | 'following'>) => (
   <Row>
     <li>
       <PeopleIcon />
@@ -49,12 +55,12 @@ const buildFollowersBlock = (followers: number, following: number) => (
   </Row>
 )
 
-const buildColumnBlock = (
-  company?: string,
-  location?: string,
-  email?: string,
-  blog?: string
-) => (
+const buildColumnBlock = ({
+  company,
+  location,
+  email,
+  blog
+}: Pick<Props, 'company' | 'location' | 'email' | 'blog'>) => (
   <Column>
     {company && (
       <li>
@@ -95,9 +101,9 @@ export const ProfileData: React.FC<Props> = ({
 }) => {
   return (
     <Container>
-      {buildAvatarBlock(displayName, userName)}
-      {buildFollowersBlock(followers, following)}
-      {buildColumnBlock(company, location, email, blog)}
+      {buildAvatarBlock({ displayName, userName })}
+      {buildFollowersBlock({ followers, following })}
+      {buildColumnBlock({ company, location, email, blog })}
     </Container>
   )
 }
