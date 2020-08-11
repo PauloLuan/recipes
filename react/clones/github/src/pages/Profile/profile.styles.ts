@@ -20,7 +20,6 @@ export const Main = styled.div`
 
 export const LeftSide = styled.div`
   padding: 0 var(--horizontalPadding);
-  background: red;
   @media (min-width: 768px) {
     width: 25%;
   }
@@ -28,8 +27,6 @@ export const LeftSide = styled.div`
 
 export const RightSide = styled.div`
   padding: 0 var(--horizontalPadding);
-  background: blue;
-
   @media (min-width: 768px) {
     width: 75%;
   }
