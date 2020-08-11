@@ -13,12 +13,14 @@ export const SearchBar = styled.div`
   width: 100%;
 
   input {
+    border-radius: 6px;
     background: var(--search);
     width: 100%;
     padding: 7px 12px;
     outline: 0;
 
     &:focus {
+      background: white;
       width: 318px;
     }
 
