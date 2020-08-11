@@ -9,7 +9,36 @@ import {
 
 export const Container = styled.div``
 
-export const Flex = styled.div``
+export const Flex = styled.div`
+  display: flex;
+  align-items: center;
+
+  > div {
+    margin-left: 24px;
+
+    > h1 {
+      font-size: 26px;
+      line-height: 1.25;
+      color: var(--gray-dark);
+      font-weight: 600;
+    }
+
+    > h2 {
+      font-size: 20px;
+      color: var(--username);
+      font-weight: 300;
+    }
+  }
+
+  @media (min-width: 768px) {
+    flex-direction: column;
+    align-items: flex-start;
+    > div {
+      margin-left: 0;
+      margin-top: 16px;
+    }
+  }
+`
 
 export const Avatar = styled.img`
   border-radius: 50%;
