@@ -18,7 +18,7 @@ export const Profile: React.FC = ({}) => {
             blog={'http://bit.ly/pauloluan'}
           />
         </LeftSide>
-        <RightSide></RightSide>
+        <RightSide>teste</RightSide>
       </Main>
     </Container>
   )
