@@ -17,7 +17,7 @@ export const GlobalStyles = createGlobalStyle`
     color: var(--black);
     transition: color .2s ease-out;
   }
-  ul {
+  ul, li {
     list-style: none;
   }
 
