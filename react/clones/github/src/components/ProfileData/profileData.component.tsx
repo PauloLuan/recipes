@@ -4,8 +4,9 @@ import {
   Flex,
   Avatar,
   Row,
-  PeopleIcon,
   Column,
+  EditButton,
+  PeopleIcon,
   CompanyIcon,
   LocationIcon,
   EmailIcon,
@@ -28,12 +29,11 @@ const buildAvatarBlock = ({
   userName
 }: Pick<Props, 'displayName' | 'userName'>) => (
   <Flex>
-    <Avatar>
-      <div>
-        <h1>{displayName}</h1>
-        <h2>{userName}</h2>
-      </div>
-    </Avatar>
+    <Avatar src={`http://github.com/${userName}.png`} alt={userName} />
+    <div>
+      <h1>{displayName}</h1>
+      <h2>{userName}</h2>
+    </div>
   </Flex>
 )
 

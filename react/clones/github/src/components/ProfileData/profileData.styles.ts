@@ -11,11 +11,15 @@ export const Container = styled.div``
 
 export const Flex = styled.div``
 
-export const Avatar = styled.div``
+export const Avatar = styled.img`
+  border-radius: 50%;
+`
 
 export const Row = styled.div``
 
 export const Column = styled.div``
+
+export const EditButton = styled.button``
 
 const baseIconCSS = css`
   fill: var(--icon);
