@@ -71,7 +71,17 @@ export const Row = styled.ul`
   }
 `
 
-export const Column = styled.div``
+export const Column = styled.ul`
+  > li {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  li + li {
+    margin-top: 10px;
+  }
+`
 
 export const EditButton = styled.button``
 
