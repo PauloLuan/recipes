@@ -81,6 +81,13 @@ export const Column = styled.ul`
   li + li {
     margin-top: 10px;
   }
+
+  span {
+    margin-left: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 `
 
 export const EditButton = styled.button``
