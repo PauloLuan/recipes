@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Main, LeftSide, RightSide } from './profile.styles'
 import { ProfileData } from '../../components/ProfileData'
+import { Repocard } from '../../components/RepoCard'
 
 export const Profile: React.FC = ({}) => {
   return (
@@ -18,7 +19,15 @@ export const Profile: React.FC = ({}) => {
             blog={'http://bit.ly/pauloluan'}
           />
         </LeftSide>
-        <RightSide>teste</RightSide>
+        <RightSide>
+          <Repocard
+            name={'vral'}
+            description={'teste'}
+            type={'typescript'}
+            stars={16}
+            forks={8}
+          ></Repocard>
+        </RightSide>
       </Main>
     </Container>
   )
