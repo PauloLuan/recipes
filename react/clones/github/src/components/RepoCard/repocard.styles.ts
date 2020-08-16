@@ -28,7 +28,14 @@ export const RepoName = styled.a`
   }
 `
 
-export const TopSide = styled.div``
+export const TopSide = styled.div`
+  > p {
+    font-size: 12px;
+    letter-spacing: 0.1px;
+    color: var(--gray);
+    margin: 8px 0 16px;
+  }
+`
 
 export const BottomSide = styled.div`
   > ul {
