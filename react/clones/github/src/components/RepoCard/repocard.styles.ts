@@ -31,9 +31,22 @@ export const RepoName = styled.a`
 export const TopSide = styled.div``
 
 export const BottomSide = styled.div`
-  display: flex;
-  align-items: center;
-  flex-direction: row;
+  > ul {
+    display: flex;
+    align-items: center;
+
+    > li {
+      margin-right: 16px;
+      display: flex;
+      align-items: center;
+
+      > span {
+        color: var(--gray);
+        margin-left: 5px;
+        font-size: 12px;
+      }
+    }
+  }
 `
 
 export const baseIconCSS = css`
