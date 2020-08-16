@@ -31,3 +31,7 @@ export const RightSide = styled.div`
     width: 75%;
   }
 `
+
+export const Repositories = styled.div`
+    
+`
