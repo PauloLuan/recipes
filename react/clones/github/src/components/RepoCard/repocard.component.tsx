@@ -30,7 +30,7 @@ const buildHeader = (name: string, description: string) => (
 )
 
 const buildBottom = (type: string, stars: number, forks: number) => {
-  const language = 'javascript'
+  const language = type || 'other'
 
   return (
     <BottomSide>
@@ -61,7 +61,6 @@ export const Repocard: React.FC<Props> = ({
   return (
     <Container>
       {buildHeader(name, description)}
-
       {buildBottom(type, stars, forks)}
     </Container>
   )

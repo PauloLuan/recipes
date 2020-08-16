@@ -33,6 +33,7 @@ export const TopSide = styled.div``
 export const BottomSide = styled.div`
   display: flex;
   align-items: center;
+  flex-direction: row;
 `
 
 export const baseIconCSS = css`
@@ -43,12 +44,21 @@ export const baseIconCSS = css`
 `
 
 export const LanguageIcon = styled.div`
-  width: 16px;
-  height: 16px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
+  flex-shrink: 0;
 
   &.javascript {
-    background: blue;
+    background: var(--javascript);
+  }
+
+  &.typescript {
+    background: var(--typescript);
+  }
+
+  &.other {
+    background: var(--other-language);
   }
 `
 
