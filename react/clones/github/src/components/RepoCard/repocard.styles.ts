@@ -6,7 +6,31 @@ export const Container = styled.div`
   border: 1px solid var(--border);
   border-radius: 6px;
   padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 `
+
+export const Header = styled.div`
+  display: flex;
+  align-items: center;
+`
+
+export const RepoName = styled.a`
+  color: var(--link);
+  margin-left: 8px;
+  font-weight: 600;
+  font-size: 14px;
+
+  &:focus,
+  &:hover {
+    text-decoration: underline;
+  }
+`
+
+export const TopSide = styled.div``
+
+export const BottonSide = styled.div``
 
 export const baseIconCSS = css`
   width: 16px;
