@@ -33,5 +33,8 @@ export const RightSide = styled.div`
 `
 
 export const Repositories = styled.div`
-    
+  margin-top: var(--verticalPadding);
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: 1fr 1fr;
 `
