@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container } from './repocard.styles'
+import { Container, BookIcon, StarIcon, ForkIcon } from './repocard.styles'
 
 interface Props {
   name: string
@@ -18,11 +18,13 @@ export const Repocard: React.FC<Props> = ({
 }) => {
   return (
     <Container>
+      <BookIcon />
       {name}
       {description}
       {type}
+      <StarIcon />
       {stars}
-      {forks}
+      <ForkIcon /> {forks}
     </Container>
   )
 }
