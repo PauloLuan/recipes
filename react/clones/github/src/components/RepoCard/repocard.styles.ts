@@ -30,13 +30,26 @@ export const RepoName = styled.a`
 
 export const TopSide = styled.div``
 
-export const BottonSide = styled.div``
+export const BottomSide = styled.div`
+  display: flex;
+  align-items: center;
+`
 
 export const baseIconCSS = css`
   width: 16px;
   height: 16px;
   flex-shrink: 0;
   fill: var(--icon);
+`
+
+export const LanguageIcon = styled.div`
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+
+  &.javascript {
+    background: blue;
+  }
 `
 
 export const BookIcon = styled(RiBookMarkLine)`
