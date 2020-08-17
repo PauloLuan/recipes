@@ -60,7 +60,7 @@ export const Profile: React.FC = ({}) => {
             <Repocard
               name={'react-native'}
               description={'A framework for building native apps with React.'}
-              type={'typescript'}
+              type={'javascript'}
               stars={1}
               forks={2}
             ></Repocard>
@@ -78,7 +78,7 @@ export const Profile: React.FC = ({}) => {
               description={
                 'Distributed platform for building autonomic network functions.'
               }
-              type={'typescript'}
+              type={'javascript'}
               stars={20658}
               forks={5464}
             ></Repocard>
