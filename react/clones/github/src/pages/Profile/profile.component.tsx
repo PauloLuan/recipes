@@ -1,7 +1,8 @@
 import React from 'react'
-import { Container, Main, LeftSide, RightSide, Repositories } from './profile.styles'
+import { Container, Main, LeftSide, RightSide, Repositories, CalendarHeading } from './profile.styles'
 import { ProfileData } from '../../components/ProfileData'
 import { Repocard } from '../../components/RepoCard'
+import { RandomCalendar } from '../../components/RandomCalendar'
 
 export const Profile: React.FC = ({}) => {
   return (
@@ -83,6 +84,12 @@ export const Profile: React.FC = ({}) => {
               forks={5464}
             ></Repocard>
           </Repositories>
+
+          <CalendarHeading>
+            1,384 contributions in the last year
+          </CalendarHeading>
+
+          <RandomCalendar />
         </RightSide>
       </Main>
     </Container>
