@@ -30,6 +30,7 @@ export const RandomCalendar: React.FC = ({}) => {
           }}
         />
       </Wrapper>
+      <span>Learn how we count contributions.</span>
     </Container>
   )
 }
