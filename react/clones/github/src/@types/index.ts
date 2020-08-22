@@ -1,4 +1,4 @@
-export interface UserDO {
+export interface UserDTO {
   login: string
   name: string
   followers: number
@@ -11,7 +11,7 @@ export interface UserDO {
   location?: string
 }
 
-export interface RepositoryDO {
+export interface RepositoryDTO {
   name: string
   owner: {
     login: string
