@@ -6,6 +6,10 @@
 }
 
 .navbar {
+  position: fixed;
+  left: 0;
   background: black;
-  width: 5rem;
+  width: 250px;
+  font-size: 16px;
+  background: #042331;
 }
