@@ -48,7 +48,7 @@ ul li:hover {
 }
 
 label #openButton,
-label #cancelButton {
+label #closeButton {
   position: absolute;
   cursor: pointer;
   background: #042331;
@@ -67,7 +67,7 @@ label #openButton {
 
 label #closeButton {
   z-index: 99;
-  left: 195px;
+  left: -195px;
   top: 17px;
   font-size: 30px;
   color: #0a5275;
