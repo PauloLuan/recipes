@@ -18,11 +18,6 @@ body::-webkit-scrollbar-thumb {
   background: #6649b8;
 }
 
-svg {
-  height: 24px;
-  width: 24px;
-}
-
 main {
   margin-left: 5rem;
   padding: 1rem;
@@ -32,7 +27,7 @@ main {
   position: fixed;
   background: black;
   height: 100vh;
-  width: 60px;
+  width: 5rem;
   transition: 0.2s;
 }
 
@@ -43,7 +38,7 @@ main {
   align-content: center;
 }
 
-.nav:hover {
+.nav:hover  {
   width: 200px;
 }
 
@@ -56,6 +51,12 @@ main {
   height: 3rem;
   text-decoration: none;
   border-bottom: solid 1px white;
+}
+
+.nav-link svg {
+  width: 2rem;
+  min-width: 2rem;
+  margin: 0 1.5rem;
 }
 
 .logo {
