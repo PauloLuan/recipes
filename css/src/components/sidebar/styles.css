@@ -42,8 +42,14 @@ main {
   align-content: center;
 }
 
+.nav-item {}
+
 .nav-link {
-  
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  text-decoration: none;
+  border-bottom: solid 1px white;
 }
 
 .logo {
