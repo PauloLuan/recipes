@@ -6,6 +6,18 @@
   font-family: 'Roboto', sans-serif;
 }
 
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
+
 svg {
   height: 24px;
   width: 24px;
@@ -21,6 +33,7 @@ main {
   background: black;
   height: 100vh;
   width: 60px;
+  overflow: scroll;
 }
 
 .navbar-nav {
