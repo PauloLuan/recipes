@@ -1,10 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 * {
+  margin: 0;
+  padding: 0;
   font-family: 'Roboto', sans-serif;
 }
 
 svg {
   height: 24px;
   width: 24px;
+}
+
+main {
+  margin-left: 75px;
+}
+
+.nav {
+  position: fixed;
+  background: black;
+  height: 100vh;
+  width: 60px;
+}
+
+.navbar-nav {
+}
+
+.nav-link {
+}
+
+.logo {
+}
+
+.link-text {
+}
+
+.logo-text {
 }
