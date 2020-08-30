@@ -42,6 +42,30 @@ ul li:hover {
   padding-right: 16px;
 }
 
-#check {
+#hiddenCheck {
   display: none;
+}
+
+label #openButton, label #cancelButton {
+  position: absolute;
+  cursor: pointer;
+  background: #042331;
+  border-radius: 3px;
+}
+
+label #openButton {
+  left: 40px;
+  top: 25px;
+  font-size: 35px;
+  color: white;
+  padding: 6px 12px;
+}
+
+label #cancel {
+  z-index: 3;
+  left: 195px;
+  top: 17px;
+  font-size: 30px;
+  color: #0a5275;
+  padding: 4px 9px
 }
