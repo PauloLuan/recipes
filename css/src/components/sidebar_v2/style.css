@@ -41,3 +41,7 @@ ul li:hover {
 .navbar ul a i {
   padding-right: 16px;
 }
+
+#check {
+  display: none;
+}
