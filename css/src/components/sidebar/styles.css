@@ -32,14 +32,18 @@ main {
   position: fixed;
   background: black;
   height: 100vh;
-  width: 60px;
-  overflow: scroll;
+  width: 300px;
 }
 
 .navbar-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
 }
 
 .nav-link {
+  
 }
 
 .logo {
