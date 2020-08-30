@@ -7,13 +7,14 @@
 }
 
 .navbar {
-  height: 100vh;
+  height: 100%;
   position: fixed;
-  left: 0;
+  left: -250px;
   background: black;
   width: 250px;
   font-size: 16px;
   background: #042331;
+  transition: all 0.5s ease;
 }
 
 .navbar header {
@@ -34,7 +35,7 @@
 }
 
 ul li:hover {
-  transition: .4s ease;
+  transition: 0.4s ease;
   padding-left: 15px;
 }
 
@@ -46,7 +47,8 @@ ul li:hover {
   display: none;
 }
 
-label #openButton, label #cancelButton {
+label #openButton,
+label #cancelButton {
   position: absolute;
   cursor: pointer;
   background: #042331;
@@ -54,18 +56,35 @@ label #openButton, label #cancelButton {
 }
 
 label #openButton {
+  z-index: 99;
   left: 40px;
   top: 25px;
   font-size: 35px;
   color: white;
   padding: 6px 12px;
+  transition: all 0.5s;
 }
 
-label #cancel {
-  z-index: 3;
+label #closeButton {
+  z-index: 99;
   left: 195px;
   top: 17px;
   font-size: 30px;
   color: #0a5275;
-  padding: 4px 9px
+  padding: 4px 9px;
+  transition: all 0.5s;
+}
+
+#hiddenCheck:checked ~ .navbar {
+  left: 0;
+}
+
+#hiddenCheck:checked ~ label #openButton {
+  left: 250px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+#hiddenCheck:checked ~ label #closeButton {
+  left: 195px;
 }
