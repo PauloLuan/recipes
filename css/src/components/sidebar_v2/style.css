@@ -3,6 +3,7 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 .navbar {
@@ -25,5 +26,13 @@
 }
 
 .navbar ul a {
+  font-size: 20px;
+  display: block;
+  padding: 16px;
+  color: white;
+  padding-left: 40px;
+}
 
+.navbar ul a i {
+  padding-right: 16px;
 }
