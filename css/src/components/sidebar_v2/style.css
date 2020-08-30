@@ -33,6 +33,11 @@
   padding-left: 40px;
 }
 
+ul li:hover {
+  transition: .4s ease;
+  padding-left: 15px;
+}
+
 .navbar ul a i {
   padding-right: 16px;
 }
