@@ -13,3 +13,11 @@
   font-size: 16px;
   background: #042331;
 }
+
+.navbar header {
+  font-size: 22px;
+  text-align: center;
+  color: white;
+  line-height: 70px;
+  background: #063146;
+}
