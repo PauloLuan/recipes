@@ -39,6 +39,7 @@ main {
   height: 100vh;
   width: 5rem;
   transition: 0.2s;
+  overflow: scroll;
 }
 
 .navbar-nav {
@@ -62,6 +63,7 @@ main {
   height: 3rem;
   text-decoration: none;
   border-bottom: solid 1px white;
+  color: var(--text-primary);
 }
 
 .nav-link svg {
