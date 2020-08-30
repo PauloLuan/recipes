@@ -12,7 +12,8 @@ svg {
 }
 
 main {
-  margin-left: 75px;
+  margin-left: 5rem;
+  padding: 1rem;
 }
 
 .nav {
