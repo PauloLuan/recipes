@@ -6,6 +6,7 @@
 }
 
 .navbar {
+  height: 100vh;
   position: fixed;
   left: 0;
   background: black;
@@ -21,4 +22,8 @@
   line-height: 70px;
   background: #063146;
   user-select: none;
+}
+
+.navbar ul a {
+
 }
