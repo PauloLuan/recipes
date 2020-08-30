@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
+:root {
+  font-size: 16px;
+  font-family: 'Open Sans';
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+  --transition-speed: 600ms;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -25,7 +35,7 @@ main {
 
 .nav {
   position: fixed;
-  background: black;
+  background-color: var(--bg-primary);
   height: 100vh;
   width: 5rem;
   transition: 0.2s;
@@ -38,7 +48,7 @@ main {
   align-content: center;
 }
 
-.nav:hover  {
+.nav:hover {
   width: 200px;
 }
 
