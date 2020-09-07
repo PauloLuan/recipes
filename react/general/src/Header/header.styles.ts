@@ -10,7 +10,7 @@ export const Container = styled.div`
   justify-content: space-between;
   padding: 20px 0;
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 960px;
 `
 
 export const Logo = styled.img`
