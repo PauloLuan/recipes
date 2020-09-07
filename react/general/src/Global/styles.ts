@@ -26,7 +26,7 @@ export const GlobalStyles = createGlobalStyle`
 
   :root {
     --primary: #252525;
-    --secondary: #fff;
+    --white: #fff;
     --product-background: #e7e4d8;
     --product-border: #d6d3c8;
     --product-before: #e7e4d8;

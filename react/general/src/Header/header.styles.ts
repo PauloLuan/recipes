@@ -16,7 +16,13 @@ export const Nav = styled.nav`
   > ul {
     > li {
       display: inline-block;
-      color: white;
+
+      > a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: var(--white);        
+      }
     }
   }
 `
