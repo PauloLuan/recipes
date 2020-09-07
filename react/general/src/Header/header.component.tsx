@@ -10,10 +10,10 @@ export const Header: React.FC<HeaderProps> = ({}) => {
         <Logo src={'https://origamid.com/projetos/brafe-1/img/brafe.png'} />
         <Nav>
           <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Produtos</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
             <li><a href="#">Portfólio</a></li>
-            <li><a href="#">Contatos</a></li>
+            <li><a href="#">Contacts</a></li>
           </ul>
         </Nav>
       </Container>
