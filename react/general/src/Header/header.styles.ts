@@ -1,11 +1,16 @@
 import styled from 'styled-components'
 
+export const HeaderWrapper = styled.header`
+  background: var(--primary);
+`
+
 export const Container = styled.div`
   display: flex;
   place-items: center;
   justify-content: space-between;
-  background: var(--primary);
   padding: 20px 0;
+  margin: 0 auto;
+  max-width: 900px;
 `
 
 export const Logo = styled.img`
@@ -21,7 +26,8 @@ export const Nav = styled.nav`
         display: block;
         padding: 10px;
         text-decoration: none;
-        color: var(--white);        
+        color: var(--white);
+        font-size: 1.125em;
       }
     }
   }
