@@ -1,21 +1,16 @@
 import styled from 'styled-components'
 
-interface Props {
-  background: string
-  border: string
-}
+export const Container = styled.div`
+  background: #252525;
+  padding: 20px 0;
+`
 
-export const ButtonStyled = styled.button<Props>`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 32px;
-  height: 50px;
-  width: 200px;
-  font-size: 16px;
-  border-radius: 4px;
-  border: 1px solid black;
+export const Logo = styled.img``
 
-  background: ${props => (props.background ? props.background : 'transparent')};
-  border-color: ${props => props.border};
+export const Nav = styled.nav`
+  > ul {
+    > li {
+      color: white;
+    }
+  }
 `

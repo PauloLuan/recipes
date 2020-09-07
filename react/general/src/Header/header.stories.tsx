@@ -1,15 +1,11 @@
 import React from 'react'
-import { Button } from '.'
+import { Header } from '.'
 
 export default {
-  title: 'Custom Button',
-  component: Button
+  title: 'Custom Header',
+  component: Header
 }
 
-export const CustomControls = args => <Button {...args} />
+export const CustomControls = args => <Header {...args} />
 
-CustomControls.args = {
-  border: 'black',
-  background: 'red',
-  content: 'vral 123'
-}
+CustomControls.args = {}

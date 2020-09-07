@@ -1,4 +1,4 @@
-import { Button } from './header.component'
+import { Header } from './header.component'
 import * as styles from './header.styles'
 
-export { Button, styles }
+export { Header, styles }
