@@ -4,6 +4,6 @@ import { Header } from './'
 
 test('renders learn react link', () => {
   const { getByText } = render(<Header />)
-  const linkElement = getByText(/mindingo/i)
+  const linkElement = getByText(/About/i)
   expect(linkElement).toBeDefined()
 })
