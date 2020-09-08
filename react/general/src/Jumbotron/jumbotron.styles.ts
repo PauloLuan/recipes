@@ -6,4 +6,23 @@ export const Container = styled.main`
   color: var(--white);
   padding: 150px 0;
   text-align: center;
+
+  > h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+  }
+
+  > h1::after {
+    content: '';
+    display: block;
+    background: var(--white);
+    width: 20px;
+    height: 4px;
+    margin: 10px auto;
+  }
+
+  > p {
+    font-style: italic;
+    font-size: 1.125em;
+  }
 `
