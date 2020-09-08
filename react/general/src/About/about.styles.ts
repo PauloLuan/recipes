@@ -4,7 +4,19 @@ export const AboutSection = styled.section``
 
 export const Container = styled.div``
 
-export const AboutItem = styled.div``
+export const AboutItem = styled.div`
+  > h3 {
+    font-size: 2.25em;
+    line-height: 1em;
+    font-style: italic;
+    color: var(--white);
+    background: var(--primary);
+    padding: 5px 0 10px 0;
+    width: 220px;
+    position: relative;
+    top: -25px;
+  }
+`
 
 export const AboutImage = styled.img``
 
