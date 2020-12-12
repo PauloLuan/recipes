@@ -1,10 +1,6 @@
 <span id="top"></span>
 
 <p align="center">
-  <img src="#"/>
-</p>
-
-<p align="center">
    <a href="#"><img src="https://github.com/pauloluan/assets/blob/master/front.png?raw=true" width="100"></a>
    <a href="#"><img src="https://github.com/pauloluan/assets/blob/master/back.png?raw=true" width="100"></a>
 </p>
