@@ -10,25 +10,21 @@
 </p>
 
 <p align="center">
-  <a href="https://redux.js.org/"><img src="https://img.shields.io/badge/VueJS-4.0.x-blue?style=for-the-badge"></a>
-  <a href="https://github.com/reduxjs/redux-thunk"><img src="https://img.shields.io/badge/Redux Thunk-2.3.x-green?style=for-the-badge"></a>
-  <a href="https://reacttraining.com/react-router/web/guides/quick-start"><img src="https://img.shields.io/badge/React Router-5.1.x-blueviolet?style=for-the-badge"></a>
-  <a href="https://pm2.keymetrics.io/"><img src="https://img.shields.io/badge/PM2-4.2.x-orange?style=for-the-badge"></a>
-  <a href="https://nodejs.org/en/"><img src="https://img.shields.io/badge/Node-12.x-green?style=for-the-badge"></a>
-  <a href="https://www.postgresql.org/"><img src="https://img.shields.io/badge/Postgress-10-blue?style=for-the-badge"></a>
-  <a href="https://adonisjs.com/"><img src="https://img.shields.io/badge/AdonisJS-4.x-blueviolet?style=for-the-badge"></a>
-  <a href="https://www.npmjs.com/"><img src="https://img.shields.io/badge/NPM-6.x-red?style=for-the-badge"></a>
+  <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/VueJS-2.6.x-blue?style=for-the-badge"></a>
+  <a href="https://nodejs.org/en/"><img src="https://img.shields.io/badge/Node-14.x-green?style=for-the-badge"></a>
+  <a href="https://www.npmjs.com/"><img src="https://img.shields.io/badge/NPM-7.x-red?style=for-the-badge"></a>
+  <a href="https://nestjs.com/"><img src="https://img.shields.io/badge/NestJS-7.x-red?style=for-the-badge"></a>
   <a href="https://www.conventionalcommits.org/en/v1.0.0/"><img src="https://img.shields.io/badge/Commitizen-friendly-green?style=for-the-badge"></a>
 </p>
 
-[![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url] [![standard][standard-image]][standard-url] [![forthebadge][60time-image]][60time-url]
+[![standard][standard-image]][standard-url] [![forthebadge][60time-image]][60time-url]
 
 [travis-image]: https://img.shields.io/travis/pauloluan/assets/master.svg?style=for-the-badge
 [travis-url]: https://travis-ci.com/pauloluan/assets
 [daviddm-image]: https://img.shields.io/david/pauloluan/assets.svg?style=for-the-badge
-[daviddm-url]: https://david-dm.org/pauloluan/assets
+[daviddm-url]: https://david-dm.org/pauloluan/recipes
 [coveralls-image]: http://img.shields.io/coveralls/pauloluan/assets/master.svg?style=for-the-badge
-[coveralls-url]: https://coveralls.io/github/pauloluan/assets?branch=master
+[coveralls-url]: https://coveralls.io/github/pauloluan/recipes?branch=master
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=for-the-badge
 [standard-url]: http://npm.im/standard
 [60time-image]: https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg
