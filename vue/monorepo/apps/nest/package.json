@@ -2,22 +2,36 @@
   "name": "nest",
   "version": "0.0.1",
   "description": "",
-  "author": "",
   "license": "MIT",
+  "author": "",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "format": "prettier-standard --format",
+    "lint": "tslint -p tsconfig.json -c tslint.json",
     "start": "ts-node -r tsconfig-paths/register src/main.ts",
-    "start:dev": "concurrently --handle-input \"wait-on dist/main.js && nodemon\" \"tsc -w -p tsconfig.build.json\" ",
     "start:debug": "nodemon --config nodemon-debug.json",
+    "start:dev": "concurrently --handle-input \"wait-on dist/main.js && nodemon\" \"tsc -w -p tsconfig.build.json\" ",
     "prestart:prod": "rimraf dist && npm run build",
     "start:prod": "node dist/main.js",
-    "lint": "tslint -p tsconfig.json -c tslint.json",
     "test": "jest",
-    "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "test:e2e": "jest --config ./test/jest-e2e.json"
+    "test:e2e": "jest --config ./test/jest-e2e.json",
+    "test:watch": "jest --watch"
+  },
+  "jest": {
+    "coverageDirectory": "../coverage",
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testEnvironment": "node",
+    "testRegex": ".spec.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    }
   },
   "dependencies": {
     "@nestjs/common": "7.6.1",
@@ -38,19 +52,5 @@
     "node": ">=12.0.0",
     "npm": ">=6.0.0",
     "yarn": ">=1.21.0"
-  },
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "ts"
-    ],
-    "rootDir": "src",
-    "testRegex": ".spec.ts$",
-    "transform": {
-      "^.+\\.(t|j)s$": "ts-jest"
-    },
-    "coverageDirectory": "../coverage",
-    "testEnvironment": "node"
   }
 }
