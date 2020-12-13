@@ -1,0 +1,75 @@
+{
+  "name": "vuejs-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "license": "MIT",
+  "author": {
+    "name": "Paulo Luan",
+    "email": "pauloluan.inova@gmail.com"
+  },
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "libs/*"
+    ]
+  },
+  "scripts": {
+    "dev-shared:server:build": "yarn dev:shared:build && arn dev:nest:build",
+    "dev-shared:server:start": "concurrently --names \"SHARED,SERVER\" -c \"yellow.bold,yellow.bold\" \"yarn dev:shared:start\" \"yarn dev:nest:start\"",
+    "dev-shared:vue:build": "yarn dev:shared:build && arn dev:vue:build",
+    "dev-shared:vue:start": "concurrently --names \"SHARED,VUE\" -c \"yellow.bold,yellow.bold\" \"yarn dev:shared:start\" \"yarn dev:vue:start\"",
+    "dev:all:build": "yarn dev:shared:build && yarn dev:vue:build && yarn dev:nest:build",
+    "dev:all:start": "concurrently --names \"SHARED,VUE,NEST\" -c \"yellow.bold,yellow.bold\" \"yarn dev:shared:start\" \"yarn dev:vue:start\" \"yarn dev:nest:start\"",
+    "dev:nest:build": "cd apps/nest && yarn build",
+    "dev:nest:lint": "cd apps/nest && yarn lint",
+    "dev:nest:start": "cd apps/nest && yarn start:dev",
+    "dev:nest:test": "cd apps/nest && yarn test",
+    "dev:shared:build": "cd libs/shared && rimraf dist && yarn build",
+    "dev:shared:start": "cd libs/shared && yarn build:watch",
+    "dev:vue:build": "cd apps/vue && yarn build",
+    "dev:vue:lint": "cd apps/vue && yarn lint",
+    "dev:vue:start": "cd apps/vue && yarn serve",
+    "prod:nest:start": "cd apps/nest && yarn start:prod",
+    "test:vue:e2e": "cd apps/vue && yarn test:e2e",
+    "test:vue:unit": "cd apps/vue && yarn test:unit",
+    "utils:remove-node-modules": "rimraf node_modules apps/vue/node_modules apps/nest/node_modules libs/shared/node_modules"
+  },
+  "dependencies": {
+    "@vuejs-monorepo/shared": "1.0.0",
+    "core-js": "^3.8.1",
+    "reflect-metadata": "0.1.13"
+  },
+  "devDependencies": {
+    "@types/jest": "26.0.19",
+    "@types/node": "14.14.13",
+    "@typescript-eslint/eslint-plugin": "^4.9.1",
+    "@typescript-eslint/parser": "^4.9.1",
+    "@vue/cli-plugin-typescript": "4.5.9",
+    "concurrently": "5.3.0",
+    "eslint": "^7.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.1.0",
+    "eslint-plugin-vue": "^7.2.0",
+    "jest": "26.6.3",
+    "lint-staged": "10.5.3",
+    "prettier-standard": "^16.4.1",
+    "rimraf": "3.0.2",
+    "ts-jest": "26.4.4",
+    "ts-node": "9.1.1",
+    "tsconfig-paths": "3.9.0",
+    "tslint": "5.20.1",
+    "tslint-config-standard": "^9.0.0",
+    "typescript": "~4.1.3",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0"
+
+  },
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.0.0",
+    "yarn": ">=1.21.0"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "nest",
+  "version": "0.0.1",
+  "description": "",
+  "license": "MIT",
+  "author": "",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "format": "prettier-standard --format",
+    "lint": "tslint -p tsconfig.json -c tslint.json",
+    "start": "ts-node -r tsconfig-paths/register src/main.ts",
+    "start:debug": "nodemon --config nodemon-debug.json",
+    "start:dev": "concurrently --handle-input \"wait-on dist/main.js && nodemon\" \"tsc -w -p tsconfig.build.json\" ",
+    "prestart:prod": "rimraf dist && npm run build",
+    "start:prod": "node dist/main.js",
+    "test": "jest",
+    "test:cov": "jest --coverage",
+    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
+    "test:e2e": "jest --config ./test/jest-e2e.json",
+    "test:watch": "jest --watch"
+  },
+  "jest": {
+    "coverageDirectory": "../coverage",
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testEnvironment": "node",
+    "testRegex": ".spec.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    }
+  },
+  "dependencies": {
+    "@nestjs/common": "7.6.1",
+    "@nestjs/core": "7.6.1",
+    "@nestjs/platform-express": "7.6.1",
+    "rxjs": "6.6.3"
+  },
+  "devDependencies": {
+    "@nestjs/testing": "7.6.1",
+    "@types/express": "4.17.9",
+    "@types/supertest": "2.0.10",
+    "nodemon": "2.0.6",
+    "prettier": "2.2.1",
+    "supertest": "6.0.1",
+    "wait-on": "5.2.0"
+  },
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.0.0",
+    "yarn": ">=1.21.0"
+  }
+}
