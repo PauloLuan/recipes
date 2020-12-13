@@ -28,7 +28,7 @@
 
 ## 💡 Introduction
 
-PLACE_HOLDER
+This is a machine learning project, that can predict if an input quote was made from [Bolsonaro](https://en.wikipedia.org/wiki/Jair_Bolsonaro) or [Lula](https://en.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva).
 
 ## 📝 Minimal Requirements
 
@@ -37,25 +37,16 @@ PLACE_HOLDER
 ## 🚀 Install
 
 ```sh
-$ git clone PLACE_HOLDER
+$ git clone https://github.com/PauloLuan/recipes.git
+$ cd recipes/machine-learning/lula_ou_bolsonaro
+$ yarn dev:all:start
 ```
 
-## 📝 Configure WebApp
-
-## 📝 Configure API
-
-## 📝 Configure Mobile
-
-```sh
-$ cp .env.example .env
-$ npm start
-```
-
-> Check in **development** at PLACE_HOLDER
-
-> Check in **production** at PLACE_HOLDER
+> Check in **development** at [http://localhost:8080](http://localhost:8080)
 
 ## 👤 Author
+
+### You can find me here:
 
 <p align="center">
   <a href="http://bit.ly/reativa-insta">
@@ -71,7 +62,7 @@ $ npm start
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/pauloluan/PLACE_HOLDER/issues).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/pauloluan/recipes/issues).
 
 ## Show your support
 
