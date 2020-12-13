@@ -1,4 +1,5 @@
 import * as brain from 'brain.js'
+import { Bolsonaro, Lula } from '@vuejs-monorepo/shared/data'
 
 class Train {
   constructor (private _net) {
@@ -6,7 +7,10 @@ class Train {
   }
 
   getAllQuotes () {
-    return 'teste'
+    return {
+      biroliro: Bolsonaro,
+      luladrao: Lula
+    }
   }
 
   trainData (data) {
