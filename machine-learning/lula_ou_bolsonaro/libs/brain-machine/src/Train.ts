@@ -30,9 +30,6 @@ class Train {
   execute (input) {
     const encodedInput = this._encode(input)
     let results = this._net.run(encodedInput)
-    console.log('==============')
-    console.log('results :>> ', JSON.stringify(results))
-    console.log('==============')
     const HAS_MORE_BIROLIROS_RESULT = results.bolsonaro > results.lula
 
     const result = HAS_MORE_BIROLIROS_RESULT
