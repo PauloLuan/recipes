@@ -24,7 +24,7 @@ class Train {
 
     this._warmUp()
     const json = this._net.toJSON()
-    fs.writeFileSync(TRAINED_FILE_PATH, JSON.stringify(json))
+    fs.writeFileSync(TRAINED_FILE_PATH, JSON.stringify(json), 'utf8')
   }
 
   execute (input) {
