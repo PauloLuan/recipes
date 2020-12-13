@@ -6,7 +6,9 @@ import * as fs from 'fs'
 const TRAINED_FILE_PATH = path.join(__dirname, '/data/trained-net.json')
 
 class Train {
-  constructor (private _net) {
+  private _net
+
+  constructor () {
     this._net = new brain.NeuralNetwork()
     this._loadPreviousTrainedNet()
   }
@@ -22,7 +24,7 @@ class Train {
 
     this._warmUp()
     const json = this._net.toJSON()
-    fs.writeFileSync(TRAINED_FILE_PATH, json)
+    fs.writeFileSync(TRAINED_FILE_PATH, JSON.stringify(json))
   }
 
   execute (input) {
@@ -76,7 +78,6 @@ class Train {
 
   _trainData (data) {
     this._net.train(data)
-    this._net = this._net.toFunction()
   }
 }
 
