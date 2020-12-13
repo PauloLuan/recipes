@@ -1,18 +1,36 @@
 import * as brain from 'brain.js'
 import * as DataLake from '@vuejs-monorepo/shared/data'
+import * as path from 'path'
+import * as fs from 'fs'
+
+const TRAINED_FILE_PATH = path.join(__dirname, '/data/trained-net.json')
 
 class Train {
-  private _trainedNet
-
   constructor (private _net) {
     this._net = new brain.NeuralNetwork()
+    this._loadPreviousTrainedNet()
+  }
+
+  _loadPreviousTrainedNet () {
+    const HAS_PREVIOUS_FILE = fs.existsSync(TRAINED_FILE_PATH)
+    if (HAS_PREVIOUS_FILE) {
+      const fileContent = fs.readFileSync(TRAINED_FILE_PATH).toString()
+      const previousTrainedNet = JSON.parse(fileContent)
+      this._net.fromJSON(previousTrainedNet)
+      return
+    }
+
     this._warmUp()
+    const json = this._net.toJSON()
+    fs.writeFileSync(TRAINED_FILE_PATH, json)
   }
 
   execute (input) {
     const encodedInput = this._encode(input)
-    let results = this._trainedNet(encodedInput)
-    console.log(results)
+    let results = this._net.run(encodedInput)
+    console.log('==============')
+    console.log('results :>> ', JSON.stringify(results))
+    console.log('==============')
     const HAS_MORE_BIROLIROS_RESULT = results.bolsonaro > results.lula
 
     const result = HAS_MORE_BIROLIROS_RESULT
@@ -58,7 +76,7 @@ class Train {
 
   _trainData (data) {
     this._net.train(data)
-    this._trainedNet = this._net.toFunction()
+    this._net = this._net.toFunction()
   }
 }
 
