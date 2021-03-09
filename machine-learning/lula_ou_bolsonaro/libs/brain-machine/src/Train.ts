@@ -9,7 +9,7 @@ class Train {
   private _net
 
   constructor () {
-    this._net = new brain.NeuralNetwork()
+    this._net = new brain.recurrent.LSTM()
     this._loadPreviousTrainedNet()
   }
 
@@ -70,11 +70,17 @@ class Train {
   }
 
   _createInputAndOutputForQuote (quote, author) {
-    return { input: this._encode(quote), output: { [author]: 1 } }
+    return { input: this._encode(quote), output: author }
   }
 
   _trainData (data) {
-    this._net.train(data)
+    const config = {
+      iterations: 15000,
+      log: true,
+      logPeriod: 1
+    }
+
+    this._net.train(data, config)
   }
 }
 
