@@ -1,8 +1,8 @@
 // Flatly 3.3.7
 // Bootswatch
 // -----------------------------------------------------
-@import "../../lib/bootstrap-social";
-$web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic" !default;
+@import '../../lib/bootstrap-social';
+$web-font-path: 'https://fonts.googleapis.com/css?family=Lato:400,700,400italic' !default;
 @import url($web-font-path);
 
 // Navbar =====================================================================
@@ -11,7 +11,6 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic"
   border-width: 0;
 
   &-default {
-
     .badge {
       background-color: #fff;
       color: $navbar-default-bg;
@@ -19,7 +18,6 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic"
   }
 
   &-inverse {
-
     .badge {
       background-color: #fff;
       color: $navbar-inverse-bg;
@@ -76,7 +74,6 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic"
 
 table,
 .table {
-
   a:not(.btn) {
     text-decoration: underline;
   }
@@ -221,10 +218,10 @@ input {
   }
 
   .disabled {
-    &>a,
-    &>a:hover,
-    &>a:focus,
-    &>span {
+    & > a,
+    & > a:hover,
+    & > a:focus,
+    & > span {
       background-color: $pagination-disabled-bg;
     }
   }
@@ -245,7 +242,6 @@ input {
 }
 
 .alert {
-
   .alert-link {
     color: #fff;
     text-decoration: underline;
@@ -270,7 +266,6 @@ input {
 }
 
 a.list-group-item {
-
   &.active,
   &.active:hover,
   &.active:focus {

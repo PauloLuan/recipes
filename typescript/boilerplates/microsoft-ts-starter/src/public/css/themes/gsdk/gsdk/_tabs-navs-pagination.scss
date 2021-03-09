@@ -1,49 +1,59 @@
 /*            Navigation menu                */
 .nav-pills {
-    > li + li {
-        margin-left: 0;
-    }
-    > li > a {
-        border: 1px solid $info-color;
-        border-radius: 0;
-        color: $info-color;
-        margin-left: -1px;
+  > li + li {
+    margin-left: 0;
+  }
+  > li > a {
+    border: 1px solid $info-color;
+    border-radius: 0;
+    color: $info-color;
+    margin-left: -1px;
 
-        &:hover,
-        &:focus{
-            background-color: #F5F5F5;
-        }
+    &:hover,
+    &:focus {
+      background-color: #f5f5f5;
     }
-    > li.active > a,
-    > li.active > a:hover,
-    > li.active > a:focus {
-        background-color: $info-color;
-        color: #FFFFFF !important;
-    }
-    > li:first-child > a{
-        border-radius: $border-radius-base 0 0 $border-radius-base;
-        margin: 0;
-    }
-    > li:last-child > a{
-        border-radius: 0 $border-radius-base $border-radius-base 0;
-    }
+  }
+  > li.active > a,
+  > li.active > a:hover,
+  > li.active > a:focus {
+    background-color: $info-color;
+    color: #ffffff !important;
+  }
+  > li:first-child > a {
+    border-radius: $border-radius-base 0 0 $border-radius-base;
+    margin: 0;
+  }
+  > li:last-child > a {
+    border-radius: 0 $border-radius-base $border-radius-base 0;
+  }
 }
 
 // style for pagination
 .pagination.pagination-no-border > li > a,
-.pagination.pagination-no-border > li > span{
-    border: 0;
+.pagination.pagination-no-border > li > span {
+  border: 0;
 }
-.pagination > li > a, .pagination > li > span, .pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
-    border-radius: 50%;
-    margin: 0 2px;
-    color: $default-states-color;
+.pagination > li > a,
+.pagination > li > span,
+.pagination > li:first-child > a,
+.pagination > li:first-child > span,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-radius: 50%;
+  margin: 0 2px;
+  color: $default-states-color;
 }
-.pagination > li.active > a, .pagination > li.active > span, .pagination > li.active > a:hover, .pagination > li.active > span:hover, .pagination > li.active > a:focus, .pagination > li.active > span:focus {
-    background-color: $info-color;
-    border: 0;
-    color: #FFFFFF;
-    padding: 7px 13px;
+.pagination > li.active > a,
+.pagination > li.active > span,
+.pagination > li.active > a:hover,
+.pagination > li.active > span:hover,
+.pagination > li.active > a:focus,
+.pagination > li.active > span:focus {
+  background-color: $info-color;
+  border: 0;
+  color: #ffffff;
+  padding: 7px 13px;
 }
 
 .nav-pills.ct-blue > li.active > a,
@@ -54,8 +64,8 @@
 .pagination.ct-blue > li.active > a:hover,
 .pagination.ct-blue > li.active > span:hover,
 .pagination.ct-blue > li.active > a:focus,
-.pagination.ct-blue > li.active > span:focus{
-   background-color: $primary-color;
+.pagination.ct-blue > li.active > span:focus {
+  background-color: $primary-color;
 }
 
 .nav-pills.ct-azzure > li.active > a,
@@ -66,20 +76,20 @@
 .pagination.ct-azzure > li.active > a:hover,
 .pagination.ct-azzure > li.active > span:hover,
 .pagination.ct-azzure > li.active > a:focus,
-.pagination.ct-azzure > li.active > span:focus{
-   background-color: $info-color;
+.pagination.ct-azzure > li.active > span:focus {
+  background-color: $info-color;
 }
 
-.nav-pills.ct-green >  li.active > a,
-.nav-pills.ct-green >  li.active > a:hover,
-.nav-pills.ct-green >  li.active > a:focus,
+.nav-pills.ct-green > li.active > a,
+.nav-pills.ct-green > li.active > a:hover,
+.nav-pills.ct-green > li.active > a:focus,
 .pagination.ct-green > li.active > a,
 .pagination.ct-green > li.active > span,
 .pagination.ct-green > li.active > a:hover,
 .pagination.ct-green > li.active > span:hover,
 .pagination.ct-green > li.active > a:focus,
-.pagination.ct-green > li.active > span:focus{
-   background-color: $success-color;
+.pagination.ct-green > li.active > span:focus {
+  background-color: $success-color;
 }
 
 .nav-pills.ct-orange > li.active > a,
@@ -90,8 +100,8 @@
 .pagination.ct-orange > li.active > a:hover,
 .pagination.ct-orange > li.active > span:hover,
 .pagination.ct-orange > li.active > a:focus,
-.pagination.ct-orange > li.active > span:focus{
-   background-color: $warning-color;
+.pagination.ct-orange > li.active > span:focus {
+  background-color: $warning-color;
 }
 
 .nav-pills.ct-red > li.active > a,
@@ -102,21 +112,21 @@
 .pagination.ct-red > li.active > a:hover,
 .pagination.ct-red > li.active > span:hover,
 .pagination.ct-red > li.active > a:focus,
-.pagination.ct-red > li.active > span:focus{
-   background-color: $danger-color;
+.pagination.ct-red > li.active > span:focus {
+  background-color: $danger-color;
 }
 .nav-pills.ct-blue > li > a {
-    @include pill-style($primary-color);
+  @include pill-style($primary-color);
 }
 .nav-pills.ct-azzure > li > a {
-    @include pill-style($info-color);
+  @include pill-style($info-color);
 }
 .nav-pills.ct-green > li > a {
-    @include pill-style($success-color);
+  @include pill-style($success-color);
 }
 .nav-pills.ct-orange > li > a {
-    @include pill-style($warning-color);
+  @include pill-style($warning-color);
 }
 .nav-pills.ct-red > li > a {
-    @include pill-style($danger-color);
+  @include pill-style($danger-color);
 }

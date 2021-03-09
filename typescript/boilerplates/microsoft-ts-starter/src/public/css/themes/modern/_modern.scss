@@ -1,4 +1,4 @@
-@import "../../lib/bootstrap-social";
+@import '../../lib/bootstrap-social';
 
 // Footer
 // -------------------------
@@ -16,7 +16,7 @@ footer {
 // -------------------------
 
 a {
-  transition: all .4s cubic-bezier(.24,.45,.46,.92);
+  transition: all 0.4s cubic-bezier(0.24, 0.45, 0.46, 0.92);
 
   &:hover {
     text-decoration: none;
@@ -46,7 +46,7 @@ p {
   padding: 10px 16px;
   border: 0;
   border-radius: 3px;
-  transition: all .4s cubic-bezier(.24,.45,.46,.92);
+  transition: all 0.4s cubic-bezier(0.24, 0.45, 0.46, 0.92);
 
   &:hover {
     color: #fff;
@@ -64,7 +64,6 @@ p {
 }
 
 .btn-link {
-
   &:hover {
     color: $gray-darker;
     text-decoration: none;
@@ -84,11 +83,11 @@ p {
 
 .navbar-default {
   border: 0;
-  box-shadow: 0 1px 5px rgba(0,0,0,.15);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
 
   .navbar-nav {
     > li > a {
-      transition: color .4s cubic-bezier(.24,.45,.46,.92);
+      transition: color 0.4s cubic-bezier(0.24, 0.45, 0.46, 0.92);
     }
   }
 }
