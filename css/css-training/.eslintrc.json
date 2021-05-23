@@ -1,5 +1,8 @@
 {
   "root": true,
+  "rules": {
+    "semi": ["error", "never"]
+  },
   "ignorePatterns": ["**/*"],
   "plugins": ["@nrwl/nx"],
   "overrides": [
