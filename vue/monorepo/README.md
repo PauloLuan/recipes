@@ -58,7 +58,7 @@ $ npm start
 ## 👤 Author
 
 <p align="center">
-  <a href="http://bit.ly/reativa-insta">
+  <a href="http://bit.ly/pauloluan-insta">
     <img src="https://github.com/pauloluan/assets/blob/master/insta.png" width="50"  alt="Follow me on Instagram" />
   </a>
   <a href="https://bit.ly/pauloluan/">
