@@ -25,6 +25,9 @@
     "css-base-e2e": {
       "tags": [],
       "implicitDependencies": ["css-base"]
+    },
+    "shared-components": {
+      "tags": []
     }
   }
 }
