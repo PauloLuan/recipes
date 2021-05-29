@@ -9,10 +9,10 @@ const StyledSharedComponents = styled.div`
   color: pink;
 `
 
-export function SharedComponents(props: SharedComponentsProps) {
+export function SharedComponents (props: SharedComponentsProps) {
   return (
     <StyledSharedComponents>
-      <h1>Welcome to shared-components!</h1>
+      <h1>Teste</h1>
     </StyledSharedComponents>
   )
 }
