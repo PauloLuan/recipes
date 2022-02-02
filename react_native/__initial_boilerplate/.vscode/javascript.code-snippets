@@ -1,0 +1,12 @@
+{
+  "js:namedFunction": {
+    "body": "const ${1:name} = (${2:params}) => {\n\t${3}\n}",
+    "description": "Creates a named function in ES6 syntax",
+    "prefix": "func"
+  },
+  "js:import": {
+    "body": "import {${1:packageName}} from '${1:package}'$0",
+    "description": "Require a package to const",
+    "prefix": "import"
+  }
+}
