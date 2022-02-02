@@ -1,12 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Home /> should render the Home component 1`] = `
-<RCTScrollView
-  horizontal={true}
+<View
   style={
     Array [
       Object {
-        "backgroundColor": "#f8f9fa",
+        "backgroundColor": "#121214",
         "flexBasis": 0,
         "flexGrow": 1,
         "flexShrink": 1,
@@ -15,20 +14,62 @@ exports[`<Home /> should render the Home component 1`] = `
   }
   testID="component-home-id"
 >
-  <View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 15,
+          "marginLeft": 15,
+          "marginRight": 15,
+          "marginTop": 15,
+        },
+      ]
+    }
+  >
     <Text
       style={
         Array [
           Object {
-            "fontFamily": "Roboto_900Black_Italic",
+            "color": "#FFFFFF",
+            "fontFamily": "Roboto_500Medium",
             "fontSize": 24,
             "fontWeight": "bold",
           },
         ]
       }
     >
-      teste 123 
+      React Native Chat
     </Text>
+    <View
+      accessible={true}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#FFFFFF",
+            },
+          ]
+        }
+      >
+        Sair
+      </Text>
+    </View>
   </View>
-</RCTScrollView>
+</View>
 `;
