@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-		"lint": "eslint --fix . --ext .js,.jsx,.ts,.tsx",
+    "lint": "eslint --fix . --ext .js,.jsx,.ts,.tsx",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "test": "jest"
   },
   "dependencies": {
     "expo": "~44.0.0",
@@ -20,14 +21,26 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
+    "@testing-library/jest-native": "^4.0.4",
+    "@testing-library/react-native": "^9.0.0",
+    "@types/jest": "^27.4.0",
+    "@types/node": "^17.0.14",
     "@types/react": "~17.0.21",
     "@types/react-native": "~0.64.12",
     "@typescript-eslint/eslint-plugin": "^5.10.2",
     "@typescript-eslint/parser": "^5.10.2",
     "eslint": "^8.8.0",
     "eslint-config-universe": "^10.0.0",
+    "jest": "^27.4.7",
+    "jest-expo": "^44.0.1",
     "prettier": "^2.5.1",
     "typescript": "~4.3.5"
+  },
+  "jest": {
+    "preset": "jest-expo/ios",
+    "setupFilesAfterEnv": [
+      "@testing-library/jest-native/extend-expect"
+    ]
   },
   "private": true
 }
