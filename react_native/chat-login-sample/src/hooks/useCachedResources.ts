@@ -1,11 +1,7 @@
 import {
   Roboto_100Thin,
-  Roboto_100Thin_Italic,
   Roboto_500Medium,
-  Roboto_500Medium_Italic,
-  Roboto_900Black,
-  Roboto_900Black_Italic,
-  useFonts
+  Roboto_900Black
 } from '@expo-google-fonts/roboto'
 import { FontAwesome } from '@expo/vector-icons'
 import * as Font from 'expo-font'
@@ -25,11 +21,8 @@ export default function useCachedResources() {
         await Font.loadAsync({
           ...FontAwesome.font,
           Roboto_100Thin,
-          Roboto_100Thin_Italic,
           Roboto_500Medium,
-          Roboto_500Medium_Italic,
-          Roboto_900Black,
-          Roboto_900Black_Italic
+          Roboto_900Black
         })
       } catch (e) {
         // We might want to provide this error information to an error reporting service

@@ -20,7 +20,7 @@ export default function App() {
       <SafeAreaProvider>
         {/* <Navigation colorScheme={colorScheme} /> */}
         <StorybookUIRoot />
-        <StatusBar />
+        <StatusBar style={colorScheme} />
       </SafeAreaProvider>
     </ThemeProvider>
   )

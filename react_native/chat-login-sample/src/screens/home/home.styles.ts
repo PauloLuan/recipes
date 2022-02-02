@@ -8,12 +8,13 @@ export const Wrapper = styled.ScrollView.attrs<ScrollViewProps>({
 })`
   ${() => css`
     flex: 1;
-    background-color: ${({ theme }) => theme.colors.background};
+    background-color: ${({ theme }) => theme.colors.BLACK_SECONDARY};
   `}
 `
 
 export const Headline = styled.Text`
   font-size: 24px;
   font-weight: bold;
-  font-family: 'Roboto_900Black_Italic';
+  font-family: ${({ theme }) => theme.fonts.primaryMedium};
+  color: ${({ theme }) => theme.colors.WHITE};
 `
