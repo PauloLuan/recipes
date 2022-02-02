@@ -10,8 +10,10 @@ export const UserPhoto = ({
   ...props
 }: UserPhotoProps) => {
   return (
-    <>
-      <S.Wrapper testID={testId} {...props}></S.Wrapper>
-    </>
+    <S.UserImage
+      testID={testId}
+      source={{ uri: `http://github.com/pauloluan.png` }}
+      {...props}
+    ></S.UserImage>
   )
 }

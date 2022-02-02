@@ -2,11 +2,12 @@ import styled, { css } from 'styled-components/native'
 
 // import { UserPhotoProps } from '.'
 
-export const Wrapper = styled.View`
+export const UserImage = styled.Image`
   ${() => css`
-    flex: 1;
-    background-color: blue;
-    width: 85px;
-    height: 60px;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    border-color: red;
+    border-width: 4px;
   `}
 `
