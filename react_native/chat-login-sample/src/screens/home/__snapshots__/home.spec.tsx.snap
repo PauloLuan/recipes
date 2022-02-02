@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should render the Home component 1`] = `
+<RCTScrollView
+  horizontal={true}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#f8f9fa",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+  testID="component-home-id"
+>
+  <View>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "Roboto_900Black_Italic",
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+        ]
+      }
+    >
+      teste 123 
+    </Text>
+  </View>
+</RCTScrollView>
+`;
