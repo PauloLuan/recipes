@@ -8,8 +8,8 @@ const SIZES = {
     avatarSize: 28
   },
   NORMAL: {
-    containerSize: 32,
-    avatarSize: 28
+    containerSize: 52,
+    avatarSize: 38
   }
 }
 
