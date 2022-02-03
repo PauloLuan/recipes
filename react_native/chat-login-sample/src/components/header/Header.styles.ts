@@ -4,9 +4,11 @@ import styled, { css } from 'styled-components/native'
 
 export const Header = styled.View`
   ${() => css`
+    height: 30px;
     margin: 15px;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   `}
 `
 

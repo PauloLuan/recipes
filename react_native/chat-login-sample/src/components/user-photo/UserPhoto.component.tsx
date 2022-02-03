@@ -13,7 +13,7 @@ const SIZES = {
   },
   NORMAL: {
     containerSize: 52,
-    avatarSize: 38
+    avatarSize: 48
   }
 }
 
@@ -25,12 +25,17 @@ export const UserPhoto = ({
   const { containerSize, avatarSize } = SIZES[size]
 
   return (
-    <S.UserImage
-      testID={testId}
-      source={{ uri: imageUri }}
+    <S.LinearGradientBackground
       containerSize={containerSize}
       avatarSize={avatarSize}
       borderRadius={containerSize / 2}
-    ></S.UserImage>
+    >
+      <S.UserImage
+        testID={testId}
+        source={{ uri: imageUri }}
+        avatarSize={avatarSize}
+        borderRadius={containerSize / 2}
+      ></S.UserImage>
+    </S.LinearGradientBackground>
   )
 }
