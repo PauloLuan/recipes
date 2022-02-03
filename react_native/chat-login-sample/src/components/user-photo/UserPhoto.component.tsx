@@ -2,6 +2,8 @@ import React from 'react'
 import * as S from './UserPhoto.styles'
 import { UserPhotoProps } from './interfaces'
 
+import DefaultAvatar from '../../assets/images/avatar.png'
+
 const SIZES = {
   SMALL: {
     containerSize: 32,
@@ -15,7 +17,7 @@ const SIZES = {
 
 export const UserPhoto = ({
   testId = 'component-user-photo-id',
-  imageUri = `http://github.com/pauloluan.png`,
+  imageUri = DefaultAvatar.uri,
   size = 'SMALL'
 }: UserPhotoProps) => {
   const { containerSize, avatarSize } = SIZES[size]
