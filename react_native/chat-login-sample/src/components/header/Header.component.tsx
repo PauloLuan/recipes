@@ -11,7 +11,13 @@ export const Header = ({
 }: HeaderProps) => {
   return (
     <>
-      <S.Wrapper testID={testId} {...props}></S.Wrapper>
+      <S.Header testID={testId} {...props}>
+        <S.Headline>React Native Chat</S.Headline>
+
+        <S.ExitWrapper>
+          <S.Exit>Sair</S.Exit>
+        </S.ExitWrapper>
+      </S.Header>
     </>
   )
 }
