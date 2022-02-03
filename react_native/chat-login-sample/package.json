@@ -13,7 +13,8 @@
     "test": "jest --watchAll",
     "prestorybook": "rnstl",
     "storybook": "start-storybook -p 7007",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "lint": "eslint --fix . --ext .ts,.tsx"
   },
   "config": {
     "react-native-storybook-loader": {
