@@ -1,8 +1,10 @@
 import React from 'react'
 import * as S from './UserPhoto.styles'
 import { UserPhotoProps } from './interfaces'
+import { Image } from 'react-native'
 
 import DefaultAvatar from '../../assets/images/avatar.png'
+const defaultAvatarUri = Image.resolveAssetSource(DefaultAvatar).uri
 
 const SIZES = {
   SMALL: {
@@ -17,7 +19,7 @@ const SIZES = {
 
 export const UserPhoto = ({
   testId = 'component-user-photo-id',
-  imageUri = DefaultAvatar.uri,
+  imageUri = defaultAvatarUri,
   size = 'SMALL'
 }: UserPhotoProps) => {
   const { containerSize, avatarSize } = SIZES[size]
