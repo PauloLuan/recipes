@@ -1,19 +1,32 @@
 import React from 'react'
 import * as S from './UserPhoto.styles'
+import { UserPhotoProps } from './interfaces'
 
-export interface UserPhotoProps {
-  testId?: string
+const SIZES = {
+  SMALL: {
+    containerSize: 32,
+    avatarSize: 28
+  },
+  NORMAL: {
+    containerSize: 32,
+    avatarSize: 28
+  }
 }
 
 export const UserPhoto = ({
   testId = 'component-user-photo-id',
-  ...props
+  imageUri = `http://github.com/pauloluan.png`,
+  size = 'SMALL'
 }: UserPhotoProps) => {
+  const { containerSize, avatarSize } = SIZES[size]
+
   return (
     <S.UserImage
       testID={testId}
-      source={{ uri: `http://github.com/pauloluan.png` }}
-      {...props}
+      source={{ uri: imageUri }}
+      containerSize={containerSize}
+      avatarSize={avatarSize}
+      borderRadius={containerSize / 2}
     ></S.UserImage>
   )
 }
