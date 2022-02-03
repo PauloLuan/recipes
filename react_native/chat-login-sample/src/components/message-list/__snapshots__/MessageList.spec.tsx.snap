@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MessageList /> should render the MessageList component 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "blue",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "height": 60,
+        "width": 85,
+      },
+    ]
+  }
+  testID="component-message-list-id"
+/>
+`;
