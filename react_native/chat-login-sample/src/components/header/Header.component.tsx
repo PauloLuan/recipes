@@ -15,7 +15,7 @@ export const Header = ({
       <S.Header testID={testId} {...props}>
         <S.Headline>React Native Chat</S.Headline>
 
-        <UserPhoto size="NORMAL" imageUri="http://github.com/pauloluan" />
+        <UserPhoto size="NORMAL" />
 
         <S.ExitWrapper>
           <S.Exit>Sair</S.Exit>

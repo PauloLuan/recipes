@@ -5,17 +5,107 @@ exports[`<Header /> should render the Header component 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "blue",
-        "flexBasis": 0,
-        "flexGrow": 1,
-        "flexShrink": 1,
-        "height": 60,
-        "width": 85,
+        "alignItems": "center",
+        "flexDirection": "row",
+        "height": 30,
+        "justifyContent": "space-between",
+        "marginBottom": 15,
+        "marginLeft": 15,
+        "marginRight": 15,
+        "marginTop": 15,
       },
     ]
   }
   testID="component-header-id"
 >
-  Body...
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "Roboto_500Medium",
+          "fontSize": 24,
+          "fontWeight": "bold",
+        },
+      ]
+    }
+  >
+    React Native Chat
+  </Text>
+  <ViewManagerAdapter_ExpoLinearGradient
+    proxiedProperties={
+      Object {
+        "avatarSize": 48,
+        "borderRadius": 26,
+        "colors": Array [
+          4279994175,
+          4294954270,
+        ],
+        "containerSize": 52,
+        "endPoint": undefined,
+        "locations": undefined,
+        "startPoint": undefined,
+      }
+    }
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderRadius": 26,
+          "height": 52,
+          "justifyContent": "center",
+          "width": 52,
+        },
+      ]
+    }
+  >
+    <Image
+      avatarSize={48}
+      borderRadius={26}
+      source={
+        Object {
+          "uri": "file://assets/full/path/to/directory/name.type",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "borderRadius": 26,
+            "height": 48,
+            "width": 48,
+          },
+        ]
+      }
+      testID="component-user-photo-id"
+    />
+  </ViewManagerAdapter_ExpoLinearGradient>
+  <View
+    accessible={true}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+          },
+        ]
+      }
+    >
+      Sair
+    </Text>
+  </View>
 </View>
 `;
