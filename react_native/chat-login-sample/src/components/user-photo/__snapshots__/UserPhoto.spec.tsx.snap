@@ -1,21 +1,51 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<UserPhoto /> should render the UserPhoto component 1`] = `
-<View
+<ViewManagerAdapter_ExpoLinearGradient
+  proxiedProperties={
+    Object {
+      "avatarSize": 28,
+      "borderRadius": 16,
+      "colors": Array [
+        4279994175,
+        4294954270,
+      ],
+      "containerSize": 32,
+      "endPoint": undefined,
+      "locations": undefined,
+      "startPoint": undefined,
+    }
+  }
   style={
     Array [
       Object {
-        "backgroundColor": "blue",
-        "flexBasis": 0,
-        "flexGrow": 1,
-        "flexShrink": 1,
-        "height": 60,
-        "width": 85,
+        "alignItems": "center",
+        "borderRadius": 16,
+        "height": 32,
+        "justifyContent": "center",
+        "width": 32,
       },
     ]
   }
-  testID="component-user-photo-id"
 >
-  Body...
-</View>
+  <Image
+    avatarSize={28}
+    borderRadius={16}
+    source={
+      Object {
+        "uri": "file://assets/full/path/to/directory/name.type",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "borderRadius": 16,
+          "height": 28,
+          "width": 28,
+        },
+      ]
+    }
+    testID="component-user-photo-id"
+  />
+</ViewManagerAdapter_ExpoLinearGradient>
 `;

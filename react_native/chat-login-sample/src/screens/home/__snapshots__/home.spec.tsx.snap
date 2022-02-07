@@ -18,7 +18,9 @@ exports[`<Home /> should render the Home component 1`] = `
     style={
       Array [
         Object {
+          "alignItems": "center",
           "flexDirection": "row",
+          "height": 30,
           "justifyContent": "space-between",
           "marginBottom": 15,
           "marginLeft": 15,
@@ -27,6 +29,7 @@ exports[`<Home /> should render the Home component 1`] = `
         },
       ]
     }
+    testID="component-header-id"
   >
     <Text
       style={
@@ -42,6 +45,53 @@ exports[`<Home /> should render the Home component 1`] = `
     >
       React Native Chat
     </Text>
+    <ViewManagerAdapter_ExpoLinearGradient
+      proxiedProperties={
+        Object {
+          "avatarSize": 48,
+          "borderRadius": 26,
+          "colors": Array [
+            4279994175,
+            4294954270,
+          ],
+          "containerSize": 52,
+          "endPoint": undefined,
+          "locations": undefined,
+          "startPoint": undefined,
+        }
+      }
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderRadius": 26,
+            "height": 52,
+            "justifyContent": "center",
+            "width": 52,
+          },
+        ]
+      }
+    >
+      <Image
+        avatarSize={48}
+        borderRadius={26}
+        source={
+          Object {
+            "uri": "file://assets/full/path/to/directory/name.type",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "borderRadius": 26,
+              "height": 48,
+              "width": 48,
+            },
+          ]
+        }
+        testID="component-user-photo-id"
+      />
+    </ViewManagerAdapter_ExpoLinearGradient>
     <View
       accessible={true}
       focusable={false}
@@ -71,5 +121,1069 @@ exports[`<Home /> should render the Home component 1`] = `
       </Text>
     </View>
   </View>
+  <RCTScrollView
+    style={
+      Array [
+        Object {},
+      ]
+    }
+    testID="component-message-list-id"
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "black",
+              "flexDirection": "row",
+              "height": 100,
+              "paddingBottom": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15,
+              "paddingTop": 15,
+            },
+          ]
+        }
+        testID="component-Message-id"
+      >
+        <ViewManagerAdapter_ExpoLinearGradient
+          proxiedProperties={
+            Object {
+              "avatarSize": 28,
+              "borderRadius": 16,
+              "colors": Array [
+                4279994175,
+                4294954270,
+              ],
+              "containerSize": 32,
+              "endPoint": undefined,
+              "locations": undefined,
+              "startPoint": undefined,
+            }
+          }
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 16,
+                "height": 32,
+                "justifyContent": "center",
+                "width": 32,
+              },
+            ]
+          }
+        >
+          <Image
+            avatarSize={28}
+            borderRadius={16}
+            source={
+              Object {
+                "uri": "file://assets/full/path/to/directory/name.type",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "borderRadius": 16,
+                  "height": 28,
+                  "width": 28,
+                },
+              ]
+            }
+            testID="component-user-photo-id"
+          />
+        </ViewManagerAdapter_ExpoLinearGradient>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "column",
+                "marginLeft": 10,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "white",
+                  "fontSize": 10,
+                },
+              ]
+            }
+          >
+            Paulo Luan
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "flexWrap": "wrap",
+                  "marginBottom": 0,
+                  "marginLeft": 0,
+                  "marginRight": 20,
+                  "marginTop": 10,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={2}
+              style={
+                Array [
+                  Object {
+                    "color": "white",
+                    "flexWrap": "wrap",
+                    "fontSize": 14,
+                  },
+                ]
+              }
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "black",
+              "flexDirection": "row",
+              "height": 100,
+              "paddingBottom": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15,
+              "paddingTop": 15,
+            },
+          ]
+        }
+        testID="component-Message-id"
+      >
+        <ViewManagerAdapter_ExpoLinearGradient
+          proxiedProperties={
+            Object {
+              "avatarSize": 28,
+              "borderRadius": 16,
+              "colors": Array [
+                4279994175,
+                4294954270,
+              ],
+              "containerSize": 32,
+              "endPoint": undefined,
+              "locations": undefined,
+              "startPoint": undefined,
+            }
+          }
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 16,
+                "height": 32,
+                "justifyContent": "center",
+                "width": 32,
+              },
+            ]
+          }
+        >
+          <Image
+            avatarSize={28}
+            borderRadius={16}
+            source={
+              Object {
+                "uri": "file://assets/full/path/to/directory/name.type",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "borderRadius": 16,
+                  "height": 28,
+                  "width": 28,
+                },
+              ]
+            }
+            testID="component-user-photo-id"
+          />
+        </ViewManagerAdapter_ExpoLinearGradient>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "column",
+                "marginLeft": 10,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "white",
+                  "fontSize": 10,
+                },
+              ]
+            }
+          >
+            Paulo Luan
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "flexWrap": "wrap",
+                  "marginBottom": 0,
+                  "marginLeft": 0,
+                  "marginRight": 20,
+                  "marginTop": 10,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={2}
+              style={
+                Array [
+                  Object {
+                    "color": "white",
+                    "flexWrap": "wrap",
+                    "fontSize": 14,
+                  },
+                ]
+              }
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "black",
+              "flexDirection": "row",
+              "height": 100,
+              "paddingBottom": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15,
+              "paddingTop": 15,
+            },
+          ]
+        }
+        testID="component-Message-id"
+      >
+        <ViewManagerAdapter_ExpoLinearGradient
+          proxiedProperties={
+            Object {
+              "avatarSize": 28,
+              "borderRadius": 16,
+              "colors": Array [
+                4279994175,
+                4294954270,
+              ],
+              "containerSize": 32,
+              "endPoint": undefined,
+              "locations": undefined,
+              "startPoint": undefined,
+            }
+          }
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 16,
+                "height": 32,
+                "justifyContent": "center",
+                "width": 32,
+              },
+            ]
+          }
+        >
+          <Image
+            avatarSize={28}
+            borderRadius={16}
+            source={
+              Object {
+                "uri": "file://assets/full/path/to/directory/name.type",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "borderRadius": 16,
+                  "height": 28,
+                  "width": 28,
+                },
+              ]
+            }
+            testID="component-user-photo-id"
+          />
+        </ViewManagerAdapter_ExpoLinearGradient>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "column",
+                "marginLeft": 10,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "white",
+                  "fontSize": 10,
+                },
+              ]
+            }
+          >
+            Paulo Luan
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "flexWrap": "wrap",
+                  "marginBottom": 0,
+                  "marginLeft": 0,
+                  "marginRight": 20,
+                  "marginTop": 10,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={2}
+              style={
+                Array [
+                  Object {
+                    "color": "white",
+                    "flexWrap": "wrap",
+                    "fontSize": 14,
+                  },
+                ]
+              }
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "black",
+              "flexDirection": "row",
+              "height": 100,
+              "paddingBottom": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15,
+              "paddingTop": 15,
+            },
+          ]
+        }
+        testID="component-Message-id"
+      >
+        <ViewManagerAdapter_ExpoLinearGradient
+          proxiedProperties={
+            Object {
+              "avatarSize": 28,
+              "borderRadius": 16,
+              "colors": Array [
+                4279994175,
+                4294954270,
+              ],
+              "containerSize": 32,
+              "endPoint": undefined,
+              "locations": undefined,
+              "startPoint": undefined,
+            }
+          }
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 16,
+                "height": 32,
+                "justifyContent": "center",
+                "width": 32,
+              },
+            ]
+          }
+        >
+          <Image
+            avatarSize={28}
+            borderRadius={16}
+            source={
+              Object {
+                "uri": "file://assets/full/path/to/directory/name.type",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "borderRadius": 16,
+                  "height": 28,
+                  "width": 28,
+                },
+              ]
+            }
+            testID="component-user-photo-id"
+          />
+        </ViewManagerAdapter_ExpoLinearGradient>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "column",
+                "marginLeft": 10,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "white",
+                  "fontSize": 10,
+                },
+              ]
+            }
+          >
+            Paulo Luan
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "flexWrap": "wrap",
+                  "marginBottom": 0,
+                  "marginLeft": 0,
+                  "marginRight": 20,
+                  "marginTop": 10,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={2}
+              style={
+                Array [
+                  Object {
+                    "color": "white",
+                    "flexWrap": "wrap",
+                    "fontSize": 14,
+                  },
+                ]
+              }
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "black",
+              "flexDirection": "row",
+              "height": 100,
+              "paddingBottom": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15,
+              "paddingTop": 15,
+            },
+          ]
+        }
+        testID="component-Message-id"
+      >
+        <ViewManagerAdapter_ExpoLinearGradient
+          proxiedProperties={
+            Object {
+              "avatarSize": 28,
+              "borderRadius": 16,
+              "colors": Array [
+                4279994175,
+                4294954270,
+              ],
+              "containerSize": 32,
+              "endPoint": undefined,
+              "locations": undefined,
+              "startPoint": undefined,
+            }
+          }
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 16,
+                "height": 32,
+                "justifyContent": "center",
+                "width": 32,
+              },
+            ]
+          }
+        >
+          <Image
+            avatarSize={28}
+            borderRadius={16}
+            source={
+              Object {
+                "uri": "file://assets/full/path/to/directory/name.type",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "borderRadius": 16,
+                  "height": 28,
+                  "width": 28,
+                },
+              ]
+            }
+            testID="component-user-photo-id"
+          />
+        </ViewManagerAdapter_ExpoLinearGradient>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "column",
+                "marginLeft": 10,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "white",
+                  "fontSize": 10,
+                },
+              ]
+            }
+          >
+            Paulo Luan
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "flexWrap": "wrap",
+                  "marginBottom": 0,
+                  "marginLeft": 0,
+                  "marginRight": 20,
+                  "marginTop": 10,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={2}
+              style={
+                Array [
+                  Object {
+                    "color": "white",
+                    "flexWrap": "wrap",
+                    "fontSize": 14,
+                  },
+                ]
+              }
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "black",
+              "flexDirection": "row",
+              "height": 100,
+              "paddingBottom": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15,
+              "paddingTop": 15,
+            },
+          ]
+        }
+        testID="component-Message-id"
+      >
+        <ViewManagerAdapter_ExpoLinearGradient
+          proxiedProperties={
+            Object {
+              "avatarSize": 28,
+              "borderRadius": 16,
+              "colors": Array [
+                4279994175,
+                4294954270,
+              ],
+              "containerSize": 32,
+              "endPoint": undefined,
+              "locations": undefined,
+              "startPoint": undefined,
+            }
+          }
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 16,
+                "height": 32,
+                "justifyContent": "center",
+                "width": 32,
+              },
+            ]
+          }
+        >
+          <Image
+            avatarSize={28}
+            borderRadius={16}
+            source={
+              Object {
+                "uri": "file://assets/full/path/to/directory/name.type",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "borderRadius": 16,
+                  "height": 28,
+                  "width": 28,
+                },
+              ]
+            }
+            testID="component-user-photo-id"
+          />
+        </ViewManagerAdapter_ExpoLinearGradient>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "column",
+                "marginLeft": 10,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "white",
+                  "fontSize": 10,
+                },
+              ]
+            }
+          >
+            Paulo Luan
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "flexWrap": "wrap",
+                  "marginBottom": 0,
+                  "marginLeft": 0,
+                  "marginRight": 20,
+                  "marginTop": 10,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={2}
+              style={
+                Array [
+                  Object {
+                    "color": "white",
+                    "flexWrap": "wrap",
+                    "fontSize": 14,
+                  },
+                ]
+              }
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "black",
+              "flexDirection": "row",
+              "height": 100,
+              "paddingBottom": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15,
+              "paddingTop": 15,
+            },
+          ]
+        }
+        testID="component-Message-id"
+      >
+        <ViewManagerAdapter_ExpoLinearGradient
+          proxiedProperties={
+            Object {
+              "avatarSize": 28,
+              "borderRadius": 16,
+              "colors": Array [
+                4279994175,
+                4294954270,
+              ],
+              "containerSize": 32,
+              "endPoint": undefined,
+              "locations": undefined,
+              "startPoint": undefined,
+            }
+          }
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 16,
+                "height": 32,
+                "justifyContent": "center",
+                "width": 32,
+              },
+            ]
+          }
+        >
+          <Image
+            avatarSize={28}
+            borderRadius={16}
+            source={
+              Object {
+                "uri": "file://assets/full/path/to/directory/name.type",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "borderRadius": 16,
+                  "height": 28,
+                  "width": 28,
+                },
+              ]
+            }
+            testID="component-user-photo-id"
+          />
+        </ViewManagerAdapter_ExpoLinearGradient>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "column",
+                "marginLeft": 10,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "white",
+                  "fontSize": 10,
+                },
+              ]
+            }
+          >
+            Paulo Luan
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "flexWrap": "wrap",
+                  "marginBottom": 0,
+                  "marginLeft": 0,
+                  "marginRight": 20,
+                  "marginTop": 10,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={2}
+              style={
+                Array [
+                  Object {
+                    "color": "white",
+                    "flexWrap": "wrap",
+                    "fontSize": 14,
+                  },
+                ]
+              }
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "black",
+              "flexDirection": "row",
+              "height": 100,
+              "paddingBottom": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15,
+              "paddingTop": 15,
+            },
+          ]
+        }
+        testID="component-Message-id"
+      >
+        <ViewManagerAdapter_ExpoLinearGradient
+          proxiedProperties={
+            Object {
+              "avatarSize": 28,
+              "borderRadius": 16,
+              "colors": Array [
+                4279994175,
+                4294954270,
+              ],
+              "containerSize": 32,
+              "endPoint": undefined,
+              "locations": undefined,
+              "startPoint": undefined,
+            }
+          }
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 16,
+                "height": 32,
+                "justifyContent": "center",
+                "width": 32,
+              },
+            ]
+          }
+        >
+          <Image
+            avatarSize={28}
+            borderRadius={16}
+            source={
+              Object {
+                "uri": "file://assets/full/path/to/directory/name.type",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "borderRadius": 16,
+                  "height": 28,
+                  "width": 28,
+                },
+              ]
+            }
+            testID="component-user-photo-id"
+          />
+        </ViewManagerAdapter_ExpoLinearGradient>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "column",
+                "marginLeft": 10,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "white",
+                  "fontSize": 10,
+                },
+              ]
+            }
+          >
+            Paulo Luan
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "flexWrap": "wrap",
+                  "marginBottom": 0,
+                  "marginLeft": 0,
+                  "marginRight": 20,
+                  "marginTop": 10,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={2}
+              style={
+                Array [
+                  Object {
+                    "color": "white",
+                    "flexWrap": "wrap",
+                    "fontSize": 14,
+                  },
+                ]
+              }
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "black",
+              "flexDirection": "row",
+              "height": 100,
+              "paddingBottom": 15,
+              "paddingLeft": 15,
+              "paddingRight": 15,
+              "paddingTop": 15,
+            },
+          ]
+        }
+        testID="component-Message-id"
+      >
+        <ViewManagerAdapter_ExpoLinearGradient
+          proxiedProperties={
+            Object {
+              "avatarSize": 28,
+              "borderRadius": 16,
+              "colors": Array [
+                4279994175,
+                4294954270,
+              ],
+              "containerSize": 32,
+              "endPoint": undefined,
+              "locations": undefined,
+              "startPoint": undefined,
+            }
+          }
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 16,
+                "height": 32,
+                "justifyContent": "center",
+                "width": 32,
+              },
+            ]
+          }
+        >
+          <Image
+            avatarSize={28}
+            borderRadius={16}
+            source={
+              Object {
+                "uri": "file://assets/full/path/to/directory/name.type",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "borderRadius": 16,
+                  "height": 28,
+                  "width": 28,
+                },
+              ]
+            }
+            testID="component-user-photo-id"
+          />
+        </ViewManagerAdapter_ExpoLinearGradient>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "column",
+                "marginLeft": 10,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "white",
+                  "fontSize": 10,
+                },
+              ]
+            }
+          >
+            Paulo Luan
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "flexWrap": "wrap",
+                  "marginBottom": 0,
+                  "marginLeft": 0,
+                  "marginRight": 20,
+                  "marginTop": 10,
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={2}
+              style={
+                Array [
+                  Object {
+                    "color": "white",
+                    "flexWrap": "wrap",
+                    "fontSize": 14,
+                  },
+                ]
+              }
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
 </View>
 `;
