@@ -78,7 +78,7 @@
     "body": [
       "import { storiesOf } from \"@storybook/react-native\"",
       "import React from \"react\"",
-      "import { ${1/(.*)/${1:/pascalcase}/} } from \"./${1/(.*)/${1:/downcase}/}.component\"",
+      "import { ${1/(.*)/${1:/pascalcase}/} } from \"./${1/(.*)/${1:/upcase}/}.component\"",
       "",
       "const args = {",
       "  testId: \"component-${1/(.*)/${1:/downcase}/}-id\",",
