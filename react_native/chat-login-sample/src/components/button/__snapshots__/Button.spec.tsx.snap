@@ -14,12 +14,11 @@ exports[`<Button /> should render the Button component 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "backgroundColor": "lightblue",
+      "backgroundColor": "#ffCD1E",
       "flexDirection": "row",
       "height": 64,
       "justifyContent": "center",
       "opacity": 1,
-      "width": "'100%'",
     }
   }
   testID="component-button-id"
