@@ -5,7 +5,7 @@ export interface {{pascalCase componentName}}Props {
   testId?: string
 }
 
-export const {{pascalCase componentName}} = ({ testId = 'pauloluan-{{kebabCase componentName}}-id', ...props }: {{pascalCase componentName}}Props) => {
+export const {{pascalCase componentName}} = ({ testId = '{{kebabCase componentName}}-id', ...props }: {{pascalCase componentName}}Props) => {
   return (
     <>
       <S.{{pascalCase componentName}} data-testid={testId} {...props}>
