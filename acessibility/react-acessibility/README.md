@@ -1,6 +1,5 @@
 ## Acessibility on REACT
 
-````
 [![ci][ci-image]][ci-url]
 
 [ci-image]: https://github.com/pauloluan/recipes/actions/workflows/ci.yml/badge.svg
