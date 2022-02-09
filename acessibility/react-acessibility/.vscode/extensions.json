@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "jpoissonnier.vscode-styled-components",
+    "mikestead.dotenv",
+    "wix.vscode-import-cost",
+    "coenraads.bracket-pair-colorizer-2",
+    "naumovs.color-highlight",
+    "aaron-bond.better-comments"
+  ],
+  "unwantedRecommendations": [
+    "coenraads.bracket-pair-colorizer"
+  ]
+}
