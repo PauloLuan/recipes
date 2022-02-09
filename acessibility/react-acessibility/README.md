@@ -9,6 +9,45 @@
 
 Some thoughts and examples about acessibility on React.
 
+- [ ] button vs div
+
+
+# ✅ Best Practices
+
+<br/>
+
+## **Section 1: Button vs Div**
+
+<br/>
+
+### ⚪️ 1.
+
+🏷&nbsp; **Tags:** `#accessibility`
+
+:white_check_mark: &nbsp; **Do:** All the accessibility...
+
+<br/>
+
+❌ 👀 &nbsp; **Attention:** test;
+
+<br/>
+
+<details><summary>✏ <b>Code Example</b></summary>
+
+```javascript
+var test = 123
+```
+
+➡️ [back](#)
+
+</details>
+
+🔗 [**Read More:**](http://pauloluan.com)
+
+
+<br/><br/>
+
+
 <span id="top"></span>
 
 <p align="center">
