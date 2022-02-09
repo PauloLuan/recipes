@@ -1,0 +1,22 @@
+import { renderWithTheme } from '@pauloluan/shared'
+import { screen } from '@testing-library/react'
+import React from 'react'
+import { {{pascalCase componentName}} } from '../src/{{componentName}}.component'
+
+import { axe, toHaveNoViolations } from 'jest-axe'
+expect.extend(toHaveNoViolations)
+
+describe('<{{pascalCase componentName}} />', () => {
+  it('should render the {{pascalCase componentName}} component', () => {
+    renderWithTheme(<{{pascalCase componentName}} />)
+    expect(screen.getByTestId('{{kebabCase componentName}}-id')).toBeInTheDocument()
+  })
+})
+
+describe('[AXE] {{pascalCase componentName}}: <{{pascalCase componentName}} />', () => {
+  it('Should not have ARIA violations', async () => {
+    const { container } = renderWithTheme(<{{pascalCase componentName}} />)
+    const results = await axe(container)
+    expect(results).toHaveNoViolations()
+  })
+})
