@@ -5,11 +5,14 @@
 Some thoughts and examples about acessibility on React.
 
 - [ ] todo: button vs div
-- [ ] todo:
-- [ ] todo:
-- [ ] todo:
-- [ ] todo:
-- [ ] todo:
+- [ ] todo: Testing React Code
+- [ ] todo: Fragments to avoid invalid HTML
+- [ ] todo: Document outline order.
+- [ ] todo: Page changes announcements
+- [ ] todo: Focus Management and Modal example
+- [ ] todo: Hide content correctly
+- [ ] todo: Use Button instead of Div
+- [ ] todo: Accessible notifications.
 
 
 # ✅ Best Practices
