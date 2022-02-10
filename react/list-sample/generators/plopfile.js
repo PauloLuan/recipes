@@ -29,4 +29,29 @@ module.exports = (plop) => {
       }
     ]
   })
+
+  plop.setGenerator('component', {
+    description: 'Create a component',
+    prompts: [
+      {
+        type: 'input',
+        name: 'componentName',
+        message: 'Enter component name:'
+      },
+      {
+        type: 'input',
+        name: 'description',
+        message: 'The description of this component:'
+      }
+    ],
+    actions: [
+      {
+        type: 'addMany',
+        templateFiles: 'component/**',
+        destination: `../packages/shared-ui/src/components/{{dashCase componentName}}`,
+        base: 'component/',
+        abortOnFail: true
+      }
+    ]
+  })
 }

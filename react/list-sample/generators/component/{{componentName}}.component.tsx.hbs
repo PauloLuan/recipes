@@ -1,0 +1,16 @@
+import React from 'react'
+import * as S from './{{kebabCase componentName}}.styles'
+
+export interface {{pascalCase componentName}}Props {
+  testId?: string
+}
+
+export const {{pascalCase componentName}} = ({ testId = '{{kebabCase componentName}}-id', ...props }: {{pascalCase componentName}}Props) => {
+  return (
+    <>
+      <S.Container data-testid={testId} {...props}>
+        Body...
+      </S.Container>
+    </>
+  )
+}
