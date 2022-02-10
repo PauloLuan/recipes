@@ -25,7 +25,6 @@
     "prestorybook": "rimraf node_modules/.cache/storybook",
     "storybook": "concurrently \"yarn storybook:start\"",
     "storybook:start": "start-storybook -p 6006 -s .storybook/public && yarn bootstrap",
-    "pretest": "yarn bootstrap",
     "test": "lerna run --parallel test",
     "test:watch": "lerna run --parallel test:watch"
   },
