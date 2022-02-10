@@ -1,12 +1,12 @@
 import { screen } from '@testing-library/react'
 import { renderWithTheme } from '../../../src/utils'
 
-import { {{pascalCase componentName}} } from '../../../src/components/list-item'
+import { {{pascalCase componentName}} } from '../../../src/components/{{kebabCase componentName}}'
 // import theme from '../../styles/Theme'
 
 describe('<{{pascalCase componentName}} />', () => {
   it('should render the {{pascalCase componentName}} component', () => {
     renderWithTheme(<{{pascalCase componentName}} />)
-    expect(screen.getByTestId('list-item-id')).toBeInTheDocument()
+    expect(screen.getByTestId('{{kebabCase componentName}}-id')).toBeInTheDocument()
   })
 })
