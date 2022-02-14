@@ -10,7 +10,7 @@ describe('<Button />', () => {
   describe('Button rendering:', () => {
     it('should render the Button component', () => {
       renderWithTheme(<Button />)
-      expect(screen.getByTestId('button-vs-div-id')).toBeInTheDocument()
+      expect(screen.getByTestId('button-id')).toBeInTheDocument()
     })
   })
 
@@ -27,7 +27,7 @@ describe('<DivButton />', () => {
   describe('DivButton rendering:', () => {
     it('should render the DivButton component', () => {
       renderWithTheme(<DivButton />)
-      expect(screen.getByTestId('button-vs-div-id')).toBeInTheDocument()
+      expect(screen.getByTestId('button-div-id')).toBeInTheDocument()
     })
   })
 
