@@ -6,4 +6,12 @@ export default {
   component: List
 } as Meta
 
-export const Default: Story<ListProps> = (args) => <List {...args} />
+const exampleData = [
+  { text: 'this is an example' },
+  { text: 'this is an example 2' },
+  { text: 'this is an example 3' }
+]
+
+export const Default: Story<ListProps> = (args) => (
+  <List data={exampleData} {...args} />
+)

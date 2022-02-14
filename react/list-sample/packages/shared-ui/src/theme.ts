@@ -14,20 +14,7 @@ export default {
     bold: 600,
     extraBold: 900
   },
-  colors: {
-    primary: '#075985',
-    secondary: '#78716C',
-    mainBg: '#F6F9FC',
-    white: '#F9FAFB',
-    black: '#030517',
-    lightGray: '#EAEAEA',
-    gray: '#8F8F8F',
-    darkGray: '#2E2F42',
-    success: '#16A34A',
-    danger: '#DC2626',
-    alert: '#EAB308',
-    info: '#0284C7'
-  },
+  colors: {},
   spacings: {
     xxsmall: '0.8rem',
     xsmall: '1.6rem',

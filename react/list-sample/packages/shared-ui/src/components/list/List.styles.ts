@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
-  background-color: blue;
-  width: 30px;
-  height: 30px;
+export const Container = styled.ul`
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* background-color: black; */
 `

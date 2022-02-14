@@ -3,15 +3,17 @@ import React from 'react'
 
 export interface ListItemProps {
   testId?: string
+  text: string
 }
 
 export const ListItem = ({
   testId = 'list-item-id',
+  text,
   ...props
 }: ListItemProps) => {
   return (
     <S.Container data-testid={testId} {...props}>
-      This is a sample
+      {text}
     </S.Container>
   )
 }
