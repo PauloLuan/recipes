@@ -52,7 +52,6 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "axios": "^0.26.0",
     "react": ">=16.8.6"
   },
   "devDependencies": {
