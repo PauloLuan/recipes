@@ -1,9 +1,14 @@
 import { Story, Meta } from '@storybook/react'
-import { ButtonVsDiv, ButtonVsDivProps } from '.'
+import { Button, DivButton, ButtonProps } from '.'
 
 export default {
   title: 'Components/ButtonVsDiv',
-  component: ButtonVsDiv
+  component: DivButton
 } as Meta
 
-export const Default: Story<ButtonVsDivProps> = (args) => <ButtonVsDiv {...args} />
+export const DivButtonCase: Story<ButtonProps> = (args) => (
+  <>
+    <Button {...args} />
+    <DivButton {...args} />
+  </>
+)

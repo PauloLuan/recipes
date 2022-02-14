@@ -1,14 +1,11 @@
 import React from 'react'
 import * as S from './button-vs-div.styles'
 
-export interface ButtonVsDivProps {
+export interface ButtonProps {
   testId?: string
 }
 
-export const Button = ({
-  testId = 'button-id',
-  ...props
-}: ButtonVsDivProps) => {
+export const Button = ({ testId = 'button-id', ...props }: ButtonProps) => {
   return (
     <>
       <S.Button data-testid={testId} {...props}>
@@ -21,7 +18,7 @@ export const Button = ({
 export const DivButton = ({
   testId = 'button-div-id',
   ...props
-}: ButtonVsDivProps) => {
+}: ButtonProps) => {
   return (
     <>
       <S.DivButton data-testid={testId} {...props}>
