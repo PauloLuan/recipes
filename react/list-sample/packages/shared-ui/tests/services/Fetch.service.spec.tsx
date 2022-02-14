@@ -19,11 +19,11 @@ describe('Fetch Service', () => {
 
     await waitForNextUpdate()
 
-    console.log(result.current) //?
+    console.log(result.current.data) //?
 
     // const { data, isLoading } = result.current //?
 
-    expect(result.current).toEqual('test response')
+    expect(result.current.data.teste).toEqual('test response')
     // expect(result.current.isLoading).toBeFalsy()
   })
 })
