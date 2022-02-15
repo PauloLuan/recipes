@@ -1,0 +1,102 @@
+{
+  "Example Cases": {
+    "body": "$1 ${1/(.*)/${1:/upcase}/}  -> ${1/(.*)/${1:/downcase}/}  ->  ${1/(.*)/${1:/pascalcase}/}  ->  ${1/(.*)/${1:/capitalize}/}",
+    "description": "how to make uppercase",
+    "prefix": "cases"
+  },
+  "rn:index": {
+    "prefix": "rn:index",
+    "body": [
+      "export * from './${1/(.*)/${1:/pascalcase}/}.component'",
+      "export * as ${1/(.*)/${1:/pascalcase}/}Styles from './${1/(.*)/${1:/pascalcase}/}.styles'"
+    ],
+    "description": "Create an index export file"
+  },
+  "rn:styled": {
+    "prefix": "rn:styled",
+    "body": [
+      "import styled from 'styled-components/native'",
+      "",
+      "export const ${1:Wrapper} = styled.${1:View}`",
+      "  flex: 1;",
+      "  background-color: ${({ theme }) => theme.colors.background};",
+      "  ${3}",
+      "`",
+      "",
+      "export const ${1:Text} = styled.${1:Text}``"
+    ],
+    "description": "Create React Native Styled Components file"
+  },
+  "pure:styled": {
+    "prefix": "styled:pure",
+    "body": ["export const ${1:Text} = styled.${1:Text}``"],
+    "description": "Create React Native Styled Component line"
+  },
+  "rn:test": {
+    "prefix": "rn:test",
+    "body": [
+      "import { waitFor } from '@testing-library/react-native'",
+      "import React from 'react'",
+      "import { renderWithTheme } from '../../utils/test-helper'",
+      "import { ${1/(.*)/${1:/pascalcase}/} } from './${1/(.*)/${1:/pascalcase}/}.component'",
+      "",
+      "describe('<${1/(.*)/${1:/pascalcase}/} />', () => {",
+      "  const testId = 'component-${1/(.*)/${1:/downcase}/}-id'",
+      "",
+      "  it('should render the ${1/(.*)/${1:/pascalcase}/} component', async () => {",
+      "    const { queryByTestId, toJSON } = renderWithTheme(",
+      "      <${1/(.*)/${1:/pascalcase}/} testId={testId} />",
+      "    )",
+      "    await waitFor(() => expect(queryByTestId(testId)).toBeTruthy())",
+      "    expect(toJSON()).toMatchSnapshot()",
+      "  })",
+      "})"
+    ],
+    "description": "Create a simple unit test file"
+  },
+  "componentFunctionalTypescript": {
+    "prefix": "rn:comp",
+    "body": [
+      "import React from 'react'",
+      "import * as S from './${1/(.*)/${1:/pascalcase}/}.styles'",
+      "",
+      "export interface ${1/(.*)/${1:/pascalcase}/}Props {",
+      "  testId?: string",
+      "}",
+      "",
+      "export const ${1/(.*)/${1:/pascalcase}/} = ({",
+      "  testId = 'component-${1/(.*)/${1:/downcase}/}-id',",
+      "  ...props",
+      "}: ${1/(.*)/${1:/pascalcase}/}Props) => {",
+      "  return <S.Wrapper testID={testId} {...props}></S.Wrapper>",
+      "}"
+    ],
+    "description": "Create React Native TypeScript Functional Component"
+  },
+  "rn:storybook": {
+    "prefix": "rn:storybook",
+    "body": [
+      "import { storiesOf } from \"@storybook/react-native\"",
+      "import React from \"react\"",
+      "import { ${1/(.*)/${1:/pascalcase}/} } from \"./${1/(.*)/${1:/upcase}/}.component\"",
+      "",
+      "const args = {",
+      "  testId: \"component-${1/(.*)/${1:/downcase}/}-id\",",
+      "}",
+      "",
+      "storiesOf(\"Components/${1/(.*)/${1:/pascalcase}/}\", module).add(\"default: \", () => (",
+      "  <${1/(.*)/${1:/pascalcase}/} {...args} />",
+      "))"
+    ],
+    "description": "Create React Native storybook component config"
+  },
+  "js:consoleLogObject": {
+    "body": [
+      "console.log('==============')",
+      "console.log('${1:object} :>> ', JSON.stringify(${1:object}))",
+      "console.log('==============')"
+    ],
+    "description": "Displays an object in the console with its name",
+    "prefix": ["console", "log"]
+  }
+}
