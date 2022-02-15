@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "concurrently \"yarn storybook\" \"yarn ios\"",
     "start": "expo start -c",
-    "ios": "expo start --ios --dev",
+    "ios": "expo start --ios",
     "ios:cache": "watchman watch-del-all && expo start -c --ios --dev",
     "cache:clean:hard": "git clean -xfd && yarn && watchman watch-del-all && expo r -c --ios --dev",
     "format": "eslint --fix . --ext .js,.jsx,.ts,.tsx",
