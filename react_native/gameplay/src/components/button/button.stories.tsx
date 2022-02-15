@@ -1,6 +1,6 @@
 import { storiesOf } from '@storybook/react-native'
 import React from 'react'
-import { Button } from './BUTTON.component'
+import { Button } from './button.component'
 
 const args = {
   testId: 'component-button-id'
