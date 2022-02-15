@@ -5,13 +5,11 @@
 
 function loadStories() {
   require('../src/components/button/button.stories')
-  require('../src/screens/home/home.stories')
   require('../src/screens/sign-in/SignIn.stories')
 }
 
 const stories = [
   '../src/components/button/button.stories',
-  '../src/screens/home/home.stories',
   '../src/screens/sign-in/SignIn.stories'
 ]
 

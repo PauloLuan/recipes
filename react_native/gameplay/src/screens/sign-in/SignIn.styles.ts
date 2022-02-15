@@ -20,12 +20,13 @@ export const Heading = styled.Text`
   color: ${({ theme }) => theme.colors.heading};
   font-size: 40px;
   text-align: center;
+  font-family: ${({ theme }) => theme.fonts.title700};
 `
 
 export const SubHeading = styled.Text`
   color: ${({ theme }) => theme.colors.heading};
+  font-family: ${({ theme }) => theme.fonts.text400};
   font-size: 40px;
-  font-weight: 400;
   font-size: 15px;
   text-align: center;
   margin-top: 16px;
@@ -58,6 +59,7 @@ export const TextContainer = styled.View`
 `
 
 export const ButtonText = styled.Text`
+  font-family: ${({ theme }) => theme.fonts.text500};
   font-size: 15px;
   font-weight: 500;
   color: ${({ theme }) => theme.colors.heading};
