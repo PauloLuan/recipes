@@ -1,7 +1,8 @@
-import React from 'react'
-import * as S from './SignIn.styles'
-import BackgroundImage from '@assets/images/illustration.png'
 import DiscordImage from '@assets/images/discord.png'
+import BackgroundImage from '@assets/images/illustration.png'
+import React from 'react'
+import { StatusBar } from 'react-native'
+import * as S from './SignIn.styles'
 
 export interface SignInProps {
   testId?: string
@@ -13,6 +14,12 @@ export const SignIn = ({
 }: SignInProps) => {
   return (
     <S.Wrapper testID={testId} {...props}>
+      <StatusBar
+        barStyle="light-content"
+        backgroundColor="transparent"
+        translucent
+      />
+
       <S.BackgroundImage
         source={BackgroundImage}
         resizeMode={'stretch'}
