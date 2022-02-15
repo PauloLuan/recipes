@@ -1,19 +1,23 @@
 export default {
   colors: {
-    background: '#f8f9fa',
-    WHITE: '#FFFFFF',
-    GREEN: '#1B873F',
-    PINK: '#FF008E',
-    ORANGE: '#FF7A29',
-    YELLOW: '#ffCD1E',
+    primary: '#E51C44',
 
-    BLACK_PRIMARY: '#09090A',
-    BLACK_SECONDARY: '#121214',
-    BLACK_TERTIARY: '#202024',
+    secondary100: '#0A1033',
+    secondary90: '#0D133D',
+    secondary80: '#0E1647',
+    secondary85: '#171F52',
+    secondary70: '#1B2565',
+    secondary60: '#1B2565',
+    secondary50: '#243189',
+    secondary40: '#1D2766',
+    secondary30: '#495BCC',
 
-    GRAY_PRIMARY: '#8D8D99',
-    GRAY_SECONDARY: '#C4C4CC',
-    GRAY_TERTIARY: '#E1E1E6',
-    GRAY_QUATERNARY: '#29292E'
+    overlay: 'rgba(0,0,0,0.7)',
+    highlight: '#ABB1CC',
+    heading: '#DDE3F0',
+    line: '#991F36',
+    on: '#32BD50',
+
+    discord: '#7289da'
   }
 }
