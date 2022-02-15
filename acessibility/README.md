@@ -14,7 +14,7 @@ Some thoughts and examples about acessibility on React.
 - [ ] todo: Use Button instead of Div
 - [ ] todo: Accessible notifications.
 
-
+<!--
 # ✅ Best Practices
 
 <br/>
@@ -45,6 +45,6 @@ var test = 123
 
 
 <br/><br/>
-
+ -->
 
 [🔝 back to top](#)
