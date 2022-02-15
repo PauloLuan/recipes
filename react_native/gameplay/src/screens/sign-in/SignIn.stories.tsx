@@ -6,6 +6,4 @@ const args = {
   testId: 'component-sign-in-id'
 }
 
-storiesOf('Components/SignIn', module).add('default: ', () => (
-  <SignIn {...args} />
-))
+storiesOf('Screens/SignIn', module).add('default: ', () => <SignIn {...args} />)
