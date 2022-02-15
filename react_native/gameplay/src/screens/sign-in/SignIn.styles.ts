@@ -32,7 +32,9 @@ export const SubHeading = styled.Text`
   margin-top: 16px;
 `
 
-export const LoginButtonContainer = styled.TouchableOpacity`
+export const LoginButtonContainer = styled.TouchableOpacity.attrs({
+  activeOpacity: 0.7
+})`
   flex-direction: row;
   width: 274px;
   height: 56px;
