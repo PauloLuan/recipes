@@ -6,6 +6,10 @@ export const Button = styled.button`
   width: 200px;
   background: #48cae4;
   cursor: pointer;
+
+  &:focus {
+    border: black 10px solid;
+  }
 `
 
 export const DivButton = styled.div`
@@ -14,4 +18,8 @@ export const DivButton = styled.div`
   width: 200px;
   background: #d8e2dc;
   cursor: pointer;
+
+  &:focus {
+    border: black 10px solid;
+  }
 `
