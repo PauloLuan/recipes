@@ -1,5 +1,6 @@
-import React from 'react'
 import { IInputProps, Input as NativeBaseInput } from 'native-base'
+
+import React from 'react'
 
 export interface InputProps extends IInputProps {
   testId?: string
@@ -19,6 +20,11 @@ export const Input = ({
       h="12"
       my="2"
       color={'white'}
+      _focus={{
+        borderWidth: 1,
+        borderColor: 'green.500',
+        bg: 'gray.700'
+      }}
       {...props}
     ></NativeBaseInput>
   )

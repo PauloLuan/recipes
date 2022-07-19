@@ -53,6 +53,7 @@
     "expo-status-bar": "~1.0.4",
     "expo-web-browser": "~9.2.0",
     "native-base": "^3.4.9",
+    "phosphor-react-native": "^1.1.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
