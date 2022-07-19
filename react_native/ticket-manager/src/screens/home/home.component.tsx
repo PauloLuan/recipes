@@ -1,5 +1,5 @@
+import { Heading, VStack } from 'native-base'
 import React from 'react'
-import * as S from './home.styles'
 
 export interface homeProps {
   testId?: string
@@ -7,8 +7,10 @@ export interface homeProps {
 
 export const Home = ({ testId = 'component-home-id', ...props }: homeProps) => {
   return (
-    <S.Wrapper testID={testId} {...props}>
-      <S.Heading>teste</S.Heading>
-    </S.Wrapper>
+    <VStack flex={1} alignItems={'center'} bg={'gray.600'} px={8} py={12}>
+      <Heading color={'secondary.100'} fontSize={'2xl'}>
+        Acesse sua conta
+      </Heading>
+    </VStack>
   )
 }
