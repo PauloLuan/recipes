@@ -1,0 +1,13 @@
+import { waitFor } from '@testing-library/react-native'
+import React from 'react'
+import { {{capitalize componentName}} } from '.'
+import { renderWithTheme } from '@utils/test-helper'
+
+describe('<{{capitalize componentName}} />', () => {
+  const testId = 'component-input-id'
+
+  it('should render the {{capitalize componentName}} component', async () => {
+    const { queryByTestId } = renderWithTheme(<{{capitalize componentName}} testId={testId} />)
+    await waitFor(() => expect(queryByTestId(testId)).toBeTruthy())
+  })
+})

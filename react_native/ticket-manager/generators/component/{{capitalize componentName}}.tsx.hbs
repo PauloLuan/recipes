@@ -1,0 +1,15 @@
+import React from 'react'
+import { I{{capitalize componentName}}Props, {{capitalize componentName}} as NativeBase{{capitalize componentName}} } from 'native-base'
+
+export interface {{capitalize componentName}}Props extends I{{capitalize componentName}}Props {
+  testId?: string
+}
+
+export const {{capitalize componentName}} = ({
+  testId = '{{kebabCase componentName}}-id',
+  ...props
+}: {{capitalize componentName}}Props) => {
+  return (
+    <NativeBase{{capitalize componentName}} testID={testId} {...props}></NativeBase{{capitalize componentName}}>
+  )
+}
